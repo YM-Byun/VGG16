@@ -30,7 +30,7 @@ def main():
             shuffle=True, num_workers=4)
 
     val_dataset = CIFAR10(root='./dataset', train=False,
-            download = True, transform=transform)
+            download = False, transform=transform)
 
     val_loader = DataLoader(val_dataset, batch_size=batch_size,
             shuffle=False, num_workers=4)
@@ -107,7 +107,7 @@ def validate(val_loader, model, criterion, epoch):
             loss = criterion(outputs, label)
 
             running_loss += loss.item()
-            acc = accuracy(output, label)
+            acc = accuracy(outputs, label)
 
         if (i % 10 == 9) or (i == len(train_loader) - 1):
             print (f"Epoch [{epoch+1}/{epochs}] | Val iter [{i+1}/{len(train_loader)}] | acc = {acc[0][0]:.5f} | loss = {(running_loss / float(i)):.5f}")
