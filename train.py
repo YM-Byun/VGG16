@@ -1,6 +1,7 @@
 import torch
 import torchvision.transforms as transforms
 import time
+import sys
 import torch.nn as nn
 
 from torchvision.datasets import CIFAR10
@@ -92,7 +93,7 @@ def main():
 
     for epoch in range(epochs):
         if adaptive_lr.get_update_cnt() > 3:
-            break
+            sys.exit(0)
 
         train(train_loader, vgg16, criterion, optimizer, epoch)
 
