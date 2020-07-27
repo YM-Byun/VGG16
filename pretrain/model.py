@@ -38,13 +38,13 @@ class VGG11(nn.Module):
             nn.MaxPool2d(kernel_size=2, stride=2))
 
         self.fc = nn.Sequential(
-            nn.Linear(7*7*512, 4096),
+            nn.Linear(512, 4096),
             nn.LeakyReLU(),
             nn.Dropout(p=0.5),
             nn.Linear(4096, 4096),
             nn.LeakyReLU(),
             nn.Dropout(p=0.5),
-            nn.Linear(4096, 1000),
+            nn.Linear(4096, 10),
             nn.Softmax(dim=1))
 
         self.features = nn.Sequential(
@@ -69,15 +69,14 @@ class VGG11(nn.Module):
 
     def forward(self, x):
         x = self.conv_layers(x)
-        x = x.view(-1, 7*7*512)
-        print (x.shape)
+        x = x.view(-1, 512)
         x = self.fc(x)
 
         return x
 
 
 if __name__ == '__main__':
-    dummy_data = torch.rand(10, 3, 224, 244)
+    dummy_data = torch.rand(10, 3, 32, 32)
     vgg11 = VGG11()
 
     print ("VGG 11 network")

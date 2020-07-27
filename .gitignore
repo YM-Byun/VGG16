@@ -1,0 +1,6 @@
+pretrain/dataset/
+dataset/
+__pycache__/*
+*/__pycache/
+*.swp
+*/*.swp
