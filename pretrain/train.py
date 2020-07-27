@@ -57,6 +57,8 @@ def main():
     for epoch in range(epochs):
         train(train_loader, vgg11, criterion, optimizer, epoch)
 
+        print ("")
+
         acc = validate(val_loader, vgg11, criterion, epoch)
 
         is_best = acc > best_acc
@@ -65,6 +67,8 @@ def main():
             best_acc = acc
 
             torch.save(vgg11.state_dict(), "./weight/best_weight.pth")
+
+        print ("\n========================================\n")
 
     torch.save(vgg11.state_dict(), "./weight/lastest_weight.pth")
 
