@@ -87,7 +87,7 @@ def train(train_loader, model, criterion, optimizer, epoch):
         optimizer.step()
 
         running_loss += loss.item()
-        acc = accuracy(output, label)
+        acc = accuracy(outputs, label)
 
         if (i % 20 == 19) or (i == len(train_loader) - 1):
             print (f"Epoch [{epoch+1}/{epochs}] | Train iter [{i+1}/{len(train_loader)}] | acc = {acc:.5f} | loss = {(running_loss / float)(i+1):.5f}")
