@@ -87,9 +87,10 @@ def train(train_loader, model, criterion, optimizer, epoch):
         optimizer.step()
 
         running_loss += loss.item()
+        acc = accuracy(output, label)
 
         if (i % 20 == 19) or (i == len(train_loader) - 1):
-            print (f"Epoch [{epoch+1}/{epochs}] | Train iter [{i+1}/{len(train_loader)}] | loss = {(running_loss // i):.5f}")
+            print (f"Epoch [{epoch+1}/{epochs}] | Train iter [{i+1}/{len(train_loader)}] | acc = {acc:.5f} | loss = {(running_loss / float)(i+1):.5f}")
 
 def validate(val_loader, model, criterion, epoch):
     model.eval()
@@ -109,11 +110,11 @@ def validate(val_loader, model, criterion, epoch):
             acc = accuracy(output, label)
 
         if (i % 10 == 9) or (i == len(train_loader) - 1):
-            print (f"Epoch [{epoch+1}/{epochs}] | Val iter [{i+1}/{len(train_loader)}] | loss = {(running_loss // i):.5f}")
+            print (f"Epoch [{epoch+1}/{epochs}] | Val iter [{i+1}/{len(train_loader)}] | acc = {acc:.5f} | loss = {(running_loss / float(i)):.5f}")
 
         return acc
 
-def accurancy(output, label, topk=(1,)):
+def accuracy(output, label, topk=(1,)):
     with torch.no_grad():
         maxk = max(topk)
         batch_size = label.size(0)
