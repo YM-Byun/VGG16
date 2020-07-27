@@ -71,15 +71,14 @@ class VGG16(nn.Module):
 
     def forward(self, x):
         x = self.conv_layers(x)
-        x = x.view(-1, 7*7*512)
-        print (x.shape)
+        x = x.view(-1, 512)
         x = self.fc(x)
 
         return x
 
 
 if __name__ == '__main__':
-    dummy_data = torch.rand(10, 3, 224, 244)
+    dummy_data = torch.rand(10, 3, 32, 32)
 
     from pretrain.model import VGG11
 
