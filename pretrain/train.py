@@ -73,13 +73,11 @@ def train(train_loader, model, criterion, optimizer, epoch):
     model.train()
     running_loss = 0.0
 
-    print (len(train_loader))
-
     for i, data in enumerate(train_loader):
         inputs, label = data
 
         if is_cuda:
-            inputs = inputs.cuda()
+            inputs, label = inputs.cuda(), label.cuda()
 
         optimizer.zero_grad()
 
@@ -102,7 +100,7 @@ def validate(val_loader, model, criterion, epoch):
             inputs, label = data
 
             if is_cuda:
-                inputs = inputs.cuda()
+                inputs, label = inputs.cuda(), label.cuda()
 
             outputs = model(inputs)
             loss = criterion(outputs, label)
