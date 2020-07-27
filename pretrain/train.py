@@ -92,7 +92,7 @@ def train(train_loader, model, criterion, optimizer, epoch):
         if (i % 20 == 19) or (i == len(train_loader) - 1):
             print ("TYPE")
             print (f"{type(running_loss)}")
-            print (f"Epoch [{epoch+1}/{epochs}] | Train iter [{i+1}/{len(train_loader)}] | acc = {acc[0].val:.5f} | loss = {(running_loss / float(i+1)):.5f}")
+            print (f"Epoch [{epoch+1}/{epochs}] | Train iter [{i+1}/{len(train_loader)}] | acc = {acc[0][0]:.5f} | loss = {(running_loss / float(i+1)):.5f}")
 
 def validate(val_loader, model, criterion, epoch):
     model.eval()
@@ -112,7 +112,7 @@ def validate(val_loader, model, criterion, epoch):
             acc = accuracy(output, label)
 
         if (i % 10 == 9) or (i == len(train_loader) - 1):
-            print (f"Epoch [{epoch+1}/{epochs}] | Val iter [{i+1}/{len(train_loader)}] | acc = {acc[0].val:.5f} | loss = {(running_loss / float(i)):.5f}")
+            print (f"Epoch [{epoch+1}/{epochs}] | Val iter [{i+1}/{len(train_loader)}] | acc = {acc[0][0]:.5f} | loss = {(running_loss / float(i)):.5f}")
 
         return acc
 
