@@ -30,7 +30,7 @@ def main():
             shuffle=True, num_workers=4)
 
     val_dataset = CIFAR10(root='./dataset', train=False,
-            download = False, transform=transform)
+            download = True, transform=transform)
 
     val_loader = DataLoader(val_dataset, batch_size=batch_size,
             shuffle=False, num_workers=4)
