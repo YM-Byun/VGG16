@@ -112,7 +112,7 @@ def validate(val_loader, model, criterion, epoch):
         if (i % 10 == 9) or (i == len(train_loader) - 1):
             print (f"Epoch [{epoch+1}/{epochs}] | Val iter [{i+1}/{len(val_loader)}] | acc = {acc[0][0]:.5f} | loss = {(running_loss / float(i)):.5f}")
 
-        return acc
+        return acc[0][0]
 
 def accuracy(output, label, topk=(1,)):
     with torch.no_grad():
