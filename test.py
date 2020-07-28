@@ -18,6 +18,8 @@ classes = ('airplane', 'automobile', 'bird', 'cat', 'deer', 'dog',
 def main():
     parser = get_argparser()
 
+    print ("\nLoading VGG16 weight...")
+
     pt_model = VGG11()
     pt_model.load_state_dict(torch.load('./pretrain/weight/best_weight.pth'))
 
@@ -27,7 +29,9 @@ def main():
     if is_cuda:
         vgg16.cuda()
 
-    print ("\nLoaded VGG16 network!")
+    print ("\nLoaded VGG16 network!\n")
+
+    print ("==================================\n")
 
     img_path = parser.i
 
@@ -43,7 +47,7 @@ def get_argparser():
     parser = argparse.ArgumentParser()
 
     parser.add_argument('-i', type=str,
-            default='test.jpg', help='input image path')
+            default='./test_img/deer.jpg', help='input image path')
 
     args = parser.parse_args()
 
@@ -72,9 +76,14 @@ def classify(model, inputs):
     with torch.no_grad():
         outputs = model(inputs)
 
+    val, indices = torch.topk(outputs, 5)
+
     print ("Result:")
-    print (f'\tClass: {classes[torch.argmax(outputs, dim=1)]}')
-    print (f'\tAcc: {outputs.max():.5f}')
+
+    for i in range(5):
+        print (f'{i+1}.')
+        print (f'\tClass: {classes[indices[0][i].item()]}')
+        print (f'\tAcc: {val[0][i].item():.5f}\n')
 
 
 if __name__ == "__main__":

@@ -11,15 +11,17 @@ from datetime import datetime
 batch_size=256
 momentum=0.9
 weight_decay = 0.0005
-learning_rate = 0.001
-epochs = 74
+learning_rate = 0.0001
+epochs = 120
 is_cuda = torch.cuda.is_available()
 
 
 def main():
     transform = transforms.Compose(
-        [transforms.ToTensor(),
-        transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))])
+        [transforms.RandomCrop(32, padding=4),
+        transforms.RandomHorizontalFlip(),
+        transforms.ToTensor(),
+        transforms.Normalize((0.4914, 0.4822, 0.4465), (0.2470, 0.2435, 0.2616))])
 
     print ("\nLoading Cifar 10 Dataset...")
 
@@ -91,10 +93,10 @@ def train(train_loader, model, criterion, optimizer, epoch):
         optimizer.step()
 
         running_loss += loss.item()
-        acc = accuracy(outputs, label)
+        acc1, acc5  = accuracy(outputs, label, topk=(1,5))
 
-        if (i % 20 == 19) or (i == len(train_loader) - 1):
-            print (f"Epoch [{epoch+1}/{epochs}] | Train iter [{i+1}/{len(train_loader)}] | acc = {acc[0][0]:.5f} | loss = {(running_loss / float(i+1)):.5f}")
+        if (i % 50 == 19) or (i == len(train_loader) - 1):
+            print (f"Epoch [{epoch+1}/{epochs}] | Train iter [{i+1}/{len(train_loader)}] | acc_top1 = {acc1[0]:.5f} | acc_top5 = {acc5[0]:.5f} | loss = {(running_loss / float(i+1)):.5f}")
 
 def validate(val_loader, model, criterion, epoch):
     model.eval()
@@ -111,12 +113,11 @@ def validate(val_loader, model, criterion, epoch):
             loss = criterion(outputs, label)
 
             running_loss += loss.item()
-            acc = accuracy(outputs, label)
+            acc1, acc5 = accuracy(outputs, label, topk=(1,5))
 
-        if (i % 10 == 9) or (i == len(train_loader) - 1):
-            print (f"Epoch [{epoch+1}/{epochs}] | Val iter [{i+1}/{len(val_loader)}] | acc = {acc[0][0]:.5f} | loss = {(running_loss / float(i)):.5f}")
+    print (f"Epoch [{epoch+1}/{epochs}] | Validation | acc_top1 = {acc1[0]:.5f} | acc_top5 = {acc5[0]:.5f} | loss = {(running_loss / float(i)):.5f}")
 
-        return acc[0][0]
+    return acc1[0]
 
 def accuracy(output, label, topk=(1,)):
     with torch.no_grad():

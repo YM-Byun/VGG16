@@ -13,40 +13,24 @@ batch_size=256
 momentum=0.9
 weight_decay = 0.0005
 learning_rate = 0.001
-epochs = 350
+epochs = 240
 is_cuda = torch.cuda.is_available()
 
-class Adaptive_lr:
-    def __init__(self, optimizer, lr):
-        self.acc = []
-        self.optimizer = optimizer
-        self.update_cnt = 0
-        self.lr = lr
 
-    def save_acc(self, acc):
-        self.acc.append(acc)
+def update_lr(optimizer):
+    global learning_rate
+    learning_rate *= 0.1
+    for param in optimizer.param_groups:
+        param['lr'] = learning_rate
 
-        if self.acc.count(acc) > 4:
-            self.update_lr()
-            self.acc.clear()
-            self.update_cnt += 1
-            print (f"\nLeaning Rate update to {self.lr}!")
-
-        if len(self.acc) > 6:
-            del self.acc[0]
-
-    def update_lr(self):
-        self.lr *= 0.1
-        for param in self.optimizer.param_groups:
-            param['lr'] = self.lr
-
-    def get_update_cnt(self):
-        return self.update_cnt
+    print (f"\nupdate lr to {learning_rate}!\n")
 
 def main():
     transform = transforms.Compose(
-        [transforms.ToTensor(),
-        transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))])
+        [transforms.RandomCrop(32, padding=4),
+        transforms.RandomHorizontalFlip(),
+        transforms.ToTensor(),
+        transforms.Normalize((0.4914, 0.4822, 0.4465), (0.2470, 0.2435, 0.2616))])
 
     print ("\nLoading Cifar 10 Dataset...")
 
@@ -79,12 +63,13 @@ def main():
 
     vgg16 = VGG16(pretrained_model.features)
 
+    global learning_rate
+
     optimizer = torch.optim.SGD(vgg16.parameters(), lr=learning_rate, momentum=momentum,
             weight_decay=weight_decay)
     criterion = nn.CrossEntropyLoss()
 
-    adaptive_lr = Adaptive_lr(optimizer, learning_rate)
-
+    best_acc = 0.0
     best_loss = 9.0
 
     if is_cuda:
@@ -92,8 +77,8 @@ def main():
         criterion = criterion.cuda()
 
     for epoch in range(epochs):
-        if adaptive_lr.get_update_cnt() > 3:
-            sys.exit(0)
+        if epoch == 85 or epoch == 170:
+            update_lr(optimizer)
 
         train(train_loader, vgg16, criterion, optimizer, epoch)
 
@@ -101,14 +86,20 @@ def main():
 
         acc, loss = validate(val_loader, vgg16, criterion, epoch)
 
-        adaptive_lr.save_acc(acc)
+        is_best = False
 
-        is_best = loss < best_loss
+        if best_acc == acc:
+            if loss < best_loss:
+                is_best = True
+                best_loss = loss
+
+        if best_acc < acc:
+            is_best = True
+            best_acc = acc
 
         if is_best:
-            best_loss = loss
-
             torch.save(vgg16.state_dict(), "./weight/best_weight.pth")
+            print (f"\nSave best model at acc: {acc:.4f},  loss: {loss:.4f}!")
 
         print ("\n========================================\n")
 
@@ -132,10 +123,10 @@ def train(train_loader, model, criterion, optimizer, epoch):
         optimizer.step()
 
         running_loss += loss.item()
-        acc = accuracy(outputs, label)
+        acc1, acc5 = accuracy(outputs, label, topk=(1,5))
 
-        if (i % 20 == 19) or (i == len(train_loader) - 1):
-            print (f"Epoch [{epoch+1}/{epochs}] | Train iter [{i+1}/{len(train_loader)}] | acc = {acc[0][0]:.5f} | loss = {(running_loss / float(i+1)):.5f}")
+        if (i % 50 == 49) or (i == len(train_loader) - 1):
+            print (f"Epoch [{epoch+1}/{epochs}] | Train iter [{i+1}/{len(train_loader)}] | acc1 = {acc1[0]:.3f} | acc5 = {acc5[0]:.3f} | loss = {(running_loss / float(i+1)):.5f}")
 
 def validate(val_loader, model, criterion, epoch):
     model.eval()
@@ -152,12 +143,11 @@ def validate(val_loader, model, criterion, epoch):
             loss = criterion(outputs, label)
 
             running_loss += loss.item()
-            acc = accuracy(outputs, label)
+            acc1, acc5 = accuracy(outputs, label, topk=(1,5))
 
-            if (i % 10 == 9) or (i == len(val_loader) - 1):
-                print (f"Epoch [{epoch+1}/{epochs}] | Val iter [{i+1}/{len(val_loader)}] | acc = {acc[0][0]:.5f} | loss = {(running_loss / float(i)):.5f}")
+    print (f"Epoch [{epoch+1}/{epochs}] | Validation | acc1 = {acc1[0]:.3f} | acc5 = {acc5[0]:.3f} | loss = {(running_loss / float(i)):.5f}")
 
-        return acc[0][0], (running_loss / float(i))
+    return acc1[0], (running_loss / float(i))
 
 def accuracy(output, label, topk=(1,)):
     with torch.no_grad():

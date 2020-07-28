@@ -38,13 +38,13 @@ class VGG11(nn.Module):
             nn.MaxPool2d(kernel_size=2, stride=2))
 
         self.fc = nn.Sequential(
-            nn.Linear(512, 4096),
+            nn.Linear(512, 2048),
             nn.LeakyReLU(),
             nn.Dropout(p=0.5),
-            nn.Linear(4096, 4096),
+            nn.Linear(2048, 1024),
             nn.LeakyReLU(),
             nn.Dropout(p=0.5),
-            nn.Linear(4096, 10),
+            nn.Linear(1024, 10),
             nn.Softmax(dim=1))
 
         self.features = nn.Sequential(
