@@ -1,13 +1,19 @@
 # VGG16
 
 ## 1. Pre training
- - using VGG 11 model
+ - Using VGG 11
  - Cifar 10 dataset
  - learning rate 0.001, 74 epochs
  
+## 2. Trainning
+ - Using VGG 16
+ - Cifar 10 dataset, RandomCrop, RandomHorizontalFlip 
+ - learning rate 0.001 for 1~85 epoch
+ - learning rate 0.0001 for 86 ~ 170 epoch
+ - learning rate 0.00001 for 170~ 240 epoch
 
-
-## Result
+## 3. Result
+ - Best model at 219 epoch
  - Test acc: 95% &nbsp;&nbsp;&nbsp;&nbsp; Test Loss: 1.50494
  - Val acc: 93.75% &nbsp;&nbsp; Val Loss: 1.62450
 
