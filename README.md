@@ -5,10 +5,15 @@
  - Cifar 10 dataset
  - learning rate 0.001, 74 epochs
  
- 
+
+
+## Result
+ - Test acc: 95%    Test Loss: 1.50494
+ - Val acc: 93.75%  Val Loss: 1.62450
+
 ## Other models' acc
- - 92.64% (https://github.com/kuangliu/pytorch-cifar)
- - over 90% (https://www.kaggle.com/xhlulu/vgg-16-on-cifar10-with-keras-beginner)  
+ 1. 92.64% (https://github.com/kuangliu/pytorch-cifar)
+ 2. over 90% (https://www.kaggle.com/xhlulu/vgg-16-on-cifar10-with-keras-beginner)  
    Train Loss: 0.1477067740379274  
    Test Loss: 1.1987001258850098  
    Train F1 Score: 0.9678  
