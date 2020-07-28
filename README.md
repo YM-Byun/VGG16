@@ -8,8 +8,8 @@
 
 
 ## Result
- - Test acc: 95%    Test Loss: 1.50494
- - Val acc: 93.75%  Val Loss: 1.62450
+ - Test acc: 95% &nbsp;&nbsp;&nbsp;&nbsp; Test Loss: 1.50494
+ - Val acc: 93.75% &nbsp;&nbsp; Val Loss: 1.62450
 
 ## Other models' acc
  1. 92.64% (https://github.com/kuangliu/pytorch-cifar)
