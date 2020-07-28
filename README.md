@@ -16,6 +16,9 @@
  - Best model at 219 epoch
  - Test acc: 95% &nbsp;&nbsp;&nbsp;&nbsp; Test Loss: 1.50494
  - Val acc: 93.75% &nbsp;&nbsp; Val Loss: 1.62450
+ 
+## 4. Test
+`` python3 test.py -i <IMAGE_PATH> ``
 
 ## Other models' acc
  1. 92.64% (https://github.com/kuangliu/pytorch-cifar)
