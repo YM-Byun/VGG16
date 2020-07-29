@@ -1,8 +1,5 @@
 import torch
 import torch.nn as nn
-import torch.nn.functional as F
-import torch.optim as optim
-
 class VGG16(nn.Module):
     def __init__(self, vgg11_features):
         super(VGG16, self).__init__()
