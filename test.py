@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torchvision.transforms as transforms
-import cv2
+from PIL import Image
 import numpy as np
 import argparse
 import os
@@ -18,6 +18,14 @@ classes = ('airplane', 'automobile', 'bird', 'cat', 'deer', 'dog',
 def main():
     parser = get_argparser()
 
+    img_path = parser.i
+
+    if not os.path.isfile(img_path):
+        print ("No input file")
+        return
+
+    img = load_img(img_path)
+
     print ("\nLoading VGG16 weight...")
 
     pt_model = VGG11()
@@ -33,14 +41,6 @@ def main():
 
     print ("==================================\n")
 
-    img_path = parser.i
-
-    if not os.path.isfile(img_path):
-        print ("No input file")
-        return
-
-    img = load_img(img_path)
-
     classify(vgg16, img)
 
 def get_argparser():
@@ -55,12 +55,13 @@ def get_argparser():
 
 
 def load_img(path):
-    image = cv2.imread(path)
+    transform = transforms.Compose([transforms.Resize((32, 32)),
+            transforms.ToTensor(),
+            transforms.Normalize([0.4914, 0.4822, 0.4465], [0.2470, 0.2435, 0.2616])])
 
-    image = cv2.resize(image, dsize=(32, 32), interpolation=cv2.INTER_LINEAR)
-    image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-    image = transforms.ToTensor()(image)
-    image = image[None, :, :, :]
+    image = Image.open(path)
+    image = transform(image)
+    image = image.unsqueeze(0)
     image = Variable(image)
 
     if is_cuda:
