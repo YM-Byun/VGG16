@@ -126,7 +126,7 @@ def train(train_loader, model, criterion, optimizer, epoch):
         acc1, acc5 = accuracy(outputs, label, topk=(1,5))
 
         if (i % 50 == 49) or (i == len(train_loader) - 1):
-            print (f"Epoch [{epoch+1}/{epochs}] | Train iter [{i+1}/{len(train_loader)}] | acc1 = {acc1[0]:.3f} | acc5 = {acc5[0]:.3f} | loss = {(running_loss / float(i+1)):.5f}")
+            print (f"Epoch [{epoch+1}/{epochs}] | Train iter [{i+1}/{len(train_loader)}] | acc1 = {acc1[0]:.3f} | acc5 = {acc5[0]:.3f} | loss = {(running_loss / float(i+1)):.5f} | lr = {get_lr(optimzier)}")
 
 def validate(val_loader, model, criterion, epoch):
     model.eval()
@@ -154,7 +154,7 @@ def validate(val_loader, model, criterion, epoch):
         total_acc1 /= len(val_loader)
         total_acc5 /= len(val_loader)
 
-    print (f"Epoch [{epoch+1}/{epochs}] | Validation | acc1 = {total_acc1[0]:.3f} | acc5 = {total_acc5[0]:.3f} | loss = {(running_loss / float(i)):.5f} | lr = {get_lr(optimizer)}")
+    print (f"Epoch [{epoch+1}/{epochs}] | Validation | acc1 = {total_acc1[0]:.3f} | acc5 = {total_acc5[0]:.3f} | loss = {(running_loss / float(i)):.5f}")
 
     return total_acc1[0], (running_loss / float(i))
 
