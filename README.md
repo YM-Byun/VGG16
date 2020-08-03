@@ -13,9 +13,9 @@
  - learning rate 0.00001 for 170~ 240 epoch
 
 ## 3. Result
- - Best model at 219 epoch
- - Test acc: 95% &nbsp;&nbsp;&nbsp;&nbsp; Test Loss: 1.50494
- - Val acc: 93.75% &nbsp;&nbsp; Val Loss: 1.62450
+ - Best model at 233 epoch
+ - Test acc: 95.80% &nbsp;&nbsp;&nbsp;&nbsp; Test Loss: 1.504
+ - Val acc: 87.51% &nbsp;&nbsp; Val Loss: 1.6282
  
 ## 4. Test
 `` python3 test.py -i <IMAGE_PATH> ``
