@@ -126,7 +126,7 @@ def train(train_loader, model, criterion, optimizer, epoch):
         acc1, acc5 = accuracy(outputs, label, topk=(1,5))
 
         if (i % 50 == 49) or (i == len(train_loader) - 1):
-            print (f"Epoch [{epoch+1}/{epochs}] | Train iter [{i+1}/{len(train_loader)}] | acc1 = {acc1[0]:.3f} | acc5 = {acc5[0]:.3f} | loss = {(running_loss / float(i+1)):.5f} | lr = {get_lr(optimzier)}")
+            print (f"Epoch [{epoch+1}/{epochs}] | Train iter [{i+1}/{len(train_loader)}] | acc1 = {acc1[0]:.3f} | acc5 = {acc5[0]:.3f} | loss = {(running_loss / float(i+1)):.5f} | lr = {get_lr(optimizer)}")
 
 def validate(val_loader, model, criterion, epoch):
     model.eval()
