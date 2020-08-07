@@ -13,35 +13,30 @@ batch_size=256
 momentum=0.9
 weight_decay = 0.0005
 learning_rate = 0.001
-epochs = 240
+epochs = 150
 is_cuda = torch.cuda.is_available()
 
-
-def update_lr(optimizer):
-    global learning_rate
-    learning_rate *= 0.1
-    for param in optimizer.param_groups:
-        param['lr'] = learning_rate
-
-    print (f"\nupdate lr to {learning_rate}!\n")
-
 def main():
-    transform = transforms.Compose(
-        [transforms.RandomCrop(32, padding=4),
+    train_transform = transforms.Compose(
+        [transforms.RandomCrop(32, padding=2),
         transforms.RandomHorizontalFlip(),
         transforms.ToTensor(),
+        transforms.Normalize((0.4914, 0.4822, 0.4465), (0.2470, 0.2435, 0.2616))])
+
+    test_transform = transforms.Compose(
+        [transforms.ToTensor(),
         transforms.Normalize((0.4914, 0.4822, 0.4465), (0.2470, 0.2435, 0.2616))])
 
     print ("\nLoading Cifar 10 Dataset...")
 
     train_dataset = CIFAR10(root='./dataset', train=True,
-            download=True, transform=transform)
+            download=True, transform=train_transform)
 
     train_loader = DataLoader(train_dataset, batch_size=batch_size,
             shuffle=True, num_workers=4)
 
     val_dataset = CIFAR10(root='./dataset', train=False,
-            download = True, transform=transform)
+            download = True, transform=test_transform)
 
     val_loader = DataLoader(val_dataset, batch_size=batch_size,
             shuffle=False, num_workers=4)
@@ -68,6 +63,7 @@ def main():
     optimizer = torch.optim.SGD(vgg16.parameters(), lr=learning_rate, momentum=momentum,
             weight_decay=weight_decay)
     criterion = nn.CrossEntropyLoss()
+    scheduler = torch.optim.lr_scheduler.MultiStepLR(optimizer, milestones=[80, 115])
 
     best_acc = 0.0
     best_loss = 9.0
@@ -77,14 +73,14 @@ def main():
         criterion = criterion.cuda()
 
     for epoch in range(epochs):
-        if epoch == 85 or epoch == 170:
-            update_lr(optimizer)
 
         train(train_loader, vgg16, criterion, optimizer, epoch)
 
         print ("")
 
         acc, loss = validate(val_loader, vgg16, criterion, epoch)
+
+        scheduler.step()
 
         is_best = False
 

@@ -8,31 +8,35 @@ from torch.utils.data import DataLoader
 from model import VGG11
 from datetime import datetime
 
-batch_size=256
+batch_size=128
 momentum=0.9
 weight_decay = 0.0005
 learning_rate = 0.0001
-epochs = 120
+epochs = 150
 is_cuda = torch.cuda.is_available()
 
 
 def main():
-    transform = transforms.Compose(
-        [transforms.RandomCrop(32, padding=4),
+    train_transform = transforms.Compose(
+        [transforms.RandomCrop(32, padding=2),
         transforms.RandomHorizontalFlip(),
+        transforms.ToTensor(),
+        transforms.Normalize((0.4914, 0.4822, 0.4465), (0.2470, 0.2435, 0.2616))])
+
+    test_transform = transforms.Compose([
         transforms.ToTensor(),
         transforms.Normalize((0.4914, 0.4822, 0.4465), (0.2470, 0.2435, 0.2616))])
 
     print ("\nLoading Cifar 10 Dataset...")
 
     train_dataset = CIFAR10(root='./dataset', train=True,
-            download=True, transform=transform)
+            download=True, transform=train_transform)
 
     train_loader = DataLoader(train_dataset, batch_size=batch_size,
             shuffle=True, num_workers=4)
 
     val_dataset = CIFAR10(root='./dataset', train=False,
-            download = True, transform=transform)
+            download = True, transform=test_transform)
 
     val_loader = DataLoader(val_dataset, batch_size=batch_size,
             shuffle=False, num_workers=4)
@@ -101,6 +105,8 @@ def train(train_loader, model, criterion, optimizer, epoch):
 def validate(val_loader, model, criterion, epoch):
     model.eval()
     running_loss = 0.0
+    total_acc1 = 0.0
+    total_acc5 = 0.0
 
     with torch.no_grad():
         for i, data in enumerate(val_loader):
@@ -114,10 +120,15 @@ def validate(val_loader, model, criterion, epoch):
 
             running_loss += loss.item()
             acc1, acc5 = accuracy(outputs, label, topk=(1,5))
+            total_acc1 += acc1[0]
+            total_acc5 += acc5[0]
 
-    print (f"Epoch [{epoch+1}/{epochs}] | Validation | acc_top1 = {acc1[0]:.5f} | acc_top5 = {acc5[0]:.5f} | loss = {(running_loss / float(i)):.5f}")
+    total_acc1 /= len(val_loader)
+    total_acc5 /= len(val_loader)
 
-    return acc1[0]
+    print (f"Epoch [{epoch+1}/{epochs}] | Validation | acc_top1 = {total_acc1:.5f} | acc_top5 = {total_acc5:.5f} | loss = {(running_loss / float(i)):.5f}")
+
+    return total_acc1
 
 def accuracy(output, label, topk=(1,)):
     with torch.no_grad():

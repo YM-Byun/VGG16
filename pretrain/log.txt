@@ -1,0 +1,2108 @@
+
+Loading Cifar 10 Dataset...
+Files already downloaded and verified
+Files already downloaded and verified
+Loaded Cifar 10!
+
+========================================
+
+Epoch [1/150] | Train iter [20/391] | acc_top1 = 15.62500 | acc_top5 = 53.12500 | loss = 2.30290
+Epoch [1/150] | Train iter [70/391] | acc_top1 = 12.50000 | acc_top5 = 52.34375 | loss = 2.30282
+Epoch [1/150] | Train iter [120/391] | acc_top1 = 11.71875 | acc_top5 = 44.53125 | loss = 2.30253
+Epoch [1/150] | Train iter [170/391] | acc_top1 = 9.37500 | acc_top5 = 39.06250 | loss = 2.30236
+Epoch [1/150] | Train iter [220/391] | acc_top1 = 14.06250 | acc_top5 = 60.15625 | loss = 2.30214
+Epoch [1/150] | Train iter [270/391] | acc_top1 = 11.71875 | acc_top5 = 58.59375 | loss = 2.30203
+Epoch [1/150] | Train iter [320/391] | acc_top1 = 13.28125 | acc_top5 = 48.43750 | loss = 2.30191
+Epoch [1/150] | Train iter [370/391] | acc_top1 = 7.03125 | acc_top5 = 49.21875 | loss = 2.30181
+Epoch [1/150] | Train iter [391/391] | acc_top1 = 18.75000 | acc_top5 = 55.00000 | loss = 2.30173
+
+Epoch [1/150] | Validation | acc_top1 = 15.25910 | acc_top5 = 54.39082 | loss = 2.32975
+
+========================================
+
+Epoch [2/150] | Train iter [20/391] | acc_top1 = 13.28125 | acc_top5 = 49.21875 | loss = 2.30166
+Epoch [2/150] | Train iter [70/391] | acc_top1 = 14.06250 | acc_top5 = 52.34375 | loss = 2.30117
+Epoch [2/150] | Train iter [120/391] | acc_top1 = 10.15625 | acc_top5 = 48.43750 | loss = 2.30080
+Epoch [2/150] | Train iter [170/391] | acc_top1 = 7.03125 | acc_top5 = 48.43750 | loss = 2.30073
+Epoch [2/150] | Train iter [220/391] | acc_top1 = 14.84375 | acc_top5 = 55.46875 | loss = 2.30042
+Epoch [2/150] | Train iter [270/391] | acc_top1 = 13.28125 | acc_top5 = 60.93750 | loss = 2.30029
+Epoch [2/150] | Train iter [320/391] | acc_top1 = 14.06250 | acc_top5 = 50.78125 | loss = 2.29998
+Epoch [2/150] | Train iter [370/391] | acc_top1 = 4.68750 | acc_top5 = 49.21875 | loss = 2.29985
+Epoch [2/150] | Train iter [391/391] | acc_top1 = 15.00000 | acc_top5 = 66.25000 | loss = 2.29980
+
+Epoch [2/150] | Validation | acc_top1 = 17.96875 | acc_top5 = 60.85839 | loss = 2.32728
+
+========================================
+
+Epoch [3/150] | Train iter [20/391] | acc_top1 = 14.06250 | acc_top5 = 54.68750 | loss = 2.29878
+Epoch [3/150] | Train iter [70/391] | acc_top1 = 9.37500 | acc_top5 = 64.84375 | loss = 2.29837
+Epoch [3/150] | Train iter [120/391] | acc_top1 = 9.37500 | acc_top5 = 57.81250 | loss = 2.29800
+Epoch [3/150] | Train iter [170/391] | acc_top1 = 14.84375 | acc_top5 = 60.15625 | loss = 2.29781
+Epoch [3/150] | Train iter [220/391] | acc_top1 = 11.71875 | acc_top5 = 53.90625 | loss = 2.29762
+Epoch [3/150] | Train iter [270/391] | acc_top1 = 19.53125 | acc_top5 = 62.50000 | loss = 2.29752
+Epoch [3/150] | Train iter [320/391] | acc_top1 = 14.06250 | acc_top5 = 58.59375 | loss = 2.29737
+Epoch [3/150] | Train iter [370/391] | acc_top1 = 19.53125 | acc_top5 = 57.03125 | loss = 2.29727
+Epoch [3/150] | Train iter [391/391] | acc_top1 = 23.75000 | acc_top5 = 60.00000 | loss = 2.29721
+
+Epoch [3/150] | Validation | acc_top1 = 20.13449 | acc_top5 = 66.40625 | loss = 2.32425
+
+========================================
+
+Epoch [4/150] | Train iter [20/391] | acc_top1 = 17.18750 | acc_top5 = 55.46875 | loss = 2.29616
+Epoch [4/150] | Train iter [70/391] | acc_top1 = 17.96875 | acc_top5 = 60.15625 | loss = 2.29529
+Epoch [4/150] | Train iter [120/391] | acc_top1 = 10.15625 | acc_top5 = 58.59375 | loss = 2.29512
+Epoch [4/150] | Train iter [170/391] | acc_top1 = 14.06250 | acc_top5 = 52.34375 | loss = 2.29487
+Epoch [4/150] | Train iter [220/391] | acc_top1 = 18.75000 | acc_top5 = 57.03125 | loss = 2.29448
+Epoch [4/150] | Train iter [270/391] | acc_top1 = 11.71875 | acc_top5 = 60.15625 | loss = 2.29431
+Epoch [4/150] | Train iter [320/391] | acc_top1 = 18.75000 | acc_top5 = 71.87500 | loss = 2.29404
+Epoch [4/150] | Train iter [370/391] | acc_top1 = 15.62500 | acc_top5 = 63.28125 | loss = 2.29390
+Epoch [4/150] | Train iter [391/391] | acc_top1 = 13.75000 | acc_top5 = 71.25000 | loss = 2.29382
+
+Epoch [4/150] | Validation | acc_top1 = 21.53877 | acc_top5 = 68.80933 | loss = 2.31997
+
+========================================
+
+Epoch [5/150] | Train iter [20/391] | acc_top1 = 18.75000 | acc_top5 = 53.90625 | loss = 2.29209
+Epoch [5/150] | Train iter [70/391] | acc_top1 = 9.37500 | acc_top5 = 60.93750 | loss = 2.29200
+Epoch [5/150] | Train iter [120/391] | acc_top1 = 18.75000 | acc_top5 = 64.06250 | loss = 2.29148
+Epoch [5/150] | Train iter [170/391] | acc_top1 = 22.65625 | acc_top5 = 64.06250 | loss = 2.29103
+Epoch [5/150] | Train iter [220/391] | acc_top1 = 15.62500 | acc_top5 = 63.28125 | loss = 2.29071
+Epoch [5/150] | Train iter [270/391] | acc_top1 = 14.06250 | acc_top5 = 68.75000 | loss = 2.29041
+Epoch [5/150] | Train iter [320/391] | acc_top1 = 13.28125 | acc_top5 = 58.59375 | loss = 2.29017
+Epoch [5/150] | Train iter [370/391] | acc_top1 = 17.96875 | acc_top5 = 61.71875 | loss = 2.28978
+Epoch [5/150] | Train iter [391/391] | acc_top1 = 17.50000 | acc_top5 = 65.00000 | loss = 2.28963
+
+Epoch [5/150] | Validation | acc_top1 = 22.62658 | acc_top5 = 71.14320 | loss = 2.31411
+
+========================================
+
+Epoch [6/150] | Train iter [20/391] | acc_top1 = 14.84375 | acc_top5 = 60.15625 | loss = 2.28637
+Epoch [6/150] | Train iter [70/391] | acc_top1 = 25.78125 | acc_top5 = 67.96875 | loss = 2.28586
+Epoch [6/150] | Train iter [120/391] | acc_top1 = 17.96875 | acc_top5 = 64.84375 | loss = 2.28569
+Epoch [6/150] | Train iter [170/391] | acc_top1 = 21.09375 | acc_top5 = 64.84375 | loss = 2.28514
+Epoch [6/150] | Train iter [220/391] | acc_top1 = 21.87500 | acc_top5 = 71.87500 | loss = 2.28470
+Epoch [6/150] | Train iter [270/391] | acc_top1 = 21.87500 | acc_top5 = 71.09375 | loss = 2.28455
+Epoch [6/150] | Train iter [320/391] | acc_top1 = 24.21875 | acc_top5 = 66.40625 | loss = 2.28405
+Epoch [6/150] | Train iter [370/391] | acc_top1 = 17.96875 | acc_top5 = 71.09375 | loss = 2.28362
+Epoch [6/150] | Train iter [391/391] | acc_top1 = 23.75000 | acc_top5 = 65.00000 | loss = 2.28341
+
+Epoch [6/150] | Validation | acc_top1 = 22.49802 | acc_top5 = 73.01227 | loss = 2.30569
+
+========================================
+
+Epoch [7/150] | Train iter [20/391] | acc_top1 = 19.53125 | acc_top5 = 61.71875 | loss = 2.28159
+Epoch [7/150] | Train iter [70/391] | acc_top1 = 16.40625 | acc_top5 = 72.65625 | loss = 2.27924
+Epoch [7/150] | Train iter [120/391] | acc_top1 = 17.18750 | acc_top5 = 67.96875 | loss = 2.27850
+Epoch [7/150] | Train iter [170/391] | acc_top1 = 21.09375 | acc_top5 = 65.62500 | loss = 2.27751
+Epoch [7/150] | Train iter [220/391] | acc_top1 = 20.31250 | acc_top5 = 69.53125 | loss = 2.27680
+Epoch [7/150] | Train iter [270/391] | acc_top1 = 21.09375 | acc_top5 = 71.09375 | loss = 2.27610
+Epoch [7/150] | Train iter [320/391] | acc_top1 = 22.65625 | acc_top5 = 71.87500 | loss = 2.27539
+Epoch [7/150] | Train iter [370/391] | acc_top1 = 15.62500 | acc_top5 = 56.25000 | loss = 2.27475
+Epoch [7/150] | Train iter [391/391] | acc_top1 = 21.25000 | acc_top5 = 67.50000 | loss = 2.27452
+
+Epoch [7/150] | Validation | acc_top1 = 22.01345 | acc_top5 = 75.34612 | loss = 2.29400
+
+========================================
+
+Epoch [8/150] | Train iter [20/391] | acc_top1 = 27.34375 | acc_top5 = 75.78125 | loss = 2.27028
+Epoch [8/150] | Train iter [70/391] | acc_top1 = 26.56250 | acc_top5 = 78.12500 | loss = 2.27024
+Epoch [8/150] | Train iter [120/391] | acc_top1 = 21.09375 | acc_top5 = 75.00000 | loss = 2.26905
+Epoch [8/150] | Train iter [170/391] | acc_top1 = 28.12500 | acc_top5 = 70.31250 | loss = 2.26778
+Epoch [8/150] | Train iter [220/391] | acc_top1 = 20.31250 | acc_top5 = 66.40625 | loss = 2.26717
+Epoch [8/150] | Train iter [270/391] | acc_top1 = 18.75000 | acc_top5 = 65.62500 | loss = 2.26642
+Epoch [8/150] | Train iter [320/391] | acc_top1 = 21.09375 | acc_top5 = 68.75000 | loss = 2.26559
+Epoch [8/150] | Train iter [370/391] | acc_top1 = 19.53125 | acc_top5 = 67.96875 | loss = 2.26497
+Epoch [8/150] | Train iter [391/391] | acc_top1 = 17.50000 | acc_top5 = 73.75000 | loss = 2.26445
+
+Epoch [8/150] | Validation | acc_top1 = 22.13212 | acc_top5 = 77.86788 | loss = 2.28179
+
+========================================
+
+Epoch [9/150] | Train iter [20/391] | acc_top1 = 30.46875 | acc_top5 = 77.34375 | loss = 2.26015
+Epoch [9/150] | Train iter [70/391] | acc_top1 = 17.96875 | acc_top5 = 71.09375 | loss = 2.25834
+Epoch [9/150] | Train iter [120/391] | acc_top1 = 20.31250 | acc_top5 = 69.53125 | loss = 2.25761
+Epoch [9/150] | Train iter [170/391] | acc_top1 = 21.87500 | acc_top5 = 71.09375 | loss = 2.25612
+Epoch [9/150] | Train iter [220/391] | acc_top1 = 17.96875 | acc_top5 = 69.53125 | loss = 2.25511
+Epoch [9/150] | Train iter [270/391] | acc_top1 = 19.53125 | acc_top5 = 67.18750 | loss = 2.25433
+Epoch [9/150] | Train iter [320/391] | acc_top1 = 20.31250 | acc_top5 = 71.09375 | loss = 2.25372
+Epoch [9/150] | Train iter [370/391] | acc_top1 = 24.21875 | acc_top5 = 68.75000 | loss = 2.25325
+Epoch [9/150] | Train iter [391/391] | acc_top1 = 17.50000 | acc_top5 = 72.50000 | loss = 2.25295
+
+Epoch [9/150] | Validation | acc_top1 = 22.93315 | acc_top5 = 78.99525 | loss = 2.26980
+
+========================================
+
+Epoch [10/150] | Train iter [20/391] | acc_top1 = 24.21875 | acc_top5 = 71.09375 | loss = 2.24632
+Epoch [10/150] | Train iter [70/391] | acc_top1 = 32.81250 | acc_top5 = 73.43750 | loss = 2.24607
+Epoch [10/150] | Train iter [120/391] | acc_top1 = 18.75000 | acc_top5 = 77.34375 | loss = 2.24500
+Epoch [10/150] | Train iter [170/391] | acc_top1 = 23.43750 | acc_top5 = 71.87500 | loss = 2.24484
+Epoch [10/150] | Train iter [220/391] | acc_top1 = 25.00000 | acc_top5 = 71.87500 | loss = 2.24382
+Epoch [10/150] | Train iter [270/391] | acc_top1 = 19.53125 | acc_top5 = 76.56250 | loss = 2.24335
+Epoch [10/150] | Train iter [320/391] | acc_top1 = 23.43750 | acc_top5 = 71.09375 | loss = 2.24215
+Epoch [10/150] | Train iter [370/391] | acc_top1 = 19.53125 | acc_top5 = 78.12500 | loss = 2.24102
+Epoch [10/150] | Train iter [391/391] | acc_top1 = 22.50000 | acc_top5 = 68.75000 | loss = 2.24061
+
+Epoch [10/150] | Validation | acc_top1 = 23.61551 | acc_top5 = 79.84573 | loss = 2.25584
+
+========================================
+
+Epoch [11/150] | Train iter [20/391] | acc_top1 = 24.21875 | acc_top5 = 71.87500 | loss = 2.23205
+Epoch [11/150] | Train iter [70/391] | acc_top1 = 23.43750 | acc_top5 = 72.65625 | loss = 2.23483
+Epoch [11/150] | Train iter [120/391] | acc_top1 = 21.87500 | acc_top5 = 72.65625 | loss = 2.23309
+Epoch [11/150] | Train iter [170/391] | acc_top1 = 21.09375 | acc_top5 = 70.31250 | loss = 2.23150
+Epoch [11/150] | Train iter [220/391] | acc_top1 = 26.56250 | acc_top5 = 71.09375 | loss = 2.23018
+Epoch [11/150] | Train iter [270/391] | acc_top1 = 18.75000 | acc_top5 = 71.87500 | loss = 2.22903
+Epoch [11/150] | Train iter [320/391] | acc_top1 = 22.65625 | acc_top5 = 72.65625 | loss = 2.22833
+Epoch [11/150] | Train iter [370/391] | acc_top1 = 23.43750 | acc_top5 = 68.75000 | loss = 2.22811
+Epoch [11/150] | Train iter [391/391] | acc_top1 = 21.25000 | acc_top5 = 76.25000 | loss = 2.22787
+
+Epoch [11/150] | Validation | acc_top1 = 24.39676 | acc_top5 = 80.28085 | loss = 2.24204
+
+========================================
+
+Epoch [12/150] | Train iter [20/391] | acc_top1 = 23.43750 | acc_top5 = 74.21875 | loss = 2.21989
+Epoch [12/150] | Train iter [70/391] | acc_top1 = 27.34375 | acc_top5 = 79.68750 | loss = 2.21853
+Epoch [12/150] | Train iter [120/391] | acc_top1 = 25.00000 | acc_top5 = 72.65625 | loss = 2.21789
+Epoch [12/150] | Train iter [170/391] | acc_top1 = 24.21875 | acc_top5 = 68.75000 | loss = 2.21777
+Epoch [12/150] | Train iter [220/391] | acc_top1 = 26.56250 | acc_top5 = 74.21875 | loss = 2.21797
+Epoch [12/150] | Train iter [270/391] | acc_top1 = 26.56250 | acc_top5 = 74.21875 | loss = 2.21727
+Epoch [12/150] | Train iter [320/391] | acc_top1 = 25.00000 | acc_top5 = 81.25000 | loss = 2.21647
+Epoch [12/150] | Train iter [370/391] | acc_top1 = 21.09375 | acc_top5 = 78.12500 | loss = 2.21572
+Epoch [12/150] | Train iter [391/391] | acc_top1 = 21.25000 | acc_top5 = 82.50000 | loss = 2.21554
+
+Epoch [12/150] | Validation | acc_top1 = 25.27690 | acc_top5 = 81.07200 | loss = 2.22863
+
+========================================
+
+Epoch [13/150] | Train iter [20/391] | acc_top1 = 24.21875 | acc_top5 = 74.21875 | loss = 2.21115
+Epoch [13/150] | Train iter [70/391] | acc_top1 = 24.21875 | acc_top5 = 78.90625 | loss = 2.21072
+Epoch [13/150] | Train iter [120/391] | acc_top1 = 25.78125 | acc_top5 = 81.25000 | loss = 2.20707
+Epoch [13/150] | Train iter [170/391] | acc_top1 = 21.87500 | acc_top5 = 77.34375 | loss = 2.20608
+Epoch [13/150] | Train iter [220/391] | acc_top1 = 24.21875 | acc_top5 = 78.90625 | loss = 2.20598
+Epoch [13/150] | Train iter [270/391] | acc_top1 = 25.78125 | acc_top5 = 75.78125 | loss = 2.20574
+Epoch [13/150] | Train iter [320/391] | acc_top1 = 29.68750 | acc_top5 = 81.25000 | loss = 2.20464
+Epoch [13/150] | Train iter [370/391] | acc_top1 = 25.00000 | acc_top5 = 73.43750 | loss = 2.20354
+Epoch [13/150] | Train iter [391/391] | acc_top1 = 20.00000 | acc_top5 = 73.75000 | loss = 2.20358
+
+Epoch [13/150] | Validation | acc_top1 = 26.07793 | acc_top5 = 81.46757 | loss = 2.21559
+
+========================================
+
+Epoch [14/150] | Train iter [20/391] | acc_top1 = 32.03125 | acc_top5 = 79.68750 | loss = 2.18841
+Epoch [14/150] | Train iter [70/391] | acc_top1 = 22.65625 | acc_top5 = 79.68750 | loss = 2.19867
+Epoch [14/150] | Train iter [120/391] | acc_top1 = 22.65625 | acc_top5 = 75.78125 | loss = 2.19613
+Epoch [14/150] | Train iter [170/391] | acc_top1 = 28.12500 | acc_top5 = 85.93750 | loss = 2.19580
+Epoch [14/150] | Train iter [220/391] | acc_top1 = 28.90625 | acc_top5 = 85.15625 | loss = 2.19515
+Epoch [14/150] | Train iter [270/391] | acc_top1 = 34.37500 | acc_top5 = 86.71875 | loss = 2.19551
+Epoch [14/150] | Train iter [320/391] | acc_top1 = 30.46875 | acc_top5 = 79.68750 | loss = 2.19444
+Epoch [14/150] | Train iter [370/391] | acc_top1 = 24.21875 | acc_top5 = 79.68750 | loss = 2.19325
+Epoch [14/150] | Train iter [391/391] | acc_top1 = 28.75000 | acc_top5 = 82.50000 | loss = 2.19308
+
+Epoch [14/150] | Validation | acc_top1 = 26.80973 | acc_top5 = 82.08070 | loss = 2.20418
+
+========================================
+
+Epoch [15/150] | Train iter [20/391] | acc_top1 = 29.68750 | acc_top5 = 84.37500 | loss = 2.16672
+Epoch [15/150] | Train iter [70/391] | acc_top1 = 29.68750 | acc_top5 = 80.46875 | loss = 2.18240
+Epoch [15/150] | Train iter [120/391] | acc_top1 = 28.12500 | acc_top5 = 81.25000 | loss = 2.18418
+Epoch [15/150] | Train iter [170/391] | acc_top1 = 28.12500 | acc_top5 = 82.81250 | loss = 2.18528
+Epoch [15/150] | Train iter [220/391] | acc_top1 = 26.56250 | acc_top5 = 80.46875 | loss = 2.18432
+Epoch [15/150] | Train iter [270/391] | acc_top1 = 21.87500 | acc_top5 = 78.90625 | loss = 2.18486
+Epoch [15/150] | Train iter [320/391] | acc_top1 = 21.09375 | acc_top5 = 75.78125 | loss = 2.18458
+Epoch [15/150] | Train iter [370/391] | acc_top1 = 26.56250 | acc_top5 = 75.00000 | loss = 2.18405
+Epoch [15/150] | Train iter [391/391] | acc_top1 = 27.50000 | acc_top5 = 81.25000 | loss = 2.18344
+
+Epoch [15/150] | Validation | acc_top1 = 27.53165 | acc_top5 = 82.63450 | loss = 2.19403
+
+========================================
+
+Epoch [16/150] | Train iter [20/391] | acc_top1 = 32.81250 | acc_top5 = 77.34375 | loss = 2.17678
+Epoch [16/150] | Train iter [70/391] | acc_top1 = 21.09375 | acc_top5 = 80.46875 | loss = 2.17523
+Epoch [16/150] | Train iter [120/391] | acc_top1 = 25.78125 | acc_top5 = 80.46875 | loss = 2.17718
+Epoch [16/150] | Train iter [170/391] | acc_top1 = 18.75000 | acc_top5 = 80.46875 | loss = 2.17667
+Epoch [16/150] | Train iter [220/391] | acc_top1 = 29.68750 | acc_top5 = 78.90625 | loss = 2.17487
+Epoch [16/150] | Train iter [270/391] | acc_top1 = 19.53125 | acc_top5 = 78.90625 | loss = 2.17373
+Epoch [16/150] | Train iter [320/391] | acc_top1 = 21.09375 | acc_top5 = 74.21875 | loss = 2.17427
+Epoch [16/150] | Train iter [370/391] | acc_top1 = 32.81250 | acc_top5 = 78.12500 | loss = 2.17371
+Epoch [16/150] | Train iter [391/391] | acc_top1 = 27.50000 | acc_top5 = 82.50000 | loss = 2.17366
+
+Epoch [16/150] | Validation | acc_top1 = 28.50079 | acc_top5 = 83.06963 | loss = 2.18380
+
+========================================
+
+Epoch [17/150] | Train iter [20/391] | acc_top1 = 28.12500 | acc_top5 = 75.00000 | loss = 2.16987
+Epoch [17/150] | Train iter [70/391] | acc_top1 = 29.68750 | acc_top5 = 75.78125 | loss = 2.17065
+Epoch [17/150] | Train iter [120/391] | acc_top1 = 27.34375 | acc_top5 = 82.81250 | loss = 2.17016
+Epoch [17/150] | Train iter [170/391] | acc_top1 = 23.43750 | acc_top5 = 78.12500 | loss = 2.16812
+Epoch [17/150] | Train iter [220/391] | acc_top1 = 32.81250 | acc_top5 = 87.50000 | loss = 2.16615
+Epoch [17/150] | Train iter [270/391] | acc_top1 = 29.68750 | acc_top5 = 78.12500 | loss = 2.16528
+Epoch [17/150] | Train iter [320/391] | acc_top1 = 28.90625 | acc_top5 = 84.37500 | loss = 2.16390
+Epoch [17/150] | Train iter [370/391] | acc_top1 = 25.78125 | acc_top5 = 80.46875 | loss = 2.16341
+Epoch [17/150] | Train iter [391/391] | acc_top1 = 30.00000 | acc_top5 = 86.25000 | loss = 2.16361
+
+Epoch [17/150] | Validation | acc_top1 = 29.83584 | acc_top5 = 83.56409 | loss = 2.17258
+
+========================================
+
+Epoch [18/150] | Train iter [20/391] | acc_top1 = 26.56250 | acc_top5 = 82.03125 | loss = 2.16567
+Epoch [18/150] | Train iter [70/391] | acc_top1 = 28.90625 | acc_top5 = 82.81250 | loss = 2.16093
+Epoch [18/150] | Train iter [120/391] | acc_top1 = 34.37500 | acc_top5 = 78.12500 | loss = 2.15911
+Epoch [18/150] | Train iter [170/391] | acc_top1 = 32.03125 | acc_top5 = 81.25000 | loss = 2.15952
+Epoch [18/150] | Train iter [220/391] | acc_top1 = 35.15625 | acc_top5 = 81.25000 | loss = 2.15779
+Epoch [18/150] | Train iter [270/391] | acc_top1 = 36.71875 | acc_top5 = 84.37500 | loss = 2.15637
+Epoch [18/150] | Train iter [320/391] | acc_top1 = 26.56250 | acc_top5 = 79.68750 | loss = 2.15566
+Epoch [18/150] | Train iter [370/391] | acc_top1 = 25.78125 | acc_top5 = 81.25000 | loss = 2.15503
+Epoch [18/150] | Train iter [391/391] | acc_top1 = 31.25000 | acc_top5 = 81.25000 | loss = 2.15463
+
+Epoch [18/150] | Validation | acc_top1 = 31.87302 | acc_top5 = 84.37500 | loss = 2.16111
+
+========================================
+
+Epoch [19/150] | Train iter [20/391] | acc_top1 = 27.34375 | acc_top5 = 72.65625 | loss = 2.15631
+Epoch [19/150] | Train iter [70/391] | acc_top1 = 35.15625 | acc_top5 = 83.59375 | loss = 2.15126
+Epoch [19/150] | Train iter [120/391] | acc_top1 = 35.93750 | acc_top5 = 90.62500 | loss = 2.14942
+Epoch [19/150] | Train iter [170/391] | acc_top1 = 32.03125 | acc_top5 = 81.25000 | loss = 2.14769
+Epoch [19/150] | Train iter [220/391] | acc_top1 = 39.06250 | acc_top5 = 90.62500 | loss = 2.14642
+Epoch [19/150] | Train iter [270/391] | acc_top1 = 29.68750 | acc_top5 = 80.46875 | loss = 2.14579
+Epoch [19/150] | Train iter [320/391] | acc_top1 = 35.15625 | acc_top5 = 84.37500 | loss = 2.14450
+Epoch [19/150] | Train iter [370/391] | acc_top1 = 34.37500 | acc_top5 = 78.12500 | loss = 2.14375
+Epoch [19/150] | Train iter [391/391] | acc_top1 = 35.00000 | acc_top5 = 80.00000 | loss = 2.14321
+
+Epoch [19/150] | Validation | acc_top1 = 34.83979 | acc_top5 = 84.81013 | loss = 2.14874
+
+========================================
+
+Epoch [20/150] | Train iter [20/391] | acc_top1 = 33.59375 | acc_top5 = 82.03125 | loss = 2.14160
+Epoch [20/150] | Train iter [70/391] | acc_top1 = 30.46875 | acc_top5 = 81.25000 | loss = 2.13767
+Epoch [20/150] | Train iter [120/391] | acc_top1 = 32.81250 | acc_top5 = 75.00000 | loss = 2.13643
+Epoch [20/150] | Train iter [170/391] | acc_top1 = 31.25000 | acc_top5 = 78.90625 | loss = 2.13452
+Epoch [20/150] | Train iter [220/391] | acc_top1 = 34.37500 | acc_top5 = 86.71875 | loss = 2.13534
+Epoch [20/150] | Train iter [270/391] | acc_top1 = 29.68750 | acc_top5 = 82.03125 | loss = 2.13413
+Epoch [20/150] | Train iter [320/391] | acc_top1 = 25.78125 | acc_top5 = 79.68750 | loss = 2.13362
+Epoch [20/150] | Train iter [370/391] | acc_top1 = 34.37500 | acc_top5 = 79.68750 | loss = 2.13306
+Epoch [20/150] | Train iter [391/391] | acc_top1 = 35.00000 | acc_top5 = 86.25000 | loss = 2.13257
+
+Epoch [20/150] | Validation | acc_top1 = 37.06487 | acc_top5 = 85.49249 | loss = 2.13675
+
+========================================
+
+Epoch [21/150] | Train iter [20/391] | acc_top1 = 35.15625 | acc_top5 = 81.25000 | loss = 2.12662
+Epoch [21/150] | Train iter [70/391] | acc_top1 = 32.81250 | acc_top5 = 78.90625 | loss = 2.12622
+Epoch [21/150] | Train iter [120/391] | acc_top1 = 35.93750 | acc_top5 = 67.18750 | loss = 2.12356
+Epoch [21/150] | Train iter [170/391] | acc_top1 = 29.68750 | acc_top5 = 82.81250 | loss = 2.12227
+Epoch [21/150] | Train iter [220/391] | acc_top1 = 40.62500 | acc_top5 = 87.50000 | loss = 2.12153
+Epoch [21/150] | Train iter [270/391] | acc_top1 = 32.81250 | acc_top5 = 80.46875 | loss = 2.12107
+Epoch [21/150] | Train iter [320/391] | acc_top1 = 32.03125 | acc_top5 = 78.90625 | loss = 2.12100
+Epoch [21/150] | Train iter [370/391] | acc_top1 = 42.18750 | acc_top5 = 80.46875 | loss = 2.12049
+Epoch [21/150] | Train iter [391/391] | acc_top1 = 41.25000 | acc_top5 = 85.00000 | loss = 2.12010
+
+Epoch [21/150] | Validation | acc_top1 = 39.14161 | acc_top5 = 85.76939 | loss = 2.12199
+
+========================================
+
+Epoch [22/150] | Train iter [20/391] | acc_top1 = 32.03125 | acc_top5 = 79.68750 | loss = 2.11949
+Epoch [22/150] | Train iter [70/391] | acc_top1 = 42.18750 | acc_top5 = 81.25000 | loss = 2.10982
+Epoch [22/150] | Train iter [120/391] | acc_top1 = 40.62500 | acc_top5 = 85.93750 | loss = 2.11082
+Epoch [22/150] | Train iter [170/391] | acc_top1 = 36.71875 | acc_top5 = 86.71875 | loss = 2.11066
+Epoch [22/150] | Train iter [220/391] | acc_top1 = 42.18750 | acc_top5 = 84.37500 | loss = 2.10955
+Epoch [22/150] | Train iter [270/391] | acc_top1 = 37.50000 | acc_top5 = 84.37500 | loss = 2.10914
+Epoch [22/150] | Train iter [320/391] | acc_top1 = 32.03125 | acc_top5 = 75.00000 | loss = 2.10897
+Epoch [22/150] | Train iter [370/391] | acc_top1 = 33.59375 | acc_top5 = 79.68750 | loss = 2.10692
+Epoch [22/150] | Train iter [391/391] | acc_top1 = 45.00000 | acc_top5 = 91.25000 | loss = 2.10654
+
+Epoch [22/150] | Validation | acc_top1 = 41.08979 | acc_top5 = 86.19463 | loss = 2.10661
+
+========================================
+
+Epoch [23/150] | Train iter [20/391] | acc_top1 = 39.84375 | acc_top5 = 81.25000 | loss = 2.09970
+Epoch [23/150] | Train iter [70/391] | acc_top1 = 40.62500 | acc_top5 = 87.50000 | loss = 2.09990
+Epoch [23/150] | Train iter [120/391] | acc_top1 = 38.28125 | acc_top5 = 85.93750 | loss = 2.09641
+Epoch [23/150] | Train iter [170/391] | acc_top1 = 43.75000 | acc_top5 = 85.15625 | loss = 2.09396
+Epoch [23/150] | Train iter [220/391] | acc_top1 = 41.40625 | acc_top5 = 89.06250 | loss = 2.09204
+Epoch [23/150] | Train iter [270/391] | acc_top1 = 42.18750 | acc_top5 = 82.81250 | loss = 2.09177
+Epoch [23/150] | Train iter [320/391] | acc_top1 = 47.65625 | acc_top5 = 83.59375 | loss = 2.09176
+Epoch [23/150] | Train iter [370/391] | acc_top1 = 35.15625 | acc_top5 = 85.15625 | loss = 2.09154
+Epoch [23/150] | Train iter [391/391] | acc_top1 = 31.25000 | acc_top5 = 83.75000 | loss = 2.09139
+
+Epoch [23/150] | Validation | acc_top1 = 42.27650 | acc_top5 = 86.07595 | loss = 2.09048
+
+========================================
+
+Epoch [24/150] | Train iter [20/391] | acc_top1 = 44.53125 | acc_top5 = 85.93750 | loss = 2.09038
+Epoch [24/150] | Train iter [70/391] | acc_top1 = 39.84375 | acc_top5 = 85.15625 | loss = 2.08250
+Epoch [24/150] | Train iter [120/391] | acc_top1 = 46.09375 | acc_top5 = 89.84375 | loss = 2.08111
+Epoch [24/150] | Train iter [170/391] | acc_top1 = 42.18750 | acc_top5 = 89.06250 | loss = 2.08131
+Epoch [24/150] | Train iter [220/391] | acc_top1 = 45.31250 | acc_top5 = 82.81250 | loss = 2.08033
+Epoch [24/150] | Train iter [270/391] | acc_top1 = 27.34375 | acc_top5 = 89.84375 | loss = 2.07872
+Epoch [24/150] | Train iter [320/391] | acc_top1 = 40.62500 | acc_top5 = 78.12500 | loss = 2.07732
+Epoch [24/150] | Train iter [370/391] | acc_top1 = 44.53125 | acc_top5 = 86.71875 | loss = 2.07726
+Epoch [24/150] | Train iter [391/391] | acc_top1 = 33.75000 | acc_top5 = 81.25000 | loss = 2.07709
+
+Epoch [24/150] | Validation | acc_top1 = 43.49288 | acc_top5 = 86.56052 | loss = 2.07543
+
+========================================
+
+Epoch [25/150] | Train iter [20/391] | acc_top1 = 36.71875 | acc_top5 = 89.06250 | loss = 2.07989
+Epoch [25/150] | Train iter [70/391] | acc_top1 = 35.15625 | acc_top5 = 82.03125 | loss = 2.07392
+Epoch [25/150] | Train iter [120/391] | acc_top1 = 39.84375 | acc_top5 = 82.81250 | loss = 2.07126
+Epoch [25/150] | Train iter [170/391] | acc_top1 = 48.43750 | acc_top5 = 86.71875 | loss = 2.06828
+Epoch [25/150] | Train iter [220/391] | acc_top1 = 44.53125 | acc_top5 = 82.03125 | loss = 2.06586
+Epoch [25/150] | Train iter [270/391] | acc_top1 = 44.53125 | acc_top5 = 86.71875 | loss = 2.06586
+Epoch [25/150] | Train iter [320/391] | acc_top1 = 39.84375 | acc_top5 = 86.71875 | loss = 2.06552
+Epoch [25/150] | Train iter [370/391] | acc_top1 = 42.18750 | acc_top5 = 84.37500 | loss = 2.06416
+Epoch [25/150] | Train iter [391/391] | acc_top1 = 36.25000 | acc_top5 = 85.00000 | loss = 2.06390
+
+Epoch [25/150] | Validation | acc_top1 = 44.43236 | acc_top5 = 86.07595 | loss = 2.06127
+
+========================================
+
+Epoch [26/150] | Train iter [20/391] | acc_top1 = 42.18750 | acc_top5 = 78.12500 | loss = 2.03530
+Epoch [26/150] | Train iter [70/391] | acc_top1 = 39.06250 | acc_top5 = 79.68750 | loss = 2.04987
+Epoch [26/150] | Train iter [120/391] | acc_top1 = 39.06250 | acc_top5 = 85.93750 | loss = 2.05158
+Epoch [26/150] | Train iter [170/391] | acc_top1 = 43.75000 | acc_top5 = 87.50000 | loss = 2.05045
+Epoch [26/150] | Train iter [220/391] | acc_top1 = 46.09375 | acc_top5 = 84.37500 | loss = 2.04986
+Epoch [26/150] | Train iter [270/391] | acc_top1 = 41.40625 | acc_top5 = 80.46875 | loss = 2.04889
+Epoch [26/150] | Train iter [320/391] | acc_top1 = 42.18750 | acc_top5 = 84.37500 | loss = 2.04896
+Epoch [26/150] | Train iter [370/391] | acc_top1 = 42.18750 | acc_top5 = 85.15625 | loss = 2.04915
+Epoch [26/150] | Train iter [391/391] | acc_top1 = 41.25000 | acc_top5 = 86.25000 | loss = 2.04830
+
+Epoch [26/150] | Validation | acc_top1 = 45.45095 | acc_top5 = 86.75831 | loss = 2.04781
+
+========================================
+
+Epoch [27/150] | Train iter [20/391] | acc_top1 = 45.31250 | acc_top5 = 86.71875 | loss = 2.04203
+Epoch [27/150] | Train iter [70/391] | acc_top1 = 41.40625 | acc_top5 = 82.81250 | loss = 2.04265
+Epoch [27/150] | Train iter [120/391] | acc_top1 = 40.62500 | acc_top5 = 82.81250 | loss = 2.04215
+Epoch [27/150] | Train iter [170/391] | acc_top1 = 47.65625 | acc_top5 = 83.59375 | loss = 2.04068
+Epoch [27/150] | Train iter [220/391] | acc_top1 = 51.56250 | acc_top5 = 88.28125 | loss = 2.03997
+Epoch [27/150] | Train iter [270/391] | acc_top1 = 43.75000 | acc_top5 = 87.50000 | loss = 2.03889
+Epoch [27/150] | Train iter [320/391] | acc_top1 = 45.31250 | acc_top5 = 76.56250 | loss = 2.03862
+Epoch [27/150] | Train iter [370/391] | acc_top1 = 43.75000 | acc_top5 = 85.93750 | loss = 2.03851
+Epoch [27/150] | Train iter [391/391] | acc_top1 = 53.75000 | acc_top5 = 87.50000 | loss = 2.03746
+
+Epoch [27/150] | Validation | acc_top1 = 46.05420 | acc_top5 = 86.66930 | loss = 2.03698
+
+========================================
+
+Epoch [28/150] | Train iter [20/391] | acc_top1 = 47.65625 | acc_top5 = 82.81250 | loss = 2.02439
+Epoch [28/150] | Train iter [70/391] | acc_top1 = 40.62500 | acc_top5 = 86.71875 | loss = 2.02988
+Epoch [28/150] | Train iter [120/391] | acc_top1 = 41.40625 | acc_top5 = 89.84375 | loss = 2.03031
+Epoch [28/150] | Train iter [170/391] | acc_top1 = 46.09375 | acc_top5 = 87.50000 | loss = 2.03102
+Epoch [28/150] | Train iter [220/391] | acc_top1 = 49.21875 | acc_top5 = 85.93750 | loss = 2.02910
+Epoch [28/150] | Train iter [270/391] | acc_top1 = 47.65625 | acc_top5 = 85.93750 | loss = 2.02722
+Epoch [28/150] | Train iter [320/391] | acc_top1 = 41.40625 | acc_top5 = 87.50000 | loss = 2.02663
+Epoch [28/150] | Train iter [370/391] | acc_top1 = 46.09375 | acc_top5 = 82.81250 | loss = 2.02648
+Epoch [28/150] | Train iter [391/391] | acc_top1 = 47.50000 | acc_top5 = 92.50000 | loss = 2.02635
+
+Epoch [28/150] | Validation | acc_top1 = 47.11234 | acc_top5 = 86.85720 | loss = 2.02580
+
+========================================
+
+Epoch [29/150] | Train iter [20/391] | acc_top1 = 46.09375 | acc_top5 = 77.34375 | loss = 2.02024
+Epoch [29/150] | Train iter [70/391] | acc_top1 = 41.40625 | acc_top5 = 82.03125 | loss = 2.01745
+Epoch [29/150] | Train iter [120/391] | acc_top1 = 46.09375 | acc_top5 = 83.59375 | loss = 2.01852
+Epoch [29/150] | Train iter [170/391] | acc_top1 = 46.87500 | acc_top5 = 84.37500 | loss = 2.01924
+Epoch [29/150] | Train iter [220/391] | acc_top1 = 51.56250 | acc_top5 = 85.93750 | loss = 2.01928
+Epoch [29/150] | Train iter [270/391] | acc_top1 = 41.40625 | acc_top5 = 83.59375 | loss = 2.01871
+Epoch [29/150] | Train iter [320/391] | acc_top1 = 50.00000 | acc_top5 = 82.81250 | loss = 2.01850
+Epoch [29/150] | Train iter [370/391] | acc_top1 = 47.65625 | acc_top5 = 83.59375 | loss = 2.01743
+Epoch [29/150] | Train iter [391/391] | acc_top1 = 48.75000 | acc_top5 = 88.75000 | loss = 2.01663
+
+Epoch [29/150] | Validation | acc_top1 = 47.42880 | acc_top5 = 86.86709 | loss = 2.01693
+
+========================================
+
+Epoch [30/150] | Train iter [20/391] | acc_top1 = 43.75000 | acc_top5 = 82.03125 | loss = 2.00599
+Epoch [30/150] | Train iter [70/391] | acc_top1 = 48.43750 | acc_top5 = 82.03125 | loss = 2.00982
+Epoch [30/150] | Train iter [120/391] | acc_top1 = 47.65625 | acc_top5 = 85.15625 | loss = 2.01220
+Epoch [30/150] | Train iter [170/391] | acc_top1 = 39.84375 | acc_top5 = 82.03125 | loss = 2.01181
+Epoch [30/150] | Train iter [220/391] | acc_top1 = 47.65625 | acc_top5 = 89.06250 | loss = 2.01165
+Epoch [30/150] | Train iter [270/391] | acc_top1 = 51.56250 | acc_top5 = 85.15625 | loss = 2.00945
+Epoch [30/150] | Train iter [320/391] | acc_top1 = 47.65625 | acc_top5 = 88.28125 | loss = 2.00847
+Epoch [30/150] | Train iter [370/391] | acc_top1 = 46.87500 | acc_top5 = 89.84375 | loss = 2.00716
+Epoch [30/150] | Train iter [391/391] | acc_top1 = 52.50000 | acc_top5 = 81.25000 | loss = 2.00712
+
+Epoch [30/150] | Validation | acc_top1 = 48.19027 | acc_top5 = 86.65942 | loss = 2.00876
+
+========================================
+
+Epoch [31/150] | Train iter [20/391] | acc_top1 = 47.65625 | acc_top5 = 85.93750 | loss = 2.00366
+Epoch [31/150] | Train iter [70/391] | acc_top1 = 40.62500 | acc_top5 = 84.37500 | loss = 2.00492
+Epoch [31/150] | Train iter [120/391] | acc_top1 = 57.81250 | acc_top5 = 92.18750 | loss = 2.00284
+Epoch [31/150] | Train iter [170/391] | acc_top1 = 46.87500 | acc_top5 = 86.71875 | loss = 2.00034
+Epoch [31/150] | Train iter [220/391] | acc_top1 = 50.00000 | acc_top5 = 85.15625 | loss = 1.99910
+Epoch [31/150] | Train iter [270/391] | acc_top1 = 57.03125 | acc_top5 = 87.50000 | loss = 1.99760
+Epoch [31/150] | Train iter [320/391] | acc_top1 = 58.59375 | acc_top5 = 89.06250 | loss = 1.99767
+Epoch [31/150] | Train iter [370/391] | acc_top1 = 42.18750 | acc_top5 = 89.06250 | loss = 1.99674
+Epoch [31/150] | Train iter [391/391] | acc_top1 = 41.25000 | acc_top5 = 82.50000 | loss = 1.99744
+
+Epoch [31/150] | Validation | acc_top1 = 48.78362 | acc_top5 = 87.01543 | loss = 2.00041
+
+========================================
+
+Epoch [32/150] | Train iter [20/391] | acc_top1 = 48.43750 | acc_top5 = 84.37500 | loss = 1.99485
+Epoch [32/150] | Train iter [70/391] | acc_top1 = 47.65625 | acc_top5 = 84.37500 | loss = 1.99343
+Epoch [32/150] | Train iter [120/391] | acc_top1 = 46.09375 | acc_top5 = 82.03125 | loss = 1.99086
+Epoch [32/150] | Train iter [170/391] | acc_top1 = 53.90625 | acc_top5 = 88.28125 | loss = 1.98995
+Epoch [32/150] | Train iter [220/391] | acc_top1 = 43.75000 | acc_top5 = 84.37500 | loss = 1.99038
+Epoch [32/150] | Train iter [270/391] | acc_top1 = 47.65625 | acc_top5 = 93.75000 | loss = 1.99017
+Epoch [32/150] | Train iter [320/391] | acc_top1 = 44.53125 | acc_top5 = 83.59375 | loss = 1.98936
+Epoch [32/150] | Train iter [370/391] | acc_top1 = 45.31250 | acc_top5 = 88.28125 | loss = 1.98791
+Epoch [32/150] | Train iter [391/391] | acc_top1 = 47.50000 | acc_top5 = 82.50000 | loss = 1.98817
+
+Epoch [32/150] | Validation | acc_top1 = 50.14834 | acc_top5 = 86.75831 | loss = 1.99120
+
+========================================
+
+Epoch [33/150] | Train iter [20/391] | acc_top1 = 46.87500 | acc_top5 = 82.81250 | loss = 1.97984
+Epoch [33/150] | Train iter [70/391] | acc_top1 = 52.34375 | acc_top5 = 82.81250 | loss = 1.97963
+Epoch [33/150] | Train iter [120/391] | acc_top1 = 44.53125 | acc_top5 = 79.68750 | loss = 1.97962
+Epoch [33/150] | Train iter [170/391] | acc_top1 = 53.12500 | acc_top5 = 91.40625 | loss = 1.97898
+Epoch [33/150] | Train iter [220/391] | acc_top1 = 50.78125 | acc_top5 = 85.93750 | loss = 1.98116
+Epoch [33/150] | Train iter [270/391] | acc_top1 = 49.21875 | acc_top5 = 82.03125 | loss = 1.97943
+Epoch [33/150] | Train iter [320/391] | acc_top1 = 60.15625 | acc_top5 = 87.50000 | loss = 1.98007
+Epoch [33/150] | Train iter [370/391] | acc_top1 = 53.90625 | acc_top5 = 85.15625 | loss = 1.97974
+Epoch [33/150] | Train iter [391/391] | acc_top1 = 46.25000 | acc_top5 = 78.75000 | loss = 1.97896
+
+Epoch [33/150] | Validation | acc_top1 = 52.01741 | acc_top5 = 87.04510 | loss = 1.97870
+
+========================================
+
+Epoch [34/150] | Train iter [20/391] | acc_top1 = 46.09375 | acc_top5 = 84.37500 | loss = 1.97036
+Epoch [34/150] | Train iter [70/391] | acc_top1 = 48.43750 | acc_top5 = 87.50000 | loss = 1.97836
+Epoch [34/150] | Train iter [120/391] | acc_top1 = 48.43750 | acc_top5 = 88.28125 | loss = 1.97851
+Epoch [34/150] | Train iter [170/391] | acc_top1 = 48.43750 | acc_top5 = 85.93750 | loss = 1.97563
+Epoch [34/150] | Train iter [220/391] | acc_top1 = 52.34375 | acc_top5 = 88.28125 | loss = 1.97253
+Epoch [34/150] | Train iter [270/391] | acc_top1 = 53.90625 | acc_top5 = 86.71875 | loss = 1.97070
+Epoch [34/150] | Train iter [320/391] | acc_top1 = 54.68750 | acc_top5 = 83.59375 | loss = 1.96931
+Epoch [34/150] | Train iter [370/391] | acc_top1 = 50.78125 | acc_top5 = 84.37500 | loss = 1.96812
+Epoch [34/150] | Train iter [391/391] | acc_top1 = 52.50000 | acc_top5 = 86.25000 | loss = 1.96725
+
+Epoch [34/150] | Validation | acc_top1 = 53.46124 | acc_top5 = 87.41100 | loss = 1.96589
+
+========================================
+
+Epoch [35/150] | Train iter [20/391] | acc_top1 = 50.78125 | acc_top5 = 87.50000 | loss = 1.95607
+Epoch [35/150] | Train iter [70/391] | acc_top1 = 59.37500 | acc_top5 = 89.84375 | loss = 1.95767
+Epoch [35/150] | Train iter [120/391] | acc_top1 = 54.68750 | acc_top5 = 85.15625 | loss = 1.96164
+Epoch [35/150] | Train iter [170/391] | acc_top1 = 53.12500 | acc_top5 = 85.93750 | loss = 1.95722
+Epoch [35/150] | Train iter [220/391] | acc_top1 = 53.90625 | acc_top5 = 89.84375 | loss = 1.95863
+Epoch [35/150] | Train iter [270/391] | acc_top1 = 52.34375 | acc_top5 = 87.50000 | loss = 1.95905
+Epoch [35/150] | Train iter [320/391] | acc_top1 = 51.56250 | acc_top5 = 78.90625 | loss = 1.95823
+Epoch [35/150] | Train iter [370/391] | acc_top1 = 63.28125 | acc_top5 = 92.96875 | loss = 1.95726
+Epoch [35/150] | Train iter [391/391] | acc_top1 = 47.50000 | acc_top5 = 85.00000 | loss = 1.95683
+
+Epoch [35/150] | Validation | acc_top1 = 54.43038 | acc_top5 = 87.26266 | loss = 1.95463
+
+========================================
+
+Epoch [36/150] | Train iter [20/391] | acc_top1 = 60.15625 | acc_top5 = 89.06250 | loss = 1.94592
+Epoch [36/150] | Train iter [70/391] | acc_top1 = 51.56250 | acc_top5 = 87.50000 | loss = 1.94588
+Epoch [36/150] | Train iter [120/391] | acc_top1 = 57.81250 | acc_top5 = 91.40625 | loss = 1.94806
+Epoch [36/150] | Train iter [170/391] | acc_top1 = 60.15625 | acc_top5 = 92.96875 | loss = 1.94769
+Epoch [36/150] | Train iter [220/391] | acc_top1 = 57.03125 | acc_top5 = 87.50000 | loss = 1.94863
+Epoch [36/150] | Train iter [270/391] | acc_top1 = 60.15625 | acc_top5 = 85.93750 | loss = 1.94872
+Epoch [36/150] | Train iter [320/391] | acc_top1 = 46.09375 | acc_top5 = 84.37500 | loss = 1.94822
+Epoch [36/150] | Train iter [370/391] | acc_top1 = 54.68750 | acc_top5 = 82.81250 | loss = 1.94691
+Epoch [36/150] | Train iter [391/391] | acc_top1 = 55.00000 | acc_top5 = 83.75000 | loss = 1.94619
+
+Epoch [36/150] | Validation | acc_top1 = 55.56764 | acc_top5 = 87.50000 | loss = 1.94416
+
+========================================
+
+Epoch [37/150] | Train iter [20/391] | acc_top1 = 54.68750 | acc_top5 = 82.81250 | loss = 1.93968
+Epoch [37/150] | Train iter [70/391] | acc_top1 = 56.25000 | acc_top5 = 82.81250 | loss = 1.94027
+Epoch [37/150] | Train iter [120/391] | acc_top1 = 52.34375 | acc_top5 = 85.15625 | loss = 1.93974
+Epoch [37/150] | Train iter [170/391] | acc_top1 = 54.68750 | acc_top5 = 84.37500 | loss = 1.94083
+Epoch [37/150] | Train iter [220/391] | acc_top1 = 59.37500 | acc_top5 = 85.93750 | loss = 1.93986
+Epoch [37/150] | Train iter [270/391] | acc_top1 = 54.68750 | acc_top5 = 89.84375 | loss = 1.93932
+Epoch [37/150] | Train iter [320/391] | acc_top1 = 56.25000 | acc_top5 = 87.50000 | loss = 1.93690
+Epoch [37/150] | Train iter [370/391] | acc_top1 = 53.90625 | acc_top5 = 82.81250 | loss = 1.93668
+Epoch [37/150] | Train iter [391/391] | acc_top1 = 46.25000 | acc_top5 = 88.75000 | loss = 1.93666
+
+Epoch [37/150] | Validation | acc_top1 = 55.98299 | acc_top5 = 87.50989 | loss = 1.93717
+
+========================================
+
+Epoch [38/150] | Train iter [20/391] | acc_top1 = 56.25000 | acc_top5 = 84.37500 | loss = 1.92803
+Epoch [38/150] | Train iter [70/391] | acc_top1 = 62.50000 | acc_top5 = 86.71875 | loss = 1.93119
+Epoch [38/150] | Train iter [120/391] | acc_top1 = 56.25000 | acc_top5 = 83.59375 | loss = 1.93160
+Epoch [38/150] | Train iter [170/391] | acc_top1 = 56.25000 | acc_top5 = 82.81250 | loss = 1.93116
+Epoch [38/150] | Train iter [220/391] | acc_top1 = 53.90625 | acc_top5 = 86.71875 | loss = 1.92936
+Epoch [38/150] | Train iter [270/391] | acc_top1 = 53.12500 | acc_top5 = 85.15625 | loss = 1.93014
+Epoch [38/150] | Train iter [320/391] | acc_top1 = 60.15625 | acc_top5 = 90.62500 | loss = 1.92905
+Epoch [38/150] | Train iter [370/391] | acc_top1 = 55.46875 | acc_top5 = 89.06250 | loss = 1.92849
+Epoch [38/150] | Train iter [391/391] | acc_top1 = 65.00000 | acc_top5 = 86.25000 | loss = 1.92808
+
+Epoch [38/150] | Validation | acc_top1 = 56.53679 | acc_top5 = 87.80657 | loss = 1.92950
+
+========================================
+
+Epoch [39/150] | Train iter [20/391] | acc_top1 = 53.90625 | acc_top5 = 86.71875 | loss = 1.92508
+Epoch [39/150] | Train iter [70/391] | acc_top1 = 55.46875 | acc_top5 = 87.50000 | loss = 1.92489
+Epoch [39/150] | Train iter [120/391] | acc_top1 = 63.28125 | acc_top5 = 93.75000 | loss = 1.92416
+Epoch [39/150] | Train iter [170/391] | acc_top1 = 57.03125 | acc_top5 = 85.15625 | loss = 1.92153
+Epoch [39/150] | Train iter [220/391] | acc_top1 = 57.81250 | acc_top5 = 84.37500 | loss = 1.92034
+Epoch [39/150] | Train iter [270/391] | acc_top1 = 55.46875 | acc_top5 = 88.28125 | loss = 1.92094
+Epoch [39/150] | Train iter [320/391] | acc_top1 = 53.90625 | acc_top5 = 85.15625 | loss = 1.92158
+Epoch [39/150] | Train iter [370/391] | acc_top1 = 58.59375 | acc_top5 = 86.71875 | loss = 1.92111
+Epoch [39/150] | Train iter [391/391] | acc_top1 = 51.25000 | acc_top5 = 86.25000 | loss = 1.92074
+
+Epoch [39/150] | Validation | acc_top1 = 57.27848 | acc_top5 = 87.87579 | loss = 1.92264
+
+========================================
+
+Epoch [40/150] | Train iter [20/391] | acc_top1 = 64.06250 | acc_top5 = 93.75000 | loss = 1.90714
+Epoch [40/150] | Train iter [70/391] | acc_top1 = 53.12500 | acc_top5 = 82.03125 | loss = 1.92063
+Epoch [40/150] | Train iter [120/391] | acc_top1 = 60.15625 | acc_top5 = 90.62500 | loss = 1.92231
+Epoch [40/150] | Train iter [170/391] | acc_top1 = 58.59375 | acc_top5 = 88.28125 | loss = 1.91825
+Epoch [40/150] | Train iter [220/391] | acc_top1 = 55.46875 | acc_top5 = 89.06250 | loss = 1.91770
+Epoch [40/150] | Train iter [270/391] | acc_top1 = 51.56250 | acc_top5 = 81.25000 | loss = 1.91370
+Epoch [40/150] | Train iter [320/391] | acc_top1 = 53.90625 | acc_top5 = 85.15625 | loss = 1.91296
+Epoch [40/150] | Train iter [370/391] | acc_top1 = 63.28125 | acc_top5 = 89.84375 | loss = 1.91283
+Epoch [40/150] | Train iter [391/391] | acc_top1 = 61.25000 | acc_top5 = 88.75000 | loss = 1.91287
+
+Epoch [40/150] | Validation | acc_top1 = 57.66416 | acc_top5 = 88.09335 | loss = 1.91695
+
+========================================
+
+Epoch [41/150] | Train iter [20/391] | acc_top1 = 48.43750 | acc_top5 = 82.03125 | loss = 1.91062
+Epoch [41/150] | Train iter [70/391] | acc_top1 = 61.71875 | acc_top5 = 88.28125 | loss = 1.90499
+Epoch [41/150] | Train iter [120/391] | acc_top1 = 55.46875 | acc_top5 = 85.93750 | loss = 1.90555
+Epoch [41/150] | Train iter [170/391] | acc_top1 = 62.50000 | acc_top5 = 86.71875 | loss = 1.90723
+Epoch [41/150] | Train iter [220/391] | acc_top1 = 60.15625 | acc_top5 = 86.71875 | loss = 1.90662
+Epoch [41/150] | Train iter [270/391] | acc_top1 = 53.12500 | acc_top5 = 84.37500 | loss = 1.90752
+Epoch [41/150] | Train iter [320/391] | acc_top1 = 57.81250 | acc_top5 = 89.84375 | loss = 1.90713
+Epoch [41/150] | Train iter [370/391] | acc_top1 = 53.12500 | acc_top5 = 85.15625 | loss = 1.90653
+Epoch [41/150] | Train iter [391/391] | acc_top1 = 62.50000 | acc_top5 = 87.50000 | loss = 1.90642
+
+Epoch [41/150] | Validation | acc_top1 = 58.05973 | acc_top5 = 88.16258 | loss = 1.91241
+
+========================================
+
+Epoch [42/150] | Train iter [20/391] | acc_top1 = 54.68750 | acc_top5 = 90.62500 | loss = 1.90250
+Epoch [42/150] | Train iter [70/391] | acc_top1 = 61.71875 | acc_top5 = 90.62500 | loss = 1.89997
+Epoch [42/150] | Train iter [120/391] | acc_top1 = 46.09375 | acc_top5 = 76.56250 | loss = 1.90393
+Epoch [42/150] | Train iter [170/391] | acc_top1 = 64.06250 | acc_top5 = 87.50000 | loss = 1.90217
+Epoch [42/150] | Train iter [220/391] | acc_top1 = 55.46875 | acc_top5 = 85.15625 | loss = 1.90203
+Epoch [42/150] | Train iter [270/391] | acc_top1 = 57.81250 | acc_top5 = 82.81250 | loss = 1.90235
+Epoch [42/150] | Train iter [320/391] | acc_top1 = 64.84375 | acc_top5 = 85.93750 | loss = 1.90063
+Epoch [42/150] | Train iter [370/391] | acc_top1 = 52.34375 | acc_top5 = 88.28125 | loss = 1.90095
+Epoch [42/150] | Train iter [391/391] | acc_top1 = 58.75000 | acc_top5 = 92.50000 | loss = 1.90127
+
+Epoch [42/150] | Validation | acc_top1 = 58.75198 | acc_top5 = 88.11314 | loss = 1.90529
+
+========================================
+
+Epoch [43/150] | Train iter [20/391] | acc_top1 = 55.46875 | acc_top5 = 85.93750 | loss = 1.90905
+Epoch [43/150] | Train iter [70/391] | acc_top1 = 53.12500 | acc_top5 = 85.93750 | loss = 1.89624
+Epoch [43/150] | Train iter [120/391] | acc_top1 = 57.03125 | acc_top5 = 83.59375 | loss = 1.89598
+Epoch [43/150] | Train iter [170/391] | acc_top1 = 64.84375 | acc_top5 = 91.40625 | loss = 1.89618
+Epoch [43/150] | Train iter [220/391] | acc_top1 = 59.37500 | acc_top5 = 88.28125 | loss = 1.89472
+Epoch [43/150] | Train iter [270/391] | acc_top1 = 61.71875 | acc_top5 = 86.71875 | loss = 1.89482
+Epoch [43/150] | Train iter [320/391] | acc_top1 = 60.15625 | acc_top5 = 88.28125 | loss = 1.89438
+Epoch [43/150] | Train iter [370/391] | acc_top1 = 50.78125 | acc_top5 = 84.37500 | loss = 1.89542
+Epoch [43/150] | Train iter [391/391] | acc_top1 = 55.00000 | acc_top5 = 87.50000 | loss = 1.89534
+
+Epoch [43/150] | Validation | acc_top1 = 58.54430 | acc_top5 = 88.31092 | loss = 1.90486
+
+========================================
+
+Epoch [44/150] | Train iter [20/391] | acc_top1 = 56.25000 | acc_top5 = 82.81250 | loss = 1.89882
+Epoch [44/150] | Train iter [70/391] | acc_top1 = 58.59375 | acc_top5 = 91.40625 | loss = 1.89069
+Epoch [44/150] | Train iter [120/391] | acc_top1 = 52.34375 | acc_top5 = 85.15625 | loss = 1.88904
+Epoch [44/150] | Train iter [170/391] | acc_top1 = 57.03125 | acc_top5 = 85.93750 | loss = 1.89107
+Epoch [44/150] | Train iter [220/391] | acc_top1 = 53.12500 | acc_top5 = 84.37500 | loss = 1.89110
+Epoch [44/150] | Train iter [270/391] | acc_top1 = 63.28125 | acc_top5 = 91.40625 | loss = 1.89003
+Epoch [44/150] | Train iter [320/391] | acc_top1 = 57.81250 | acc_top5 = 87.50000 | loss = 1.88983
+Epoch [44/150] | Train iter [370/391] | acc_top1 = 59.37500 | acc_top5 = 88.28125 | loss = 1.88938
+Epoch [44/150] | Train iter [391/391] | acc_top1 = 67.50000 | acc_top5 = 87.50000 | loss = 1.88939
+
+Epoch [44/150] | Validation | acc_top1 = 59.20689 | acc_top5 = 88.34059 | loss = 1.89639
+
+========================================
+
+Epoch [45/150] | Train iter [20/391] | acc_top1 = 56.25000 | acc_top5 = 85.93750 | loss = 1.88518
+Epoch [45/150] | Train iter [70/391] | acc_top1 = 56.25000 | acc_top5 = 86.71875 | loss = 1.87788
+Epoch [45/150] | Train iter [120/391] | acc_top1 = 60.15625 | acc_top5 = 87.50000 | loss = 1.88350
+Epoch [45/150] | Train iter [170/391] | acc_top1 = 57.03125 | acc_top5 = 84.37500 | loss = 1.88742
+Epoch [45/150] | Train iter [220/391] | acc_top1 = 63.28125 | acc_top5 = 91.40625 | loss = 1.88781
+Epoch [45/150] | Train iter [270/391] | acc_top1 = 60.93750 | acc_top5 = 89.06250 | loss = 1.88528
+Epoch [45/150] | Train iter [320/391] | acc_top1 = 60.93750 | acc_top5 = 89.84375 | loss = 1.88431
+Epoch [45/150] | Train iter [370/391] | acc_top1 = 65.62500 | acc_top5 = 94.53125 | loss = 1.88408
+Epoch [45/150] | Train iter [391/391] | acc_top1 = 51.25000 | acc_top5 = 88.75000 | loss = 1.88448
+
+Epoch [45/150] | Validation | acc_top1 = 60.05736 | acc_top5 = 88.40981 | loss = 1.89135
+
+========================================
+
+Epoch [46/150] | Train iter [20/391] | acc_top1 = 60.15625 | acc_top5 = 89.06250 | loss = 1.88499
+Epoch [46/150] | Train iter [70/391] | acc_top1 = 61.71875 | acc_top5 = 86.71875 | loss = 1.88241
+Epoch [46/150] | Train iter [120/391] | acc_top1 = 58.59375 | acc_top5 = 85.93750 | loss = 1.88214
+Epoch [46/150] | Train iter [170/391] | acc_top1 = 57.81250 | acc_top5 = 87.50000 | loss = 1.88298
+Epoch [46/150] | Train iter [220/391] | acc_top1 = 59.37500 | acc_top5 = 84.37500 | loss = 1.88288
+Epoch [46/150] | Train iter [270/391] | acc_top1 = 60.93750 | acc_top5 = 82.81250 | loss = 1.88196
+Epoch [46/150] | Train iter [320/391] | acc_top1 = 65.62500 | acc_top5 = 92.96875 | loss = 1.88202
+Epoch [46/150] | Train iter [370/391] | acc_top1 = 67.18750 | acc_top5 = 87.50000 | loss = 1.88085
+Epoch [46/150] | Train iter [391/391] | acc_top1 = 53.75000 | acc_top5 = 86.25000 | loss = 1.88030
+
+Epoch [46/150] | Validation | acc_top1 = 60.27492 | acc_top5 = 88.57793 | loss = 1.88780
+
+========================================
+
+Epoch [47/150] | Train iter [20/391] | acc_top1 = 60.93750 | acc_top5 = 90.62500 | loss = 1.87904
+Epoch [47/150] | Train iter [70/391] | acc_top1 = 53.90625 | acc_top5 = 84.37500 | loss = 1.87665
+Epoch [47/150] | Train iter [120/391] | acc_top1 = 53.12500 | acc_top5 = 83.59375 | loss = 1.87582
+Epoch [47/150] | Train iter [170/391] | acc_top1 = 54.68750 | acc_top5 = 82.81250 | loss = 1.87395
+Epoch [47/150] | Train iter [220/391] | acc_top1 = 58.59375 | acc_top5 = 90.62500 | loss = 1.87515
+Epoch [47/150] | Train iter [270/391] | acc_top1 = 64.06250 | acc_top5 = 89.84375 | loss = 1.87540
+Epoch [47/150] | Train iter [320/391] | acc_top1 = 53.12500 | acc_top5 = 90.62500 | loss = 1.87456
+Epoch [47/150] | Train iter [370/391] | acc_top1 = 54.68750 | acc_top5 = 91.40625 | loss = 1.87428
+Epoch [47/150] | Train iter [391/391] | acc_top1 = 57.50000 | acc_top5 = 86.25000 | loss = 1.87443
+
+Epoch [47/150] | Validation | acc_top1 = 60.68038 | acc_top5 = 88.55815 | loss = 1.88400
+
+========================================
+
+Epoch [48/150] | Train iter [20/391] | acc_top1 = 62.50000 | acc_top5 = 89.06250 | loss = 1.86578
+Epoch [48/150] | Train iter [70/391] | acc_top1 = 61.71875 | acc_top5 = 88.28125 | loss = 1.86593
+Epoch [48/150] | Train iter [120/391] | acc_top1 = 56.25000 | acc_top5 = 84.37500 | loss = 1.86917
+Epoch [48/150] | Train iter [170/391] | acc_top1 = 64.84375 | acc_top5 = 89.06250 | loss = 1.86891
+Epoch [48/150] | Train iter [220/391] | acc_top1 = 67.96875 | acc_top5 = 89.06250 | loss = 1.86894
+Epoch [48/150] | Train iter [270/391] | acc_top1 = 61.71875 | acc_top5 = 93.75000 | loss = 1.87113
+Epoch [48/150] | Train iter [320/391] | acc_top1 = 57.81250 | acc_top5 = 86.71875 | loss = 1.86978
+Epoch [48/150] | Train iter [370/391] | acc_top1 = 56.25000 | acc_top5 = 85.93750 | loss = 1.87085
+Epoch [48/150] | Train iter [391/391] | acc_top1 = 58.75000 | acc_top5 = 88.75000 | loss = 1.87141
+
+Epoch [48/150] | Validation | acc_top1 = 61.10562 | acc_top5 = 88.82516 | loss = 1.87942
+
+========================================
+
+Epoch [49/150] | Train iter [20/391] | acc_top1 = 53.12500 | acc_top5 = 86.71875 | loss = 1.88446
+Epoch [49/150] | Train iter [70/391] | acc_top1 = 54.68750 | acc_top5 = 82.03125 | loss = 1.87332
+Epoch [49/150] | Train iter [120/391] | acc_top1 = 57.03125 | acc_top5 = 86.71875 | loss = 1.86777
+Epoch [49/150] | Train iter [170/391] | acc_top1 = 60.15625 | acc_top5 = 89.84375 | loss = 1.86849
+Epoch [49/150] | Train iter [220/391] | acc_top1 = 58.59375 | acc_top5 = 85.93750 | loss = 1.86689
+Epoch [49/150] | Train iter [270/391] | acc_top1 = 62.50000 | acc_top5 = 91.40625 | loss = 1.86725
+Epoch [49/150] | Train iter [320/391] | acc_top1 = 58.59375 | acc_top5 = 84.37500 | loss = 1.86690
+Epoch [49/150] | Train iter [370/391] | acc_top1 = 61.71875 | acc_top5 = 84.37500 | loss = 1.86616
+Epoch [49/150] | Train iter [391/391] | acc_top1 = 55.00000 | acc_top5 = 92.50000 | loss = 1.86682
+
+Epoch [49/150] | Validation | acc_top1 = 61.36274 | acc_top5 = 89.24051 | loss = 1.87701
+
+========================================
+
+Epoch [50/150] | Train iter [20/391] | acc_top1 = 62.50000 | acc_top5 = 87.50000 | loss = 1.87222
+Epoch [50/150] | Train iter [70/391] | acc_top1 = 57.81250 | acc_top5 = 89.84375 | loss = 1.86512
+Epoch [50/150] | Train iter [120/391] | acc_top1 = 63.28125 | acc_top5 = 92.18750 | loss = 1.86501
+Epoch [50/150] | Train iter [170/391] | acc_top1 = 64.06250 | acc_top5 = 88.28125 | loss = 1.86427
+Epoch [50/150] | Train iter [220/391] | acc_top1 = 57.03125 | acc_top5 = 85.93750 | loss = 1.86413
+Epoch [50/150] | Train iter [270/391] | acc_top1 = 63.28125 | acc_top5 = 89.84375 | loss = 1.86412
+Epoch [50/150] | Train iter [320/391] | acc_top1 = 62.50000 | acc_top5 = 91.40625 | loss = 1.86422
+Epoch [50/150] | Train iter [370/391] | acc_top1 = 56.25000 | acc_top5 = 81.25000 | loss = 1.86420
+Epoch [50/150] | Train iter [391/391] | acc_top1 = 65.00000 | acc_top5 = 93.75000 | loss = 1.86411
+
+Epoch [50/150] | Validation | acc_top1 = 61.90665 | acc_top5 = 89.11195 | loss = 1.87292
+
+========================================
+
+Epoch [51/150] | Train iter [20/391] | acc_top1 = 61.71875 | acc_top5 = 89.06250 | loss = 1.85752
+Epoch [51/150] | Train iter [70/391] | acc_top1 = 64.06250 | acc_top5 = 89.06250 | loss = 1.86152
+Epoch [51/150] | Train iter [120/391] | acc_top1 = 53.12500 | acc_top5 = 79.68750 | loss = 1.86210
+Epoch [51/150] | Train iter [170/391] | acc_top1 = 56.25000 | acc_top5 = 86.71875 | loss = 1.86188
+Epoch [51/150] | Train iter [220/391] | acc_top1 = 65.62500 | acc_top5 = 88.28125 | loss = 1.85884
+Epoch [51/150] | Train iter [270/391] | acc_top1 = 58.59375 | acc_top5 = 89.06250 | loss = 1.85951
+Epoch [51/150] | Train iter [320/391] | acc_top1 = 60.93750 | acc_top5 = 89.84375 | loss = 1.85991
+Epoch [51/150] | Train iter [370/391] | acc_top1 = 64.06250 | acc_top5 = 88.28125 | loss = 1.86017
+Epoch [51/150] | Train iter [391/391] | acc_top1 = 55.00000 | acc_top5 = 91.25000 | loss = 1.86011
+
+Epoch [51/150] | Validation | acc_top1 = 61.62975 | acc_top5 = 89.72508 | loss = 1.87182
+
+========================================
+
+Epoch [52/150] | Train iter [20/391] | acc_top1 = 54.68750 | acc_top5 = 92.18750 | loss = 1.86718
+Epoch [52/150] | Train iter [70/391] | acc_top1 = 58.59375 | acc_top5 = 88.28125 | loss = 1.86344
+Epoch [52/150] | Train iter [120/391] | acc_top1 = 64.84375 | acc_top5 = 87.50000 | loss = 1.86376
+Epoch [52/150] | Train iter [170/391] | acc_top1 = 50.00000 | acc_top5 = 85.15625 | loss = 1.86227
+Epoch [52/150] | Train iter [220/391] | acc_top1 = 60.93750 | acc_top5 = 87.50000 | loss = 1.86129
+Epoch [52/150] | Train iter [270/391] | acc_top1 = 59.37500 | acc_top5 = 87.50000 | loss = 1.86009
+Epoch [52/150] | Train iter [320/391] | acc_top1 = 60.93750 | acc_top5 = 85.93750 | loss = 1.85783
+Epoch [52/150] | Train iter [370/391] | acc_top1 = 52.34375 | acc_top5 = 82.81250 | loss = 1.85779
+Epoch [52/150] | Train iter [391/391] | acc_top1 = 68.75000 | acc_top5 = 96.25000 | loss = 1.85740
+
+Epoch [52/150] | Validation | acc_top1 = 62.22310 | acc_top5 = 89.61630 | loss = 1.86810
+
+========================================
+
+Epoch [53/150] | Train iter [20/391] | acc_top1 = 60.15625 | acc_top5 = 86.71875 | loss = 1.84438
+Epoch [53/150] | Train iter [70/391] | acc_top1 = 55.46875 | acc_top5 = 87.50000 | loss = 1.84700
+Epoch [53/150] | Train iter [120/391] | acc_top1 = 67.18750 | acc_top5 = 88.28125 | loss = 1.85165
+Epoch [53/150] | Train iter [170/391] | acc_top1 = 53.90625 | acc_top5 = 82.81250 | loss = 1.85089
+Epoch [53/150] | Train iter [220/391] | acc_top1 = 58.59375 | acc_top5 = 88.28125 | loss = 1.85247
+Epoch [53/150] | Train iter [270/391] | acc_top1 = 53.12500 | acc_top5 = 82.03125 | loss = 1.85222
+Epoch [53/150] | Train iter [320/391] | acc_top1 = 57.81250 | acc_top5 = 87.50000 | loss = 1.85275
+Epoch [53/150] | Train iter [370/391] | acc_top1 = 69.53125 | acc_top5 = 93.75000 | loss = 1.85241
+Epoch [53/150] | Train iter [391/391] | acc_top1 = 52.50000 | acc_top5 = 86.25000 | loss = 1.85217
+
+Epoch [53/150] | Validation | acc_top1 = 62.17366 | acc_top5 = 89.83386 | loss = 1.86678
+
+========================================
+
+Epoch [54/150] | Train iter [20/391] | acc_top1 = 62.50000 | acc_top5 = 88.28125 | loss = 1.84788
+Epoch [54/150] | Train iter [70/391] | acc_top1 = 59.37500 | acc_top5 = 87.50000 | loss = 1.85097
+Epoch [54/150] | Train iter [120/391] | acc_top1 = 68.75000 | acc_top5 = 93.75000 | loss = 1.85088
+Epoch [54/150] | Train iter [170/391] | acc_top1 = 62.50000 | acc_top5 = 92.96875 | loss = 1.85215
+Epoch [54/150] | Train iter [220/391] | acc_top1 = 66.40625 | acc_top5 = 88.28125 | loss = 1.85077
+Epoch [54/150] | Train iter [270/391] | acc_top1 = 54.68750 | acc_top5 = 83.59375 | loss = 1.84909
+Epoch [54/150] | Train iter [320/391] | acc_top1 = 63.28125 | acc_top5 = 88.28125 | loss = 1.84951
+Epoch [54/150] | Train iter [370/391] | acc_top1 = 57.81250 | acc_top5 = 87.50000 | loss = 1.85042
+Epoch [54/150] | Train iter [391/391] | acc_top1 = 61.25000 | acc_top5 = 86.25000 | loss = 1.85038
+
+Epoch [54/150] | Validation | acc_top1 = 62.87579 | acc_top5 = 90.10088 | loss = 1.86212
+
+========================================
+
+Epoch [55/150] | Train iter [20/391] | acc_top1 = 61.71875 | acc_top5 = 88.28125 | loss = 1.84180
+Epoch [55/150] | Train iter [70/391] | acc_top1 = 57.03125 | acc_top5 = 88.28125 | loss = 1.84862
+Epoch [55/150] | Train iter [120/391] | acc_top1 = 57.81250 | acc_top5 = 87.50000 | loss = 1.84790
+Epoch [55/150] | Train iter [170/391] | acc_top1 = 60.93750 | acc_top5 = 86.71875 | loss = 1.84746
+Epoch [55/150] | Train iter [220/391] | acc_top1 = 60.93750 | acc_top5 = 91.40625 | loss = 1.85047
+Epoch [55/150] | Train iter [270/391] | acc_top1 = 71.09375 | acc_top5 = 92.96875 | loss = 1.84885
+Epoch [55/150] | Train iter [320/391] | acc_top1 = 57.03125 | acc_top5 = 86.71875 | loss = 1.84917
+Epoch [55/150] | Train iter [370/391] | acc_top1 = 58.59375 | acc_top5 = 86.71875 | loss = 1.84924
+Epoch [55/150] | Train iter [391/391] | acc_top1 = 61.25000 | acc_top5 = 91.25000 | loss = 1.84879
+
+Epoch [55/150] | Validation | acc_top1 = 62.73734 | acc_top5 = 90.17999 | loss = 1.86157
+
+========================================
+
+Epoch [56/150] | Train iter [20/391] | acc_top1 = 64.06250 | acc_top5 = 92.18750 | loss = 1.83771
+Epoch [56/150] | Train iter [70/391] | acc_top1 = 62.50000 | acc_top5 = 86.71875 | loss = 1.84888
+Epoch [56/150] | Train iter [120/391] | acc_top1 = 62.50000 | acc_top5 = 91.40625 | loss = 1.84715
+Epoch [56/150] | Train iter [170/391] | acc_top1 = 65.62500 | acc_top5 = 93.75000 | loss = 1.84589
+Epoch [56/150] | Train iter [220/391] | acc_top1 = 63.28125 | acc_top5 = 91.40625 | loss = 1.84560
+Epoch [56/150] | Train iter [270/391] | acc_top1 = 66.40625 | acc_top5 = 91.40625 | loss = 1.84542
+Epoch [56/150] | Train iter [320/391] | acc_top1 = 57.81250 | acc_top5 = 89.84375 | loss = 1.84591
+Epoch [56/150] | Train iter [370/391] | acc_top1 = 59.37500 | acc_top5 = 82.81250 | loss = 1.84503
+Epoch [56/150] | Train iter [391/391] | acc_top1 = 56.25000 | acc_top5 = 90.00000 | loss = 1.84509
+
+Epoch [56/150] | Validation | acc_top1 = 63.02413 | acc_top5 = 90.32832 | loss = 1.85796
+
+========================================
+
+Epoch [57/150] | Train iter [20/391] | acc_top1 = 61.71875 | acc_top5 = 89.06250 | loss = 1.82043
+Epoch [57/150] | Train iter [70/391] | acc_top1 = 64.84375 | acc_top5 = 85.93750 | loss = 1.83539
+Epoch [57/150] | Train iter [120/391] | acc_top1 = 67.18750 | acc_top5 = 89.06250 | loss = 1.83845
+Epoch [57/150] | Train iter [170/391] | acc_top1 = 57.81250 | acc_top5 = 88.28125 | loss = 1.84036
+Epoch [57/150] | Train iter [220/391] | acc_top1 = 67.96875 | acc_top5 = 92.18750 | loss = 1.83915
+Epoch [57/150] | Train iter [270/391] | acc_top1 = 60.93750 | acc_top5 = 89.06250 | loss = 1.83976
+Epoch [57/150] | Train iter [320/391] | acc_top1 = 63.28125 | acc_top5 = 89.84375 | loss = 1.83877
+Epoch [57/150] | Train iter [370/391] | acc_top1 = 63.28125 | acc_top5 = 89.06250 | loss = 1.83929
+Epoch [57/150] | Train iter [391/391] | acc_top1 = 63.75000 | acc_top5 = 95.00000 | loss = 1.84030
+
+Epoch [57/150] | Validation | acc_top1 = 63.36037 | acc_top5 = 90.42722 | loss = 1.85495
+
+========================================
+
+Epoch [58/150] | Train iter [20/391] | acc_top1 = 55.46875 | acc_top5 = 89.84375 | loss = 1.84675
+Epoch [58/150] | Train iter [70/391] | acc_top1 = 53.90625 | acc_top5 = 88.28125 | loss = 1.83679
+Epoch [58/150] | Train iter [120/391] | acc_top1 = 67.18750 | acc_top5 = 92.18750 | loss = 1.83824
+Epoch [58/150] | Train iter [170/391] | acc_top1 = 59.37500 | acc_top5 = 89.06250 | loss = 1.83808
+Epoch [58/150] | Train iter [220/391] | acc_top1 = 63.28125 | acc_top5 = 85.93750 | loss = 1.84049
+Epoch [58/150] | Train iter [270/391] | acc_top1 = 62.50000 | acc_top5 = 89.84375 | loss = 1.83992
+Epoch [58/150] | Train iter [320/391] | acc_top1 = 60.15625 | acc_top5 = 92.18750 | loss = 1.83909
+Epoch [58/150] | Train iter [370/391] | acc_top1 = 61.71875 | acc_top5 = 88.28125 | loss = 1.83935
+Epoch [58/150] | Train iter [391/391] | acc_top1 = 61.25000 | acc_top5 = 91.25000 | loss = 1.83926
+
+Epoch [58/150] | Validation | acc_top1 = 63.28125 | acc_top5 = 90.56567 | loss = 1.85561
+
+========================================
+
+Epoch [59/150] | Train iter [20/391] | acc_top1 = 66.40625 | acc_top5 = 85.93750 | loss = 1.83667
+Epoch [59/150] | Train iter [70/391] | acc_top1 = 61.71875 | acc_top5 = 88.28125 | loss = 1.83927
+Epoch [59/150] | Train iter [120/391] | acc_top1 = 68.75000 | acc_top5 = 89.84375 | loss = 1.83754
+Epoch [59/150] | Train iter [170/391] | acc_top1 = 59.37500 | acc_top5 = 87.50000 | loss = 1.83745
+Epoch [59/150] | Train iter [220/391] | acc_top1 = 72.65625 | acc_top5 = 89.84375 | loss = 1.83632
+Epoch [59/150] | Train iter [270/391] | acc_top1 = 57.81250 | acc_top5 = 89.84375 | loss = 1.83527
+Epoch [59/150] | Train iter [320/391] | acc_top1 = 65.62500 | acc_top5 = 92.18750 | loss = 1.83672
+Epoch [59/150] | Train iter [370/391] | acc_top1 = 63.28125 | acc_top5 = 89.06250 | loss = 1.83617
+Epoch [59/150] | Train iter [391/391] | acc_top1 = 63.75000 | acc_top5 = 91.25000 | loss = 1.83603
+
+Epoch [59/150] | Validation | acc_top1 = 63.43948 | acc_top5 = 91.16891 | loss = 1.85242
+
+========================================
+
+Epoch [60/150] | Train iter [20/391] | acc_top1 = 60.93750 | acc_top5 = 88.28125 | loss = 1.83065
+Epoch [60/150] | Train iter [70/391] | acc_top1 = 60.93750 | acc_top5 = 92.96875 | loss = 1.83305
+Epoch [60/150] | Train iter [120/391] | acc_top1 = 67.18750 | acc_top5 = 94.53125 | loss = 1.83671
+Epoch [60/150] | Train iter [170/391] | acc_top1 = 61.71875 | acc_top5 = 89.84375 | loss = 1.83742
+Epoch [60/150] | Train iter [220/391] | acc_top1 = 67.18750 | acc_top5 = 89.06250 | loss = 1.83466
+Epoch [60/150] | Train iter [270/391] | acc_top1 = 53.12500 | acc_top5 = 82.81250 | loss = 1.83614
+Epoch [60/150] | Train iter [320/391] | acc_top1 = 64.06250 | acc_top5 = 90.62500 | loss = 1.83524
+Epoch [60/150] | Train iter [370/391] | acc_top1 = 67.96875 | acc_top5 = 92.18750 | loss = 1.83422
+Epoch [60/150] | Train iter [391/391] | acc_top1 = 66.25000 | acc_top5 = 90.00000 | loss = 1.83427
+
+Epoch [60/150] | Validation | acc_top1 = 63.18236 | acc_top5 = 91.19858 | loss = 1.85265
+
+========================================
+
+Epoch [61/150] | Train iter [20/391] | acc_top1 = 67.18750 | acc_top5 = 91.40625 | loss = 1.82935
+Epoch [61/150] | Train iter [70/391] | acc_top1 = 55.46875 | acc_top5 = 83.59375 | loss = 1.83220
+Epoch [61/150] | Train iter [120/391] | acc_top1 = 67.18750 | acc_top5 = 92.18750 | loss = 1.82965
+Epoch [61/150] | Train iter [170/391] | acc_top1 = 74.21875 | acc_top5 = 93.75000 | loss = 1.83148
+Epoch [61/150] | Train iter [220/391] | acc_top1 = 65.62500 | acc_top5 = 92.18750 | loss = 1.83063
+Epoch [61/150] | Train iter [270/391] | acc_top1 = 64.84375 | acc_top5 = 92.18750 | loss = 1.83062
+Epoch [61/150] | Train iter [320/391] | acc_top1 = 64.06250 | acc_top5 = 90.62500 | loss = 1.83051
+Epoch [61/150] | Train iter [370/391] | acc_top1 = 61.71875 | acc_top5 = 89.84375 | loss = 1.83050
+Epoch [61/150] | Train iter [391/391] | acc_top1 = 63.75000 | acc_top5 = 92.50000 | loss = 1.83056
+
+Epoch [61/150] | Validation | acc_top1 = 63.90427 | acc_top5 = 91.21835 | loss = 1.84704
+
+========================================
+
+Epoch [62/150] | Train iter [20/391] | acc_top1 = 62.50000 | acc_top5 = 90.62500 | loss = 1.82288
+Epoch [62/150] | Train iter [70/391] | acc_top1 = 63.28125 | acc_top5 = 89.84375 | loss = 1.82298
+Epoch [62/150] | Train iter [120/391] | acc_top1 = 71.87500 | acc_top5 = 92.96875 | loss = 1.82369
+Epoch [62/150] | Train iter [170/391] | acc_top1 = 64.06250 | acc_top5 = 91.40625 | loss = 1.82675
+Epoch [62/150] | Train iter [220/391] | acc_top1 = 65.62500 | acc_top5 = 94.53125 | loss = 1.82726
+Epoch [62/150] | Train iter [270/391] | acc_top1 = 65.62500 | acc_top5 = 91.40625 | loss = 1.82868
+Epoch [62/150] | Train iter [320/391] | acc_top1 = 64.84375 | acc_top5 = 92.18750 | loss = 1.82877
+Epoch [62/150] | Train iter [370/391] | acc_top1 = 66.40625 | acc_top5 = 92.18750 | loss = 1.82909
+Epoch [62/150] | Train iter [391/391] | acc_top1 = 61.25000 | acc_top5 = 87.50000 | loss = 1.82830
+
+Epoch [62/150] | Validation | acc_top1 = 64.04272 | acc_top5 = 91.54470 | loss = 1.84453
+
+========================================
+
+Epoch [63/150] | Train iter [20/391] | acc_top1 = 60.93750 | acc_top5 = 87.50000 | loss = 1.82514
+Epoch [63/150] | Train iter [70/391] | acc_top1 = 66.40625 | acc_top5 = 86.71875 | loss = 1.82553
+Epoch [63/150] | Train iter [120/391] | acc_top1 = 62.50000 | acc_top5 = 90.62500 | loss = 1.82775
+Epoch [63/150] | Train iter [170/391] | acc_top1 = 58.59375 | acc_top5 = 89.06250 | loss = 1.82807
+Epoch [63/150] | Train iter [220/391] | acc_top1 = 60.15625 | acc_top5 = 91.40625 | loss = 1.82667
+Epoch [63/150] | Train iter [270/391] | acc_top1 = 63.28125 | acc_top5 = 88.28125 | loss = 1.82590
+Epoch [63/150] | Train iter [320/391] | acc_top1 = 66.40625 | acc_top5 = 90.62500 | loss = 1.82562
+Epoch [63/150] | Train iter [370/391] | acc_top1 = 62.50000 | acc_top5 = 88.28125 | loss = 1.82601
+Epoch [63/150] | Train iter [391/391] | acc_top1 = 72.50000 | acc_top5 = 91.25000 | loss = 1.82517
+
+Epoch [63/150] | Validation | acc_top1 = 64.13173 | acc_top5 = 91.77216 | loss = 1.84215
+
+========================================
+
+Epoch [64/150] | Train iter [20/391] | acc_top1 = 67.96875 | acc_top5 = 90.62500 | loss = 1.82524
+Epoch [64/150] | Train iter [70/391] | acc_top1 = 65.62500 | acc_top5 = 90.62500 | loss = 1.82457
+Epoch [64/150] | Train iter [120/391] | acc_top1 = 69.53125 | acc_top5 = 93.75000 | loss = 1.82328
+Epoch [64/150] | Train iter [170/391] | acc_top1 = 71.87500 | acc_top5 = 89.84375 | loss = 1.82183
+Epoch [64/150] | Train iter [220/391] | acc_top1 = 67.96875 | acc_top5 = 94.53125 | loss = 1.82237
+Epoch [64/150] | Train iter [270/391] | acc_top1 = 70.31250 | acc_top5 = 92.18750 | loss = 1.82134
+Epoch [64/150] | Train iter [320/391] | acc_top1 = 62.50000 | acc_top5 = 94.53125 | loss = 1.82305
+Epoch [64/150] | Train iter [370/391] | acc_top1 = 67.96875 | acc_top5 = 93.75000 | loss = 1.82261
+Epoch [64/150] | Train iter [391/391] | acc_top1 = 66.25000 | acc_top5 = 92.50000 | loss = 1.82266
+
+Epoch [64/150] | Validation | acc_top1 = 64.75475 | acc_top5 = 91.85126 | loss = 1.83880
+
+========================================
+
+Epoch [65/150] | Train iter [20/391] | acc_top1 = 62.50000 | acc_top5 = 89.84375 | loss = 1.81461
+Epoch [65/150] | Train iter [70/391] | acc_top1 = 62.50000 | acc_top5 = 90.62500 | loss = 1.82087
+Epoch [65/150] | Train iter [120/391] | acc_top1 = 71.09375 | acc_top5 = 86.71875 | loss = 1.82043
+Epoch [65/150] | Train iter [170/391] | acc_top1 = 74.21875 | acc_top5 = 95.31250 | loss = 1.81940
+Epoch [65/150] | Train iter [220/391] | acc_top1 = 58.59375 | acc_top5 = 91.40625 | loss = 1.81895
+Epoch [65/150] | Train iter [270/391] | acc_top1 = 64.84375 | acc_top5 = 89.06250 | loss = 1.82027
+Epoch [65/150] | Train iter [320/391] | acc_top1 = 63.28125 | acc_top5 = 89.06250 | loss = 1.81956
+Epoch [65/150] | Train iter [370/391] | acc_top1 = 67.18750 | acc_top5 = 87.50000 | loss = 1.81885
+Epoch [65/150] | Train iter [391/391] | acc_top1 = 62.50000 | acc_top5 = 93.75000 | loss = 1.81923
+
+Epoch [65/150] | Validation | acc_top1 = 64.72508 | acc_top5 = 91.97983 | loss = 1.83702
+
+========================================
+
+Epoch [66/150] | Train iter [20/391] | acc_top1 = 66.40625 | acc_top5 = 89.84375 | loss = 1.82495
+Epoch [66/150] | Train iter [70/391] | acc_top1 = 69.53125 | acc_top5 = 89.84375 | loss = 1.81853
+Epoch [66/150] | Train iter [120/391] | acc_top1 = 61.71875 | acc_top5 = 92.18750 | loss = 1.81756
+Epoch [66/150] | Train iter [170/391] | acc_top1 = 68.75000 | acc_top5 = 97.65625 | loss = 1.81647
+Epoch [66/150] | Train iter [220/391] | acc_top1 = 70.31250 | acc_top5 = 92.18750 | loss = 1.81755
+Epoch [66/150] | Train iter [270/391] | acc_top1 = 70.31250 | acc_top5 = 92.18750 | loss = 1.81795
+Epoch [66/150] | Train iter [320/391] | acc_top1 = 67.96875 | acc_top5 = 90.62500 | loss = 1.81749
+Epoch [66/150] | Train iter [370/391] | acc_top1 = 69.53125 | acc_top5 = 91.40625 | loss = 1.81791
+Epoch [66/150] | Train iter [391/391] | acc_top1 = 57.50000 | acc_top5 = 92.50000 | loss = 1.81756
+
+Epoch [66/150] | Validation | acc_top1 = 64.74486 | acc_top5 = 92.06883 | loss = 1.83541
+
+========================================
+
+Epoch [67/150] | Train iter [20/391] | acc_top1 = 64.06250 | acc_top5 = 88.28125 | loss = 1.80927
+Epoch [67/150] | Train iter [70/391] | acc_top1 = 59.37500 | acc_top5 = 90.62500 | loss = 1.81286
+Epoch [67/150] | Train iter [120/391] | acc_top1 = 70.31250 | acc_top5 = 90.62500 | loss = 1.81371
+Epoch [67/150] | Train iter [170/391] | acc_top1 = 60.15625 | acc_top5 = 85.93750 | loss = 1.81315
+Epoch [67/150] | Train iter [220/391] | acc_top1 = 60.93750 | acc_top5 = 91.40625 | loss = 1.81337
+Epoch [67/150] | Train iter [270/391] | acc_top1 = 57.81250 | acc_top5 = 89.06250 | loss = 1.81654
+Epoch [67/150] | Train iter [320/391] | acc_top1 = 62.50000 | acc_top5 = 94.53125 | loss = 1.81455
+Epoch [67/150] | Train iter [370/391] | acc_top1 = 71.09375 | acc_top5 = 92.96875 | loss = 1.81403
+Epoch [67/150] | Train iter [391/391] | acc_top1 = 65.00000 | acc_top5 = 93.75000 | loss = 1.81422
+
+Epoch [67/150] | Validation | acc_top1 = 65.19977 | acc_top5 = 92.04905 | loss = 1.83282
+
+========================================
+
+Epoch [68/150] | Train iter [20/391] | acc_top1 = 62.50000 | acc_top5 = 91.40625 | loss = 1.81344
+Epoch [68/150] | Train iter [70/391] | acc_top1 = 67.18750 | acc_top5 = 89.06250 | loss = 1.81484
+Epoch [68/150] | Train iter [120/391] | acc_top1 = 62.50000 | acc_top5 = 92.18750 | loss = 1.81523
+Epoch [68/150] | Train iter [170/391] | acc_top1 = 66.40625 | acc_top5 = 88.28125 | loss = 1.81438
+Epoch [68/150] | Train iter [220/391] | acc_top1 = 64.84375 | acc_top5 = 90.62500 | loss = 1.81435
+Epoch [68/150] | Train iter [270/391] | acc_top1 = 63.28125 | acc_top5 = 93.75000 | loss = 1.81181
+Epoch [68/150] | Train iter [320/391] | acc_top1 = 69.53125 | acc_top5 = 92.18750 | loss = 1.81121
+Epoch [68/150] | Train iter [370/391] | acc_top1 = 65.62500 | acc_top5 = 88.28125 | loss = 1.81215
+Epoch [68/150] | Train iter [391/391] | acc_top1 = 70.00000 | acc_top5 = 90.00000 | loss = 1.81206
+
+Epoch [68/150] | Validation | acc_top1 = 65.90190 | acc_top5 = 92.06883 | loss = 1.82990
+
+========================================
+
+Epoch [69/150] | Train iter [20/391] | acc_top1 = 66.40625 | acc_top5 = 89.06250 | loss = 1.80343
+Epoch [69/150] | Train iter [70/391] | acc_top1 = 67.18750 | acc_top5 = 92.18750 | loss = 1.80144
+Epoch [69/150] | Train iter [120/391] | acc_top1 = 71.09375 | acc_top5 = 89.84375 | loss = 1.80732
+Epoch [69/150] | Train iter [170/391] | acc_top1 = 64.06250 | acc_top5 = 91.40625 | loss = 1.80743
+Epoch [69/150] | Train iter [220/391] | acc_top1 = 70.31250 | acc_top5 = 92.96875 | loss = 1.81069
+Epoch [69/150] | Train iter [270/391] | acc_top1 = 68.75000 | acc_top5 = 88.28125 | loss = 1.81075
+Epoch [69/150] | Train iter [320/391] | acc_top1 = 71.87500 | acc_top5 = 94.53125 | loss = 1.81039
+Epoch [69/150] | Train iter [370/391] | acc_top1 = 69.53125 | acc_top5 = 92.18750 | loss = 1.81103
+Epoch [69/150] | Train iter [391/391] | acc_top1 = 71.25000 | acc_top5 = 95.00000 | loss = 1.80995
+
+Epoch [69/150] | Validation | acc_top1 = 65.51622 | acc_top5 = 92.09850 | loss = 1.83070
+
+========================================
+
+Epoch [70/150] | Train iter [20/391] | acc_top1 = 69.53125 | acc_top5 = 92.18750 | loss = 1.79978
+Epoch [70/150] | Train iter [70/391] | acc_top1 = 70.31250 | acc_top5 = 92.18750 | loss = 1.80120
+Epoch [70/150] | Train iter [120/391] | acc_top1 = 69.53125 | acc_top5 = 91.40625 | loss = 1.80491
+Epoch [70/150] | Train iter [170/391] | acc_top1 = 57.81250 | acc_top5 = 91.40625 | loss = 1.80614
+Epoch [70/150] | Train iter [220/391] | acc_top1 = 65.62500 | acc_top5 = 95.31250 | loss = 1.80526
+Epoch [70/150] | Train iter [270/391] | acc_top1 = 59.37500 | acc_top5 = 86.71875 | loss = 1.80416
+Epoch [70/150] | Train iter [320/391] | acc_top1 = 66.40625 | acc_top5 = 91.40625 | loss = 1.80526
+Epoch [70/150] | Train iter [370/391] | acc_top1 = 60.15625 | acc_top5 = 87.50000 | loss = 1.80618
+Epoch [70/150] | Train iter [391/391] | acc_top1 = 65.00000 | acc_top5 = 95.00000 | loss = 1.80662
+
+Epoch [70/150] | Validation | acc_top1 = 65.80301 | acc_top5 = 92.64241 | loss = 1.82986
+
+========================================
+
+Epoch [71/150] | Train iter [20/391] | acc_top1 = 61.71875 | acc_top5 = 89.06250 | loss = 1.80980
+Epoch [71/150] | Train iter [70/391] | acc_top1 = 67.96875 | acc_top5 = 91.40625 | loss = 1.79844
+Epoch [71/150] | Train iter [120/391] | acc_top1 = 64.06250 | acc_top5 = 89.06250 | loss = 1.80124
+Epoch [71/150] | Train iter [170/391] | acc_top1 = 68.75000 | acc_top5 = 95.31250 | loss = 1.80313
+Epoch [71/150] | Train iter [220/391] | acc_top1 = 64.06250 | acc_top5 = 88.28125 | loss = 1.80333
+Epoch [71/150] | Train iter [270/391] | acc_top1 = 64.84375 | acc_top5 = 89.84375 | loss = 1.80421
+Epoch [71/150] | Train iter [320/391] | acc_top1 = 72.65625 | acc_top5 = 94.53125 | loss = 1.80336
+Epoch [71/150] | Train iter [370/391] | acc_top1 = 57.03125 | acc_top5 = 86.71875 | loss = 1.80343
+Epoch [71/150] | Train iter [391/391] | acc_top1 = 73.75000 | acc_top5 = 93.75000 | loss = 1.80384
+
+Epoch [71/150] | Validation | acc_top1 = 66.35680 | acc_top5 = 92.28639 | loss = 1.82431
+
+========================================
+
+Epoch [72/150] | Train iter [20/391] | acc_top1 = 64.84375 | acc_top5 = 96.87500 | loss = 1.79793
+Epoch [72/150] | Train iter [70/391] | acc_top1 = 64.84375 | acc_top5 = 86.71875 | loss = 1.80359
+Epoch [72/150] | Train iter [120/391] | acc_top1 = 64.06250 | acc_top5 = 90.62500 | loss = 1.79831
+Epoch [72/150] | Train iter [170/391] | acc_top1 = 72.65625 | acc_top5 = 90.62500 | loss = 1.79873
+Epoch [72/150] | Train iter [220/391] | acc_top1 = 70.31250 | acc_top5 = 91.40625 | loss = 1.80010
+Epoch [72/150] | Train iter [270/391] | acc_top1 = 70.31250 | acc_top5 = 94.53125 | loss = 1.79916
+Epoch [72/150] | Train iter [320/391] | acc_top1 = 63.28125 | acc_top5 = 87.50000 | loss = 1.80068
+Epoch [72/150] | Train iter [370/391] | acc_top1 = 59.37500 | acc_top5 = 91.40625 | loss = 1.80087
+Epoch [72/150] | Train iter [391/391] | acc_top1 = 65.00000 | acc_top5 = 93.75000 | loss = 1.80145
+
+Epoch [72/150] | Validation | acc_top1 = 66.25791 | acc_top5 = 92.32595 | loss = 1.82378
+
+========================================
+
+Epoch [73/150] | Train iter [20/391] | acc_top1 = 73.43750 | acc_top5 = 92.96875 | loss = 1.79924
+Epoch [73/150] | Train iter [70/391] | acc_top1 = 69.53125 | acc_top5 = 89.06250 | loss = 1.80518
+Epoch [73/150] | Train iter [120/391] | acc_top1 = 66.40625 | acc_top5 = 89.84375 | loss = 1.80335
+Epoch [73/150] | Train iter [170/391] | acc_top1 = 64.06250 | acc_top5 = 88.28125 | loss = 1.80345
+Epoch [73/150] | Train iter [220/391] | acc_top1 = 73.43750 | acc_top5 = 93.75000 | loss = 1.80139
+Epoch [73/150] | Train iter [270/391] | acc_top1 = 65.62500 | acc_top5 = 95.31250 | loss = 1.80168
+Epoch [73/150] | Train iter [320/391] | acc_top1 = 65.62500 | acc_top5 = 90.62500 | loss = 1.80112
+Epoch [73/150] | Train iter [370/391] | acc_top1 = 68.75000 | acc_top5 = 93.75000 | loss = 1.80116
+Epoch [73/150] | Train iter [391/391] | acc_top1 = 70.00000 | acc_top5 = 92.50000 | loss = 1.80120
+
+Epoch [73/150] | Validation | acc_top1 = 66.83149 | acc_top5 = 92.29629 | loss = 1.82078
+
+========================================
+
+Epoch [74/150] | Train iter [20/391] | acc_top1 = 64.06250 | acc_top5 = 90.62500 | loss = 1.79915
+Epoch [74/150] | Train iter [70/391] | acc_top1 = 64.84375 | acc_top5 = 90.62500 | loss = 1.80039
+Epoch [74/150] | Train iter [120/391] | acc_top1 = 71.09375 | acc_top5 = 88.28125 | loss = 1.80094
+Epoch [74/150] | Train iter [170/391] | acc_top1 = 66.40625 | acc_top5 = 94.53125 | loss = 1.79991
+Epoch [74/150] | Train iter [220/391] | acc_top1 = 66.40625 | acc_top5 = 92.18750 | loss = 1.79866
+Epoch [74/150] | Train iter [270/391] | acc_top1 = 69.53125 | acc_top5 = 92.18750 | loss = 1.79980
+Epoch [74/150] | Train iter [320/391] | acc_top1 = 71.09375 | acc_top5 = 95.31250 | loss = 1.79894
+Epoch [74/150] | Train iter [370/391] | acc_top1 = 71.09375 | acc_top5 = 87.50000 | loss = 1.79858
+Epoch [74/150] | Train iter [391/391] | acc_top1 = 71.25000 | acc_top5 = 86.25000 | loss = 1.79848
+
+Epoch [74/150] | Validation | acc_top1 = 66.81171 | acc_top5 = 92.49407 | loss = 1.81933
+
+========================================
+
+Epoch [75/150] | Train iter [20/391] | acc_top1 = 71.87500 | acc_top5 = 89.06250 | loss = 1.79421
+Epoch [75/150] | Train iter [70/391] | acc_top1 = 64.06250 | acc_top5 = 95.31250 | loss = 1.79510
+Epoch [75/150] | Train iter [120/391] | acc_top1 = 64.06250 | acc_top5 = 90.62500 | loss = 1.79386
+Epoch [75/150] | Train iter [170/391] | acc_top1 = 71.09375 | acc_top5 = 95.31250 | loss = 1.79566
+Epoch [75/150] | Train iter [220/391] | acc_top1 = 67.96875 | acc_top5 = 91.40625 | loss = 1.79458
+Epoch [75/150] | Train iter [270/391] | acc_top1 = 65.62500 | acc_top5 = 92.18750 | loss = 1.79526
+Epoch [75/150] | Train iter [320/391] | acc_top1 = 67.96875 | acc_top5 = 91.40625 | loss = 1.79357
+Epoch [75/150] | Train iter [370/391] | acc_top1 = 67.18750 | acc_top5 = 92.18750 | loss = 1.79376
+Epoch [75/150] | Train iter [391/391] | acc_top1 = 62.50000 | acc_top5 = 88.75000 | loss = 1.79368
+
+Epoch [75/150] | Validation | acc_top1 = 66.69304 | acc_top5 = 92.50396 | loss = 1.81884
+
+========================================
+
+Epoch [76/150] | Train iter [20/391] | acc_top1 = 75.78125 | acc_top5 = 96.09375 | loss = 1.79299
+Epoch [76/150] | Train iter [70/391] | acc_top1 = 64.06250 | acc_top5 = 87.50000 | loss = 1.79316
+Epoch [76/150] | Train iter [120/391] | acc_top1 = 70.31250 | acc_top5 = 90.62500 | loss = 1.79439
+Epoch [76/150] | Train iter [170/391] | acc_top1 = 70.31250 | acc_top5 = 88.28125 | loss = 1.79496
+Epoch [76/150] | Train iter [220/391] | acc_top1 = 59.37500 | acc_top5 = 89.84375 | loss = 1.79365
+Epoch [76/150] | Train iter [270/391] | acc_top1 = 61.71875 | acc_top5 = 89.06250 | loss = 1.79293
+Epoch [76/150] | Train iter [320/391] | acc_top1 = 74.21875 | acc_top5 = 92.96875 | loss = 1.79335
+Epoch [76/150] | Train iter [370/391] | acc_top1 = 60.15625 | acc_top5 = 88.28125 | loss = 1.79325
+Epoch [76/150] | Train iter [391/391] | acc_top1 = 58.75000 | acc_top5 = 88.75000 | loss = 1.79350
+
+Epoch [76/150] | Validation | acc_top1 = 66.95016 | acc_top5 = 92.58307 | loss = 1.81708
+
+========================================
+
+Epoch [77/150] | Train iter [20/391] | acc_top1 = 65.62500 | acc_top5 = 89.84375 | loss = 1.80730
+Epoch [77/150] | Train iter [70/391] | acc_top1 = 67.96875 | acc_top5 = 88.28125 | loss = 1.79411
+Epoch [77/150] | Train iter [120/391] | acc_top1 = 64.84375 | acc_top5 = 88.28125 | loss = 1.78955
+Epoch [77/150] | Train iter [170/391] | acc_top1 = 66.40625 | acc_top5 = 89.84375 | loss = 1.79055
+Epoch [77/150] | Train iter [220/391] | acc_top1 = 72.65625 | acc_top5 = 93.75000 | loss = 1.79080
+Epoch [77/150] | Train iter [270/391] | acc_top1 = 63.28125 | acc_top5 = 91.40625 | loss = 1.79073
+Epoch [77/150] | Train iter [320/391] | acc_top1 = 55.46875 | acc_top5 = 89.84375 | loss = 1.79127
+Epoch [77/150] | Train iter [370/391] | acc_top1 = 67.96875 | acc_top5 = 90.62500 | loss = 1.79126
+Epoch [77/150] | Train iter [391/391] | acc_top1 = 77.50000 | acc_top5 = 97.50000 | loss = 1.79097
+
+Epoch [77/150] | Validation | acc_top1 = 67.49407 | acc_top5 = 92.74130 | loss = 1.81305
+
+========================================
+
+Epoch [78/150] | Train iter [20/391] | acc_top1 = 68.75000 | acc_top5 = 92.96875 | loss = 1.78728
+Epoch [78/150] | Train iter [70/391] | acc_top1 = 66.40625 | acc_top5 = 92.18750 | loss = 1.78747
+Epoch [78/150] | Train iter [120/391] | acc_top1 = 71.87500 | acc_top5 = 90.62500 | loss = 1.78797
+Epoch [78/150] | Train iter [170/391] | acc_top1 = 64.84375 | acc_top5 = 92.18750 | loss = 1.78762
+Epoch [78/150] | Train iter [220/391] | acc_top1 = 72.65625 | acc_top5 = 91.40625 | loss = 1.78791
+Epoch [78/150] | Train iter [270/391] | acc_top1 = 71.09375 | acc_top5 = 92.96875 | loss = 1.78858
+Epoch [78/150] | Train iter [320/391] | acc_top1 = 67.18750 | acc_top5 = 87.50000 | loss = 1.78817
+Epoch [78/150] | Train iter [370/391] | acc_top1 = 71.09375 | acc_top5 = 91.40625 | loss = 1.78677
+Epoch [78/150] | Train iter [391/391] | acc_top1 = 71.25000 | acc_top5 = 92.50000 | loss = 1.78741
+
+Epoch [78/150] | Validation | acc_top1 = 67.70174 | acc_top5 = 93.05775 | loss = 1.81062
+
+========================================
+
+Epoch [79/150] | Train iter [20/391] | acc_top1 = 67.96875 | acc_top5 = 87.50000 | loss = 1.79387
+Epoch [79/150] | Train iter [70/391] | acc_top1 = 66.40625 | acc_top5 = 91.40625 | loss = 1.79113
+Epoch [79/150] | Train iter [120/391] | acc_top1 = 71.09375 | acc_top5 = 91.40625 | loss = 1.78773
+Epoch [79/150] | Train iter [170/391] | acc_top1 = 67.18750 | acc_top5 = 92.18750 | loss = 1.78649
+Epoch [79/150] | Train iter [220/391] | acc_top1 = 71.87500 | acc_top5 = 91.40625 | loss = 1.78650
+Epoch [79/150] | Train iter [270/391] | acc_top1 = 71.87500 | acc_top5 = 90.62500 | loss = 1.78610
+Epoch [79/150] | Train iter [320/391] | acc_top1 = 63.28125 | acc_top5 = 93.75000 | loss = 1.78587
+Epoch [79/150] | Train iter [370/391] | acc_top1 = 64.84375 | acc_top5 = 92.96875 | loss = 1.78650
+Epoch [79/150] | Train iter [391/391] | acc_top1 = 66.25000 | acc_top5 = 95.00000 | loss = 1.78682
+
+Epoch [79/150] | Validation | acc_top1 = 67.24683 | acc_top5 = 93.16653 | loss = 1.81445
+
+========================================
+
+Epoch [80/150] | Train iter [20/391] | acc_top1 = 61.71875 | acc_top5 = 90.62500 | loss = 1.79482
+Epoch [80/150] | Train iter [70/391] | acc_top1 = 73.43750 | acc_top5 = 93.75000 | loss = 1.79099
+Epoch [80/150] | Train iter [120/391] | acc_top1 = 71.87500 | acc_top5 = 92.18750 | loss = 1.78695
+Epoch [80/150] | Train iter [170/391] | acc_top1 = 69.53125 | acc_top5 = 91.40625 | loss = 1.78626
+Epoch [80/150] | Train iter [220/391] | acc_top1 = 67.96875 | acc_top5 = 92.18750 | loss = 1.78718
+Epoch [80/150] | Train iter [270/391] | acc_top1 = 72.65625 | acc_top5 = 93.75000 | loss = 1.78598
+Epoch [80/150] | Train iter [320/391] | acc_top1 = 71.09375 | acc_top5 = 93.75000 | loss = 1.78428
+Epoch [80/150] | Train iter [370/391] | acc_top1 = 80.46875 | acc_top5 = 96.09375 | loss = 1.78411
+Epoch [80/150] | Train iter [391/391] | acc_top1 = 70.00000 | acc_top5 = 92.50000 | loss = 1.78328
+
+Epoch [80/150] | Validation | acc_top1 = 67.73141 | acc_top5 = 93.09731 | loss = 1.80826
+
+========================================
+
+Epoch [81/150] | Train iter [20/391] | acc_top1 = 71.09375 | acc_top5 = 90.62500 | loss = 1.78369
+Epoch [81/150] | Train iter [70/391] | acc_top1 = 67.96875 | acc_top5 = 89.06250 | loss = 1.78326
+Epoch [81/150] | Train iter [120/391] | acc_top1 = 75.78125 | acc_top5 = 94.53125 | loss = 1.78230
+Epoch [81/150] | Train iter [170/391] | acc_top1 = 67.18750 | acc_top5 = 87.50000 | loss = 1.78365
+Epoch [81/150] | Train iter [220/391] | acc_top1 = 65.62500 | acc_top5 = 91.40625 | loss = 1.78372
+Epoch [81/150] | Train iter [270/391] | acc_top1 = 68.75000 | acc_top5 = 92.96875 | loss = 1.78222
+Epoch [81/150] | Train iter [320/391] | acc_top1 = 70.31250 | acc_top5 = 93.75000 | loss = 1.78214
+Epoch [81/150] | Train iter [370/391] | acc_top1 = 57.03125 | acc_top5 = 90.62500 | loss = 1.78257
+Epoch [81/150] | Train iter [391/391] | acc_top1 = 70.00000 | acc_top5 = 93.75000 | loss = 1.78253
+
+Epoch [81/150] | Validation | acc_top1 = 68.21598 | acc_top5 = 92.84019 | loss = 1.80617
+
+========================================
+
+Epoch [82/150] | Train iter [20/391] | acc_top1 = 64.84375 | acc_top5 = 89.84375 | loss = 1.78604
+Epoch [82/150] | Train iter [70/391] | acc_top1 = 69.53125 | acc_top5 = 91.40625 | loss = 1.78084
+Epoch [82/150] | Train iter [120/391] | acc_top1 = 69.53125 | acc_top5 = 95.31250 | loss = 1.78025
+Epoch [82/150] | Train iter [170/391] | acc_top1 = 75.78125 | acc_top5 = 92.96875 | loss = 1.77879
+Epoch [82/150] | Train iter [220/391] | acc_top1 = 69.53125 | acc_top5 = 93.75000 | loss = 1.77802
+Epoch [82/150] | Train iter [270/391] | acc_top1 = 68.75000 | acc_top5 = 89.84375 | loss = 1.78079
+Epoch [82/150] | Train iter [320/391] | acc_top1 = 72.65625 | acc_top5 = 93.75000 | loss = 1.78073
+Epoch [82/150] | Train iter [370/391] | acc_top1 = 64.84375 | acc_top5 = 91.40625 | loss = 1.78014
+Epoch [82/150] | Train iter [391/391] | acc_top1 = 75.00000 | acc_top5 = 95.00000 | loss = 1.77977
+
+Epoch [82/150] | Validation | acc_top1 = 68.03798 | acc_top5 = 92.93909 | loss = 1.80632
+
+========================================
+
+Epoch [83/150] | Train iter [20/391] | acc_top1 = 64.84375 | acc_top5 = 91.40625 | loss = 1.77530
+Epoch [83/150] | Train iter [70/391] | acc_top1 = 69.53125 | acc_top5 = 96.09375 | loss = 1.77418
+Epoch [83/150] | Train iter [120/391] | acc_top1 = 65.62500 | acc_top5 = 92.18750 | loss = 1.77746
+Epoch [83/150] | Train iter [170/391] | acc_top1 = 72.65625 | acc_top5 = 93.75000 | loss = 1.77814
+Epoch [83/150] | Train iter [220/391] | acc_top1 = 72.65625 | acc_top5 = 92.18750 | loss = 1.77905
+Epoch [83/150] | Train iter [270/391] | acc_top1 = 71.09375 | acc_top5 = 91.40625 | loss = 1.77933
+Epoch [83/150] | Train iter [320/391] | acc_top1 = 69.53125 | acc_top5 = 91.40625 | loss = 1.77891
+Epoch [83/150] | Train iter [370/391] | acc_top1 = 72.65625 | acc_top5 = 96.09375 | loss = 1.77873
+Epoch [83/150] | Train iter [391/391] | acc_top1 = 71.25000 | acc_top5 = 88.75000 | loss = 1.77890
+
+Epoch [83/150] | Validation | acc_top1 = 68.27532 | acc_top5 = 92.82041 | loss = 1.80386
+
+========================================
+
+Epoch [84/150] | Train iter [20/391] | acc_top1 = 62.50000 | acc_top5 = 95.31250 | loss = 1.76786
+Epoch [84/150] | Train iter [70/391] | acc_top1 = 72.65625 | acc_top5 = 89.84375 | loss = 1.77533
+Epoch [84/150] | Train iter [120/391] | acc_top1 = 69.53125 | acc_top5 = 88.28125 | loss = 1.77785
+Epoch [84/150] | Train iter [170/391] | acc_top1 = 66.40625 | acc_top5 = 93.75000 | loss = 1.77897
+Epoch [84/150] | Train iter [220/391] | acc_top1 = 65.62500 | acc_top5 = 89.06250 | loss = 1.77638
+Epoch [84/150] | Train iter [270/391] | acc_top1 = 69.53125 | acc_top5 = 96.09375 | loss = 1.77684
+Epoch [84/150] | Train iter [320/391] | acc_top1 = 68.75000 | acc_top5 = 91.40625 | loss = 1.77701
+Epoch [84/150] | Train iter [370/391] | acc_top1 = 71.87500 | acc_top5 = 91.40625 | loss = 1.77743
+Epoch [84/150] | Train iter [391/391] | acc_top1 = 80.00000 | acc_top5 = 98.75000 | loss = 1.77707
+
+Epoch [84/150] | Validation | acc_top1 = 68.49288 | acc_top5 = 93.22588 | loss = 1.80205
+
+========================================
+
+Epoch [85/150] | Train iter [20/391] | acc_top1 = 73.43750 | acc_top5 = 93.75000 | loss = 1.76907
+Epoch [85/150] | Train iter [70/391] | acc_top1 = 70.31250 | acc_top5 = 92.96875 | loss = 1.76862
+Epoch [85/150] | Train iter [120/391] | acc_top1 = 65.62500 | acc_top5 = 92.18750 | loss = 1.77298
+Epoch [85/150] | Train iter [170/391] | acc_top1 = 72.65625 | acc_top5 = 91.40625 | loss = 1.77381
+Epoch [85/150] | Train iter [220/391] | acc_top1 = 72.65625 | acc_top5 = 92.96875 | loss = 1.77554
+Epoch [85/150] | Train iter [270/391] | acc_top1 = 72.65625 | acc_top5 = 96.87500 | loss = 1.77591
+Epoch [85/150] | Train iter [320/391] | acc_top1 = 67.18750 | acc_top5 = 89.84375 | loss = 1.77525
+Epoch [85/150] | Train iter [370/391] | acc_top1 = 64.84375 | acc_top5 = 91.40625 | loss = 1.77402
+Epoch [85/150] | Train iter [391/391] | acc_top1 = 63.75000 | acc_top5 = 93.75000 | loss = 1.77415
+
+Epoch [85/150] | Validation | acc_top1 = 68.62144 | acc_top5 = 93.27532 | loss = 1.80163
+
+========================================
+
+Epoch [86/150] | Train iter [20/391] | acc_top1 = 75.78125 | acc_top5 = 94.53125 | loss = 1.77389
+Epoch [86/150] | Train iter [70/391] | acc_top1 = 70.31250 | acc_top5 = 92.96875 | loss = 1.77790
+Epoch [86/150] | Train iter [120/391] | acc_top1 = 67.96875 | acc_top5 = 90.62500 | loss = 1.77509
+Epoch [86/150] | Train iter [170/391] | acc_top1 = 70.31250 | acc_top5 = 92.96875 | loss = 1.77320
+Epoch [86/150] | Train iter [220/391] | acc_top1 = 68.75000 | acc_top5 = 92.96875 | loss = 1.77248
+Epoch [86/150] | Train iter [270/391] | acc_top1 = 64.06250 | acc_top5 = 92.96875 | loss = 1.77308
+Epoch [86/150] | Train iter [320/391] | acc_top1 = 68.75000 | acc_top5 = 89.84375 | loss = 1.77333
+Epoch [86/150] | Train iter [370/391] | acc_top1 = 70.31250 | acc_top5 = 92.96875 | loss = 1.77271
+Epoch [86/150] | Train iter [391/391] | acc_top1 = 72.50000 | acc_top5 = 98.75000 | loss = 1.77151
+
+Epoch [86/150] | Validation | acc_top1 = 68.44344 | acc_top5 = 93.49288 | loss = 1.80061
+
+========================================
+
+Epoch [87/150] | Train iter [20/391] | acc_top1 = 67.18750 | acc_top5 = 90.62500 | loss = 1.77720
+Epoch [87/150] | Train iter [70/391] | acc_top1 = 72.65625 | acc_top5 = 93.75000 | loss = 1.77875
+Epoch [87/150] | Train iter [120/391] | acc_top1 = 65.62500 | acc_top5 = 94.53125 | loss = 1.77247
+Epoch [87/150] | Train iter [170/391] | acc_top1 = 73.43750 | acc_top5 = 93.75000 | loss = 1.77218
+Epoch [87/150] | Train iter [220/391] | acc_top1 = 72.65625 | acc_top5 = 95.31250 | loss = 1.77199
+Epoch [87/150] | Train iter [270/391] | acc_top1 = 67.96875 | acc_top5 = 91.40625 | loss = 1.77028
+Epoch [87/150] | Train iter [320/391] | acc_top1 = 75.78125 | acc_top5 = 94.53125 | loss = 1.76944
+Epoch [87/150] | Train iter [370/391] | acc_top1 = 65.62500 | acc_top5 = 87.50000 | loss = 1.76972
+Epoch [87/150] | Train iter [391/391] | acc_top1 = 62.50000 | acc_top5 = 86.25000 | loss = 1.77087
+
+Epoch [87/150] | Validation | acc_top1 = 69.10602 | acc_top5 = 92.97865 | loss = 1.79856
+
+========================================
+
+Epoch [88/150] | Train iter [20/391] | acc_top1 = 72.65625 | acc_top5 = 93.75000 | loss = 1.76466
+Epoch [88/150] | Train iter [70/391] | acc_top1 = 70.31250 | acc_top5 = 96.09375 | loss = 1.76987
+Epoch [88/150] | Train iter [120/391] | acc_top1 = 62.50000 | acc_top5 = 93.75000 | loss = 1.77164
+Epoch [88/150] | Train iter [170/391] | acc_top1 = 77.34375 | acc_top5 = 96.87500 | loss = 1.76848
+Epoch [88/150] | Train iter [220/391] | acc_top1 = 70.31250 | acc_top5 = 89.84375 | loss = 1.76819
+Epoch [88/150] | Train iter [270/391] | acc_top1 = 77.34375 | acc_top5 = 93.75000 | loss = 1.76789
+Epoch [88/150] | Train iter [320/391] | acc_top1 = 63.28125 | acc_top5 = 89.06250 | loss = 1.77044
+Epoch [88/150] | Train iter [370/391] | acc_top1 = 73.43750 | acc_top5 = 93.75000 | loss = 1.77001
+Epoch [88/150] | Train iter [391/391] | acc_top1 = 71.25000 | acc_top5 = 93.75000 | loss = 1.76956
+
+Epoch [88/150] | Validation | acc_top1 = 68.69067 | acc_top5 = 93.28521 | loss = 1.79844
+
+========================================
+
+Epoch [89/150] | Train iter [20/391] | acc_top1 = 70.31250 | acc_top5 = 89.06250 | loss = 1.77376
+Epoch [89/150] | Train iter [70/391] | acc_top1 = 71.09375 | acc_top5 = 94.53125 | loss = 1.76615
+Epoch [89/150] | Train iter [120/391] | acc_top1 = 70.31250 | acc_top5 = 93.75000 | loss = 1.76758
+Epoch [89/150] | Train iter [170/391] | acc_top1 = 68.75000 | acc_top5 = 89.06250 | loss = 1.76733
+Epoch [89/150] | Train iter [220/391] | acc_top1 = 74.21875 | acc_top5 = 90.62500 | loss = 1.76843
+Epoch [89/150] | Train iter [270/391] | acc_top1 = 78.12500 | acc_top5 = 95.31250 | loss = 1.76767
+Epoch [89/150] | Train iter [320/391] | acc_top1 = 67.96875 | acc_top5 = 92.18750 | loss = 1.76775
+Epoch [89/150] | Train iter [370/391] | acc_top1 = 75.00000 | acc_top5 = 96.09375 | loss = 1.76867
+Epoch [89/150] | Train iter [391/391] | acc_top1 = 68.75000 | acc_top5 = 90.00000 | loss = 1.76838
+
+Epoch [89/150] | Validation | acc_top1 = 68.76978 | acc_top5 = 93.38410 | loss = 1.79903
+
+========================================
+
+Epoch [90/150] | Train iter [20/391] | acc_top1 = 71.09375 | acc_top5 = 92.96875 | loss = 1.75790
+Epoch [90/150] | Train iter [70/391] | acc_top1 = 75.00000 | acc_top5 = 92.96875 | loss = 1.76286
+Epoch [90/150] | Train iter [120/391] | acc_top1 = 71.87500 | acc_top5 = 91.40625 | loss = 1.76285
+Epoch [90/150] | Train iter [170/391] | acc_top1 = 78.12500 | acc_top5 = 93.75000 | loss = 1.76300
+Epoch [90/150] | Train iter [220/391] | acc_top1 = 74.21875 | acc_top5 = 96.87500 | loss = 1.76329
+Epoch [90/150] | Train iter [270/391] | acc_top1 = 81.25000 | acc_top5 = 92.96875 | loss = 1.76348
+Epoch [90/150] | Train iter [320/391] | acc_top1 = 73.43750 | acc_top5 = 94.53125 | loss = 1.76318
+Epoch [90/150] | Train iter [370/391] | acc_top1 = 72.65625 | acc_top5 = 92.18750 | loss = 1.76362
+Epoch [90/150] | Train iter [391/391] | acc_top1 = 68.75000 | acc_top5 = 96.25000 | loss = 1.76388
+
+Epoch [90/150] | Validation | acc_top1 = 68.85878 | acc_top5 = 93.41376 | loss = 1.79660
+
+========================================
+
+Epoch [91/150] | Train iter [20/391] | acc_top1 = 67.18750 | acc_top5 = 93.75000 | loss = 1.76755
+Epoch [91/150] | Train iter [70/391] | acc_top1 = 67.96875 | acc_top5 = 92.18750 | loss = 1.76397
+Epoch [91/150] | Train iter [120/391] | acc_top1 = 68.75000 | acc_top5 = 91.40625 | loss = 1.76077
+Epoch [91/150] | Train iter [170/391] | acc_top1 = 70.31250 | acc_top5 = 94.53125 | loss = 1.76037
+Epoch [91/150] | Train iter [220/391] | acc_top1 = 69.53125 | acc_top5 = 92.18750 | loss = 1.75889
+Epoch [91/150] | Train iter [270/391] | acc_top1 = 67.96875 | acc_top5 = 89.06250 | loss = 1.76064
+Epoch [91/150] | Train iter [320/391] | acc_top1 = 64.84375 | acc_top5 = 92.96875 | loss = 1.76076
+Epoch [91/150] | Train iter [370/391] | acc_top1 = 71.87500 | acc_top5 = 95.31250 | loss = 1.76086
+Epoch [91/150] | Train iter [391/391] | acc_top1 = 65.00000 | acc_top5 = 93.75000 | loss = 1.76123
+
+Epoch [91/150] | Validation | acc_top1 = 69.18513 | acc_top5 = 93.66100 | loss = 1.79424
+
+========================================
+
+Epoch [92/150] | Train iter [20/391] | acc_top1 = 75.00000 | acc_top5 = 94.53125 | loss = 1.75586
+Epoch [92/150] | Train iter [70/391] | acc_top1 = 70.31250 | acc_top5 = 93.75000 | loss = 1.75155
+Epoch [92/150] | Train iter [120/391] | acc_top1 = 67.18750 | acc_top5 = 92.18750 | loss = 1.75397
+Epoch [92/150] | Train iter [170/391] | acc_top1 = 68.75000 | acc_top5 = 89.84375 | loss = 1.75747
+Epoch [92/150] | Train iter [220/391] | acc_top1 = 71.87500 | acc_top5 = 93.75000 | loss = 1.75705
+Epoch [92/150] | Train iter [270/391] | acc_top1 = 67.18750 | acc_top5 = 92.18750 | loss = 1.75876
+Epoch [92/150] | Train iter [320/391] | acc_top1 = 72.65625 | acc_top5 = 90.62500 | loss = 1.75988
+Epoch [92/150] | Train iter [370/391] | acc_top1 = 62.50000 | acc_top5 = 94.53125 | loss = 1.76052
+Epoch [92/150] | Train iter [391/391] | acc_top1 = 72.50000 | acc_top5 = 91.25000 | loss = 1.76016
+
+Epoch [92/150] | Validation | acc_top1 = 69.43236 | acc_top5 = 93.52255 | loss = 1.79174
+
+========================================
+
+Epoch [93/150] | Train iter [20/391] | acc_top1 = 70.31250 | acc_top5 = 92.96875 | loss = 1.77139
+Epoch [93/150] | Train iter [70/391] | acc_top1 = 75.00000 | acc_top5 = 93.75000 | loss = 1.76210
+Epoch [93/150] | Train iter [120/391] | acc_top1 = 67.18750 | acc_top5 = 92.96875 | loss = 1.76068
+Epoch [93/150] | Train iter [170/391] | acc_top1 = 71.87500 | acc_top5 = 93.75000 | loss = 1.75800
+Epoch [93/150] | Train iter [220/391] | acc_top1 = 72.65625 | acc_top5 = 92.18750 | loss = 1.75892
+Epoch [93/150] | Train iter [270/391] | acc_top1 = 79.68750 | acc_top5 = 95.31250 | loss = 1.75802
+Epoch [93/150] | Train iter [320/391] | acc_top1 = 69.53125 | acc_top5 = 90.62500 | loss = 1.75877
+Epoch [93/150] | Train iter [370/391] | acc_top1 = 70.31250 | acc_top5 = 93.75000 | loss = 1.75878
+Epoch [93/150] | Train iter [391/391] | acc_top1 = 62.50000 | acc_top5 = 91.25000 | loss = 1.75816
+
+Epoch [93/150] | Validation | acc_top1 = 69.49169 | acc_top5 = 93.61155 | loss = 1.79182
+
+========================================
+
+Epoch [94/150] | Train iter [20/391] | acc_top1 = 68.75000 | acc_top5 = 92.96875 | loss = 1.77589
+Epoch [94/150] | Train iter [70/391] | acc_top1 = 69.53125 | acc_top5 = 88.28125 | loss = 1.76703
+Epoch [94/150] | Train iter [120/391] | acc_top1 = 72.65625 | acc_top5 = 91.40625 | loss = 1.76011
+Epoch [94/150] | Train iter [170/391] | acc_top1 = 71.09375 | acc_top5 = 90.62500 | loss = 1.75951
+Epoch [94/150] | Train iter [220/391] | acc_top1 = 79.68750 | acc_top5 = 92.18750 | loss = 1.75805
+Epoch [94/150] | Train iter [270/391] | acc_top1 = 72.65625 | acc_top5 = 92.18750 | loss = 1.75849
+Epoch [94/150] | Train iter [320/391] | acc_top1 = 75.00000 | acc_top5 = 89.84375 | loss = 1.75799
+Epoch [94/150] | Train iter [370/391] | acc_top1 = 68.75000 | acc_top5 = 88.28125 | loss = 1.75838
+Epoch [94/150] | Train iter [391/391] | acc_top1 = 68.75000 | acc_top5 = 92.50000 | loss = 1.75919
+
+Epoch [94/150] | Validation | acc_top1 = 70.00594 | acc_top5 = 93.46321 | loss = 1.78729
+
+========================================
+
+Epoch [95/150] | Train iter [20/391] | acc_top1 = 65.62500 | acc_top5 = 89.84375 | loss = 1.76196
+Epoch [95/150] | Train iter [70/391] | acc_top1 = 71.09375 | acc_top5 = 93.75000 | loss = 1.75762
+Epoch [95/150] | Train iter [120/391] | acc_top1 = 66.40625 | acc_top5 = 92.96875 | loss = 1.75777
+Epoch [95/150] | Train iter [170/391] | acc_top1 = 73.43750 | acc_top5 = 92.96875 | loss = 1.75687
+Epoch [95/150] | Train iter [220/391] | acc_top1 = 72.65625 | acc_top5 = 93.75000 | loss = 1.75697
+Epoch [95/150] | Train iter [270/391] | acc_top1 = 68.75000 | acc_top5 = 89.84375 | loss = 1.75560
+Epoch [95/150] | Train iter [320/391] | acc_top1 = 67.18750 | acc_top5 = 92.18750 | loss = 1.75588
+Epoch [95/150] | Train iter [370/391] | acc_top1 = 69.53125 | acc_top5 = 94.53125 | loss = 1.75562
+Epoch [95/150] | Train iter [391/391] | acc_top1 = 65.00000 | acc_top5 = 95.00000 | loss = 1.75569
+
+Epoch [95/150] | Validation | acc_top1 = 70.15427 | acc_top5 = 93.74011 | loss = 1.78727
+
+========================================
+
+Epoch [96/150] | Train iter [20/391] | acc_top1 = 62.50000 | acc_top5 = 89.84375 | loss = 1.75848
+Epoch [96/150] | Train iter [70/391] | acc_top1 = 72.65625 | acc_top5 = 93.75000 | loss = 1.75621
+Epoch [96/150] | Train iter [120/391] | acc_top1 = 71.87500 | acc_top5 = 93.75000 | loss = 1.75579
+Epoch [96/150] | Train iter [170/391] | acc_top1 = 74.21875 | acc_top5 = 93.75000 | loss = 1.75570
+Epoch [96/150] | Train iter [220/391] | acc_top1 = 68.75000 | acc_top5 = 91.40625 | loss = 1.75537
+Epoch [96/150] | Train iter [270/391] | acc_top1 = 68.75000 | acc_top5 = 92.96875 | loss = 1.75418
+Epoch [96/150] | Train iter [320/391] | acc_top1 = 70.31250 | acc_top5 = 93.75000 | loss = 1.75426
+Epoch [96/150] | Train iter [370/391] | acc_top1 = 74.21875 | acc_top5 = 93.75000 | loss = 1.75520
+Epoch [96/150] | Train iter [391/391] | acc_top1 = 70.00000 | acc_top5 = 93.75000 | loss = 1.75511
+
+Epoch [96/150] | Validation | acc_top1 = 69.55103 | acc_top5 = 93.54233 | loss = 1.78972
+
+========================================
+
+Epoch [97/150] | Train iter [20/391] | acc_top1 = 78.90625 | acc_top5 = 96.87500 | loss = 1.75344
+Epoch [97/150] | Train iter [70/391] | acc_top1 = 67.96875 | acc_top5 = 92.96875 | loss = 1.76113
+Epoch [97/150] | Train iter [120/391] | acc_top1 = 69.53125 | acc_top5 = 96.09375 | loss = 1.75896
+Epoch [97/150] | Train iter [170/391] | acc_top1 = 75.00000 | acc_top5 = 92.18750 | loss = 1.75462
+Epoch [97/150] | Train iter [220/391] | acc_top1 = 73.43750 | acc_top5 = 90.62500 | loss = 1.75418
+Epoch [97/150] | Train iter [270/391] | acc_top1 = 67.18750 | acc_top5 = 91.40625 | loss = 1.75428
+Epoch [97/150] | Train iter [320/391] | acc_top1 = 77.34375 | acc_top5 = 92.96875 | loss = 1.75392
+Epoch [97/150] | Train iter [370/391] | acc_top1 = 74.21875 | acc_top5 = 91.40625 | loss = 1.75393
+Epoch [97/150] | Train iter [391/391] | acc_top1 = 76.25000 | acc_top5 = 90.00000 | loss = 1.75372
+
+Epoch [97/150] | Validation | acc_top1 = 69.92682 | acc_top5 = 93.96757 | loss = 1.78650
+
+========================================
+
+Epoch [98/150] | Train iter [20/391] | acc_top1 = 67.96875 | acc_top5 = 96.09375 | loss = 1.75113
+Epoch [98/150] | Train iter [70/391] | acc_top1 = 76.56250 | acc_top5 = 92.96875 | loss = 1.75385
+Epoch [98/150] | Train iter [120/391] | acc_top1 = 64.84375 | acc_top5 = 94.53125 | loss = 1.74877
+Epoch [98/150] | Train iter [170/391] | acc_top1 = 70.31250 | acc_top5 = 93.75000 | loss = 1.75043
+Epoch [98/150] | Train iter [220/391] | acc_top1 = 68.75000 | acc_top5 = 91.40625 | loss = 1.75022
+Epoch [98/150] | Train iter [270/391] | acc_top1 = 69.53125 | acc_top5 = 92.96875 | loss = 1.75252
+Epoch [98/150] | Train iter [320/391] | acc_top1 = 71.09375 | acc_top5 = 93.75000 | loss = 1.75244
+Epoch [98/150] | Train iter [370/391] | acc_top1 = 75.78125 | acc_top5 = 94.53125 | loss = 1.75163
+Epoch [98/150] | Train iter [391/391] | acc_top1 = 72.50000 | acc_top5 = 93.75000 | loss = 1.75126
+
+Epoch [98/150] | Validation | acc_top1 = 69.71915 | acc_top5 = 93.68078 | loss = 1.78799
+
+========================================
+
+Epoch [99/150] | Train iter [20/391] | acc_top1 = 73.43750 | acc_top5 = 92.18750 | loss = 1.73777
+Epoch [99/150] | Train iter [70/391] | acc_top1 = 67.18750 | acc_top5 = 90.62500 | loss = 1.74257
+Epoch [99/150] | Train iter [120/391] | acc_top1 = 71.87500 | acc_top5 = 97.65625 | loss = 1.74382
+Epoch [99/150] | Train iter [170/391] | acc_top1 = 76.56250 | acc_top5 = 95.31250 | loss = 1.74606
+Epoch [99/150] | Train iter [220/391] | acc_top1 = 62.50000 | acc_top5 = 91.40625 | loss = 1.74716
+Epoch [99/150] | Train iter [270/391] | acc_top1 = 66.40625 | acc_top5 = 89.84375 | loss = 1.74811
+Epoch [99/150] | Train iter [320/391] | acc_top1 = 73.43750 | acc_top5 = 95.31250 | loss = 1.74738
+Epoch [99/150] | Train iter [370/391] | acc_top1 = 67.96875 | acc_top5 = 91.40625 | loss = 1.74873
+Epoch [99/150] | Train iter [391/391] | acc_top1 = 72.50000 | acc_top5 = 90.00000 | loss = 1.74910
+
+Epoch [99/150] | Validation | acc_top1 = 69.64003 | acc_top5 = 93.96757 | loss = 1.78622
+
+========================================
+
+Epoch [100/150] | Train iter [20/391] | acc_top1 = 70.31250 | acc_top5 = 92.96875 | loss = 1.75817
+Epoch [100/150] | Train iter [70/391] | acc_top1 = 78.90625 | acc_top5 = 95.31250 | loss = 1.75510
+Epoch [100/150] | Train iter [120/391] | acc_top1 = 69.53125 | acc_top5 = 92.18750 | loss = 1.75199
+Epoch [100/150] | Train iter [170/391] | acc_top1 = 74.21875 | acc_top5 = 97.65625 | loss = 1.75005
+Epoch [100/150] | Train iter [220/391] | acc_top1 = 73.43750 | acc_top5 = 93.75000 | loss = 1.74951
+Epoch [100/150] | Train iter [270/391] | acc_top1 = 75.78125 | acc_top5 = 96.09375 | loss = 1.74784
+Epoch [100/150] | Train iter [320/391] | acc_top1 = 67.18750 | acc_top5 = 89.84375 | loss = 1.74782
+Epoch [100/150] | Train iter [370/391] | acc_top1 = 64.84375 | acc_top5 = 95.31250 | loss = 1.74753
+Epoch [100/150] | Train iter [391/391] | acc_top1 = 81.25000 | acc_top5 = 95.00000 | loss = 1.74807
+
+Epoch [100/150] | Validation | acc_top1 = 69.82793 | acc_top5 = 94.24446 | loss = 1.78511
+
+========================================
+
+Epoch [101/150] | Train iter [20/391] | acc_top1 = 75.78125 | acc_top5 = 93.75000 | loss = 1.74193
+Epoch [101/150] | Train iter [70/391] | acc_top1 = 77.34375 | acc_top5 = 95.31250 | loss = 1.74169
+Epoch [101/150] | Train iter [120/391] | acc_top1 = 68.75000 | acc_top5 = 90.62500 | loss = 1.74558
+Epoch [101/150] | Train iter [170/391] | acc_top1 = 65.62500 | acc_top5 = 92.96875 | loss = 1.74916
+Epoch [101/150] | Train iter [220/391] | acc_top1 = 77.34375 | acc_top5 = 96.09375 | loss = 1.74851
+Epoch [101/150] | Train iter [270/391] | acc_top1 = 74.21875 | acc_top5 = 93.75000 | loss = 1.74764
+Epoch [101/150] | Train iter [320/391] | acc_top1 = 78.12500 | acc_top5 = 96.09375 | loss = 1.74709
+Epoch [101/150] | Train iter [370/391] | acc_top1 = 67.96875 | acc_top5 = 93.75000 | loss = 1.74802
+Epoch [101/150] | Train iter [391/391] | acc_top1 = 73.75000 | acc_top5 = 95.00000 | loss = 1.74797
+
+Epoch [101/150] | Validation | acc_top1 = 69.84771 | acc_top5 = 93.76978 | loss = 1.78444
+
+========================================
+
+Epoch [102/150] | Train iter [20/391] | acc_top1 = 68.75000 | acc_top5 = 92.96875 | loss = 1.73218
+Epoch [102/150] | Train iter [70/391] | acc_top1 = 76.56250 | acc_top5 = 96.87500 | loss = 1.73993
+Epoch [102/150] | Train iter [120/391] | acc_top1 = 68.75000 | acc_top5 = 88.28125 | loss = 1.74406
+Epoch [102/150] | Train iter [170/391] | acc_top1 = 68.75000 | acc_top5 = 89.06250 | loss = 1.74548
+Epoch [102/150] | Train iter [220/391] | acc_top1 = 71.09375 | acc_top5 = 94.53125 | loss = 1.74580
+Epoch [102/150] | Train iter [270/391] | acc_top1 = 68.75000 | acc_top5 = 90.62500 | loss = 1.74361
+Epoch [102/150] | Train iter [320/391] | acc_top1 = 78.90625 | acc_top5 = 95.31250 | loss = 1.74389
+Epoch [102/150] | Train iter [370/391] | acc_top1 = 71.09375 | acc_top5 = 92.96875 | loss = 1.74407
+Epoch [102/150] | Train iter [391/391] | acc_top1 = 73.75000 | acc_top5 = 95.00000 | loss = 1.74394
+
+Epoch [102/150] | Validation | acc_top1 = 70.37183 | acc_top5 = 94.13568 | loss = 1.78194
+
+========================================
+
+Epoch [103/150] | Train iter [20/391] | acc_top1 = 73.43750 | acc_top5 = 96.09375 | loss = 1.74455
+Epoch [103/150] | Train iter [70/391] | acc_top1 = 70.31250 | acc_top5 = 94.53125 | loss = 1.74389
+Epoch [103/150] | Train iter [120/391] | acc_top1 = 74.21875 | acc_top5 = 90.62500 | loss = 1.74209
+Epoch [103/150] | Train iter [170/391] | acc_top1 = 72.65625 | acc_top5 = 92.96875 | loss = 1.74245
+Epoch [103/150] | Train iter [220/391] | acc_top1 = 72.65625 | acc_top5 = 93.75000 | loss = 1.74217
+Epoch [103/150] | Train iter [270/391] | acc_top1 = 64.84375 | acc_top5 = 89.84375 | loss = 1.74224
+Epoch [103/150] | Train iter [320/391] | acc_top1 = 69.53125 | acc_top5 = 90.62500 | loss = 1.74295
+Epoch [103/150] | Train iter [370/391] | acc_top1 = 72.65625 | acc_top5 = 95.31250 | loss = 1.74258
+Epoch [103/150] | Train iter [391/391] | acc_top1 = 71.25000 | acc_top5 = 93.75000 | loss = 1.74234
+
+Epoch [103/150] | Validation | acc_top1 = 70.11472 | acc_top5 = 94.14557 | loss = 1.78480
+
+========================================
+
+Epoch [104/150] | Train iter [20/391] | acc_top1 = 71.09375 | acc_top5 = 91.40625 | loss = 1.73826
+Epoch [104/150] | Train iter [70/391] | acc_top1 = 71.09375 | acc_top5 = 94.53125 | loss = 1.74779
+Epoch [104/150] | Train iter [120/391] | acc_top1 = 73.43750 | acc_top5 = 92.96875 | loss = 1.74514
+Epoch [104/150] | Train iter [170/391] | acc_top1 = 74.21875 | acc_top5 = 93.75000 | loss = 1.74381
+Epoch [104/150] | Train iter [220/391] | acc_top1 = 71.87500 | acc_top5 = 96.09375 | loss = 1.74574
+Epoch [104/150] | Train iter [270/391] | acc_top1 = 75.78125 | acc_top5 = 94.53125 | loss = 1.74482
+Epoch [104/150] | Train iter [320/391] | acc_top1 = 60.15625 | acc_top5 = 89.84375 | loss = 1.74461
+Epoch [104/150] | Train iter [370/391] | acc_top1 = 72.65625 | acc_top5 = 94.53125 | loss = 1.74359
+Epoch [104/150] | Train iter [391/391] | acc_top1 = 71.25000 | acc_top5 = 96.25000 | loss = 1.74281
+
+Epoch [104/150] | Validation | acc_top1 = 70.36195 | acc_top5 = 94.21480 | loss = 1.78144
+
+========================================
+
+Epoch [105/150] | Train iter [20/391] | acc_top1 = 73.43750 | acc_top5 = 96.09375 | loss = 1.73533
+Epoch [105/150] | Train iter [70/391] | acc_top1 = 67.96875 | acc_top5 = 91.40625 | loss = 1.74046
+Epoch [105/150] | Train iter [120/391] | acc_top1 = 72.65625 | acc_top5 = 93.75000 | loss = 1.74090
+Epoch [105/150] | Train iter [170/391] | acc_top1 = 70.31250 | acc_top5 = 92.18750 | loss = 1.74009
+Epoch [105/150] | Train iter [220/391] | acc_top1 = 67.18750 | acc_top5 = 90.62500 | loss = 1.74155
+Epoch [105/150] | Train iter [270/391] | acc_top1 = 73.43750 | acc_top5 = 91.40625 | loss = 1.74183
+Epoch [105/150] | Train iter [320/391] | acc_top1 = 75.78125 | acc_top5 = 94.53125 | loss = 1.74142
+Epoch [105/150] | Train iter [370/391] | acc_top1 = 76.56250 | acc_top5 = 96.87500 | loss = 1.74152
+Epoch [105/150] | Train iter [391/391] | acc_top1 = 76.25000 | acc_top5 = 92.50000 | loss = 1.74129
+
+Epoch [105/150] | Validation | acc_top1 = 70.03561 | acc_top5 = 94.25436 | loss = 1.78473
+
+========================================
+
+Epoch [106/150] | Train iter [20/391] | acc_top1 = 70.31250 | acc_top5 = 90.62500 | loss = 1.73093
+Epoch [106/150] | Train iter [70/391] | acc_top1 = 70.31250 | acc_top5 = 95.31250 | loss = 1.73714
+Epoch [106/150] | Train iter [120/391] | acc_top1 = 68.75000 | acc_top5 = 92.18750 | loss = 1.74169
+Epoch [106/150] | Train iter [170/391] | acc_top1 = 78.12500 | acc_top5 = 96.09375 | loss = 1.74090
+Epoch [106/150] | Train iter [220/391] | acc_top1 = 71.87500 | acc_top5 = 89.06250 | loss = 1.74014
+Epoch [106/150] | Train iter [270/391] | acc_top1 = 66.40625 | acc_top5 = 92.18750 | loss = 1.74159
+Epoch [106/150] | Train iter [320/391] | acc_top1 = 68.75000 | acc_top5 = 94.53125 | loss = 1.74145
+Epoch [106/150] | Train iter [370/391] | acc_top1 = 74.21875 | acc_top5 = 93.75000 | loss = 1.74120
+Epoch [106/150] | Train iter [391/391] | acc_top1 = 70.00000 | acc_top5 = 93.75000 | loss = 1.74111
+
+Epoch [106/150] | Validation | acc_top1 = 70.84652 | acc_top5 = 94.27413 | loss = 1.77837
+
+========================================
+
+Epoch [107/150] | Train iter [20/391] | acc_top1 = 72.65625 | acc_top5 = 96.09375 | loss = 1.73033
+Epoch [107/150] | Train iter [70/391] | acc_top1 = 71.09375 | acc_top5 = 92.18750 | loss = 1.73041
+Epoch [107/150] | Train iter [120/391] | acc_top1 = 69.53125 | acc_top5 = 91.40625 | loss = 1.73201
+Epoch [107/150] | Train iter [170/391] | acc_top1 = 75.78125 | acc_top5 = 95.31250 | loss = 1.73357
+Epoch [107/150] | Train iter [220/391] | acc_top1 = 69.53125 | acc_top5 = 92.18750 | loss = 1.73530
+Epoch [107/150] | Train iter [270/391] | acc_top1 = 75.78125 | acc_top5 = 96.09375 | loss = 1.73576
+Epoch [107/150] | Train iter [320/391] | acc_top1 = 71.87500 | acc_top5 = 89.84375 | loss = 1.73698
+Epoch [107/150] | Train iter [370/391] | acc_top1 = 76.56250 | acc_top5 = 93.75000 | loss = 1.73706
+Epoch [107/150] | Train iter [391/391] | acc_top1 = 72.50000 | acc_top5 = 95.00000 | loss = 1.73738
+
+Epoch [107/150] | Validation | acc_top1 = 70.48062 | acc_top5 = 94.76859 | loss = 1.78041
+
+========================================
+
+Epoch [108/150] | Train iter [20/391] | acc_top1 = 68.75000 | acc_top5 = 90.62500 | loss = 1.74445
+Epoch [108/150] | Train iter [70/391] | acc_top1 = 67.96875 | acc_top5 = 89.06250 | loss = 1.73806
+Epoch [108/150] | Train iter [120/391] | acc_top1 = 76.56250 | acc_top5 = 96.09375 | loss = 1.73511
+Epoch [108/150] | Train iter [170/391] | acc_top1 = 75.78125 | acc_top5 = 92.18750 | loss = 1.73573
+Epoch [108/150] | Train iter [220/391] | acc_top1 = 73.43750 | acc_top5 = 93.75000 | loss = 1.73774
+Epoch [108/150] | Train iter [270/391] | acc_top1 = 76.56250 | acc_top5 = 92.18750 | loss = 1.73707
+Epoch [108/150] | Train iter [320/391] | acc_top1 = 76.56250 | acc_top5 = 92.96875 | loss = 1.73698
+Epoch [108/150] | Train iter [370/391] | acc_top1 = 70.31250 | acc_top5 = 92.18750 | loss = 1.73649
+Epoch [108/150] | Train iter [391/391] | acc_top1 = 73.75000 | acc_top5 = 97.50000 | loss = 1.73675
+
+Epoch [108/150] | Validation | acc_top1 = 69.94660 | acc_top5 = 94.40269 | loss = 1.78455
+
+========================================
+
+Epoch [109/150] | Train iter [20/391] | acc_top1 = 71.87500 | acc_top5 = 92.96875 | loss = 1.74616
+Epoch [109/150] | Train iter [70/391] | acc_top1 = 78.90625 | acc_top5 = 95.31250 | loss = 1.73016
+Epoch [109/150] | Train iter [120/391] | acc_top1 = 82.81250 | acc_top5 = 96.09375 | loss = 1.72853
+Epoch [109/150] | Train iter [170/391] | acc_top1 = 75.00000 | acc_top5 = 96.09375 | loss = 1.73198
+Epoch [109/150] | Train iter [220/391] | acc_top1 = 69.53125 | acc_top5 = 92.18750 | loss = 1.73197
+Epoch [109/150] | Train iter [270/391] | acc_top1 = 71.87500 | acc_top5 = 92.96875 | loss = 1.73257
+Epoch [109/150] | Train iter [320/391] | acc_top1 = 66.40625 | acc_top5 = 92.18750 | loss = 1.73561
+Epoch [109/150] | Train iter [370/391] | acc_top1 = 75.00000 | acc_top5 = 92.96875 | loss = 1.73561
+Epoch [109/150] | Train iter [391/391] | acc_top1 = 77.50000 | acc_top5 = 96.25000 | loss = 1.73529
+
+Epoch [109/150] | Validation | acc_top1 = 70.42128 | acc_top5 = 94.63014 | loss = 1.77933
+
+========================================
+
+Epoch [110/150] | Train iter [20/391] | acc_top1 = 70.31250 | acc_top5 = 92.18750 | loss = 1.72480
+Epoch [110/150] | Train iter [70/391] | acc_top1 = 75.00000 | acc_top5 = 93.75000 | loss = 1.73748
+Epoch [110/150] | Train iter [120/391] | acc_top1 = 69.53125 | acc_top5 = 92.18750 | loss = 1.73843
+Epoch [110/150] | Train iter [170/391] | acc_top1 = 79.68750 | acc_top5 = 97.65625 | loss = 1.73270
+Epoch [110/150] | Train iter [220/391] | acc_top1 = 69.53125 | acc_top5 = 92.18750 | loss = 1.73268
+Epoch [110/150] | Train iter [270/391] | acc_top1 = 70.31250 | acc_top5 = 94.53125 | loss = 1.73267
+Epoch [110/150] | Train iter [320/391] | acc_top1 = 75.00000 | acc_top5 = 92.96875 | loss = 1.73406
+Epoch [110/150] | Train iter [370/391] | acc_top1 = 71.87500 | acc_top5 = 90.62500 | loss = 1.73409
+Epoch [110/150] | Train iter [391/391] | acc_top1 = 72.50000 | acc_top5 = 95.00000 | loss = 1.73387
+
+Epoch [110/150] | Validation | acc_top1 = 70.84652 | acc_top5 = 94.64993 | loss = 1.77502
+
+========================================
+
+Epoch [111/150] | Train iter [20/391] | acc_top1 = 77.34375 | acc_top5 = 96.09375 | loss = 1.74202
+Epoch [111/150] | Train iter [70/391] | acc_top1 = 75.00000 | acc_top5 = 92.18750 | loss = 1.73804
+Epoch [111/150] | Train iter [120/391] | acc_top1 = 75.00000 | acc_top5 = 92.96875 | loss = 1.73673
+Epoch [111/150] | Train iter [170/391] | acc_top1 = 73.43750 | acc_top5 = 89.06250 | loss = 1.73625
+Epoch [111/150] | Train iter [220/391] | acc_top1 = 78.12500 | acc_top5 = 93.75000 | loss = 1.73473
+Epoch [111/150] | Train iter [270/391] | acc_top1 = 74.21875 | acc_top5 = 91.40625 | loss = 1.73385
+Epoch [111/150] | Train iter [320/391] | acc_top1 = 71.87500 | acc_top5 = 95.31250 | loss = 1.73261
+Epoch [111/150] | Train iter [370/391] | acc_top1 = 67.18750 | acc_top5 = 95.31250 | loss = 1.73264
+Epoch [111/150] | Train iter [391/391] | acc_top1 = 71.25000 | acc_top5 = 92.50000 | loss = 1.73296
+
+Epoch [111/150] | Validation | acc_top1 = 70.55973 | acc_top5 = 94.88727 | loss = 1.77912
+
+========================================
+
+Epoch [112/150] | Train iter [20/391] | acc_top1 = 82.81250 | acc_top5 = 95.31250 | loss = 1.72503
+Epoch [112/150] | Train iter [70/391] | acc_top1 = 71.87500 | acc_top5 = 96.09375 | loss = 1.72504
+Epoch [112/150] | Train iter [120/391] | acc_top1 = 75.78125 | acc_top5 = 97.65625 | loss = 1.72746
+Epoch [112/150] | Train iter [170/391] | acc_top1 = 71.87500 | acc_top5 = 93.75000 | loss = 1.72914
+Epoch [112/150] | Train iter [220/391] | acc_top1 = 69.53125 | acc_top5 = 96.09375 | loss = 1.73029
+Epoch [112/150] | Train iter [270/391] | acc_top1 = 65.62500 | acc_top5 = 93.75000 | loss = 1.72957
+Epoch [112/150] | Train iter [320/391] | acc_top1 = 73.43750 | acc_top5 = 92.96875 | loss = 1.73005
+Epoch [112/150] | Train iter [370/391] | acc_top1 = 73.43750 | acc_top5 = 94.53125 | loss = 1.73069
+Epoch [112/150] | Train iter [391/391] | acc_top1 = 80.00000 | acc_top5 = 98.75000 | loss = 1.73059
+
+Epoch [112/150] | Validation | acc_top1 = 70.90585 | acc_top5 = 95.02571 | loss = 1.77617
+
+========================================
+
+Epoch [113/150] | Train iter [20/391] | acc_top1 = 71.09375 | acc_top5 = 89.84375 | loss = 1.72436
+Epoch [113/150] | Train iter [70/391] | acc_top1 = 72.65625 | acc_top5 = 92.96875 | loss = 1.72942
+Epoch [113/150] | Train iter [120/391] | acc_top1 = 71.87500 | acc_top5 = 96.87500 | loss = 1.73128
+Epoch [113/150] | Train iter [170/391] | acc_top1 = 67.96875 | acc_top5 = 89.06250 | loss = 1.72961
+Epoch [113/150] | Train iter [220/391] | acc_top1 = 69.53125 | acc_top5 = 92.96875 | loss = 1.72814
+Epoch [113/150] | Train iter [270/391] | acc_top1 = 70.31250 | acc_top5 = 90.62500 | loss = 1.72867
+Epoch [113/150] | Train iter [320/391] | acc_top1 = 74.21875 | acc_top5 = 96.09375 | loss = 1.72906
+Epoch [113/150] | Train iter [370/391] | acc_top1 = 71.09375 | acc_top5 = 89.84375 | loss = 1.73005
+Epoch [113/150] | Train iter [391/391] | acc_top1 = 71.25000 | acc_top5 = 90.00000 | loss = 1.73002
+
+Epoch [113/150] | Validation | acc_top1 = 70.97508 | acc_top5 = 95.04549 | loss = 1.77480
+
+========================================
+
+Epoch [114/150] | Train iter [20/391] | acc_top1 = 73.43750 | acc_top5 = 92.18750 | loss = 1.73104
+Epoch [114/150] | Train iter [70/391] | acc_top1 = 67.96875 | acc_top5 = 92.96875 | loss = 1.72668
+Epoch [114/150] | Train iter [120/391] | acc_top1 = 79.68750 | acc_top5 = 95.31250 | loss = 1.72889
+Epoch [114/150] | Train iter [170/391] | acc_top1 = 70.31250 | acc_top5 = 93.75000 | loss = 1.72707
+Epoch [114/150] | Train iter [220/391] | acc_top1 = 71.09375 | acc_top5 = 94.53125 | loss = 1.72696
+Epoch [114/150] | Train iter [270/391] | acc_top1 = 78.90625 | acc_top5 = 96.87500 | loss = 1.72703
+Epoch [114/150] | Train iter [320/391] | acc_top1 = 68.75000 | acc_top5 = 92.96875 | loss = 1.72725
+Epoch [114/150] | Train iter [370/391] | acc_top1 = 73.43750 | acc_top5 = 89.84375 | loss = 1.72789
+Epoch [114/150] | Train iter [391/391] | acc_top1 = 68.75000 | acc_top5 = 91.25000 | loss = 1.72895
+
+Epoch [114/150] | Validation | acc_top1 = 71.16298 | acc_top5 = 95.08505 | loss = 1.77244
+
+========================================
+
+Epoch [115/150] | Train iter [20/391] | acc_top1 = 74.21875 | acc_top5 = 92.96875 | loss = 1.71772
+Epoch [115/150] | Train iter [70/391] | acc_top1 = 73.43750 | acc_top5 = 95.31250 | loss = 1.72424
+Epoch [115/150] | Train iter [120/391] | acc_top1 = 77.34375 | acc_top5 = 96.09375 | loss = 1.72571
+Epoch [115/150] | Train iter [170/391] | acc_top1 = 70.31250 | acc_top5 = 92.96875 | loss = 1.72754
+Epoch [115/150] | Train iter [220/391] | acc_top1 = 73.43750 | acc_top5 = 96.09375 | loss = 1.72760
+Epoch [115/150] | Train iter [270/391] | acc_top1 = 77.34375 | acc_top5 = 95.31250 | loss = 1.72726
+Epoch [115/150] | Train iter [320/391] | acc_top1 = 77.34375 | acc_top5 = 92.18750 | loss = 1.72794
+Epoch [115/150] | Train iter [370/391] | acc_top1 = 75.00000 | acc_top5 = 95.31250 | loss = 1.72823
+Epoch [115/150] | Train iter [391/391] | acc_top1 = 68.75000 | acc_top5 = 93.75000 | loss = 1.72856
+
+Epoch [115/150] | Validation | acc_top1 = 71.23220 | acc_top5 = 95.21361 | loss = 1.77124
+
+========================================
+
+Epoch [116/150] | Train iter [20/391] | acc_top1 = 75.00000 | acc_top5 = 92.96875 | loss = 1.71842
+Epoch [116/150] | Train iter [70/391] | acc_top1 = 73.43750 | acc_top5 = 95.31250 | loss = 1.72740
+Epoch [116/150] | Train iter [120/391] | acc_top1 = 81.25000 | acc_top5 = 94.53125 | loss = 1.72446
+Epoch [116/150] | Train iter [170/391] | acc_top1 = 77.34375 | acc_top5 = 96.09375 | loss = 1.72535
+Epoch [116/150] | Train iter [220/391] | acc_top1 = 73.43750 | acc_top5 = 96.87500 | loss = 1.72620
+Epoch [116/150] | Train iter [270/391] | acc_top1 = 73.43750 | acc_top5 = 92.18750 | loss = 1.72637
+Epoch [116/150] | Train iter [320/391] | acc_top1 = 73.43750 | acc_top5 = 95.31250 | loss = 1.72692
+Epoch [116/150] | Train iter [370/391] | acc_top1 = 71.87500 | acc_top5 = 97.65625 | loss = 1.72601
+Epoch [116/150] | Train iter [391/391] | acc_top1 = 77.50000 | acc_top5 = 93.75000 | loss = 1.72620
+
+Epoch [116/150] | Validation | acc_top1 = 71.16298 | acc_top5 = 95.19383 | loss = 1.77225
+
+========================================
+
+Epoch [117/150] | Train iter [20/391] | acc_top1 = 73.43750 | acc_top5 = 94.53125 | loss = 1.72217
+Epoch [117/150] | Train iter [70/391] | acc_top1 = 78.90625 | acc_top5 = 95.31250 | loss = 1.72511
+Epoch [117/150] | Train iter [120/391] | acc_top1 = 72.65625 | acc_top5 = 93.75000 | loss = 1.72437
+Epoch [117/150] | Train iter [170/391] | acc_top1 = 79.68750 | acc_top5 = 96.09375 | loss = 1.72318
+Epoch [117/150] | Train iter [220/391] | acc_top1 = 72.65625 | acc_top5 = 95.31250 | loss = 1.72350
+Epoch [117/150] | Train iter [270/391] | acc_top1 = 75.78125 | acc_top5 = 96.87500 | loss = 1.72382
+Epoch [117/150] | Train iter [320/391] | acc_top1 = 66.40625 | acc_top5 = 94.53125 | loss = 1.72449
+Epoch [117/150] | Train iter [370/391] | acc_top1 = 75.00000 | acc_top5 = 94.53125 | loss = 1.72469
+Epoch [117/150] | Train iter [391/391] | acc_top1 = 62.50000 | acc_top5 = 91.25000 | loss = 1.72454
+
+Epoch [117/150] | Validation | acc_top1 = 71.33109 | acc_top5 = 95.53996 | loss = 1.77019
+
+========================================
+
+Epoch [118/150] | Train iter [20/391] | acc_top1 = 71.09375 | acc_top5 = 95.31250 | loss = 1.71644
+Epoch [118/150] | Train iter [70/391] | acc_top1 = 78.90625 | acc_top5 = 96.09375 | loss = 1.72258
+Epoch [118/150] | Train iter [120/391] | acc_top1 = 72.65625 | acc_top5 = 94.53125 | loss = 1.72082
+Epoch [118/150] | Train iter [170/391] | acc_top1 = 74.21875 | acc_top5 = 92.18750 | loss = 1.72373
+Epoch [118/150] | Train iter [220/391] | acc_top1 = 77.34375 | acc_top5 = 95.31250 | loss = 1.72498
+Epoch [118/150] | Train iter [270/391] | acc_top1 = 73.43750 | acc_top5 = 96.09375 | loss = 1.72629
+Epoch [118/150] | Train iter [320/391] | acc_top1 = 74.21875 | acc_top5 = 92.96875 | loss = 1.72555
+Epoch [118/150] | Train iter [370/391] | acc_top1 = 74.21875 | acc_top5 = 97.65625 | loss = 1.72536
+Epoch [118/150] | Train iter [391/391] | acc_top1 = 82.50000 | acc_top5 = 96.25000 | loss = 1.72515
+
+Epoch [118/150] | Validation | acc_top1 = 71.39043 | acc_top5 = 95.25317 | loss = 1.76969
+
+========================================
+
+Epoch [119/150] | Train iter [20/391] | acc_top1 = 75.00000 | acc_top5 = 96.87500 | loss = 1.71054
+Epoch [119/150] | Train iter [70/391] | acc_top1 = 77.34375 | acc_top5 = 92.18750 | loss = 1.71201
+Epoch [119/150] | Train iter [120/391] | acc_top1 = 78.12500 | acc_top5 = 95.31250 | loss = 1.72097
+Epoch [119/150] | Train iter [170/391] | acc_top1 = 70.31250 | acc_top5 = 93.75000 | loss = 1.72137
+Epoch [119/150] | Train iter [220/391] | acc_top1 = 76.56250 | acc_top5 = 96.87500 | loss = 1.72102
+Epoch [119/150] | Train iter [270/391] | acc_top1 = 75.00000 | acc_top5 = 95.31250 | loss = 1.72162
+Epoch [119/150] | Train iter [320/391] | acc_top1 = 73.43750 | acc_top5 = 96.09375 | loss = 1.72344
+Epoch [119/150] | Train iter [370/391] | acc_top1 = 71.87500 | acc_top5 = 89.84375 | loss = 1.72341
+Epoch [119/150] | Train iter [391/391] | acc_top1 = 77.50000 | acc_top5 = 95.00000 | loss = 1.72307
+
+Epoch [119/150] | Validation | acc_top1 = 71.39043 | acc_top5 = 95.57951 | loss = 1.77002
+
+========================================
+
+Epoch [120/150] | Train iter [20/391] | acc_top1 = 77.34375 | acc_top5 = 94.53125 | loss = 1.70561
+Epoch [120/150] | Train iter [70/391] | acc_top1 = 76.56250 | acc_top5 = 98.43750 | loss = 1.71769
+Epoch [120/150] | Train iter [120/391] | acc_top1 = 76.56250 | acc_top5 = 94.53125 | loss = 1.72063
+Epoch [120/150] | Train iter [170/391] | acc_top1 = 78.12500 | acc_top5 = 97.65625 | loss = 1.71924
+Epoch [120/150] | Train iter [220/391] | acc_top1 = 73.43750 | acc_top5 = 93.75000 | loss = 1.71866
+Epoch [120/150] | Train iter [270/391] | acc_top1 = 71.87500 | acc_top5 = 93.75000 | loss = 1.71958
+Epoch [120/150] | Train iter [320/391] | acc_top1 = 67.18750 | acc_top5 = 91.40625 | loss = 1.72054
+Epoch [120/150] | Train iter [370/391] | acc_top1 = 82.03125 | acc_top5 = 96.09375 | loss = 1.72056
+Epoch [120/150] | Train iter [391/391] | acc_top1 = 86.25000 | acc_top5 = 96.25000 | loss = 1.72079
+
+Epoch [120/150] | Validation | acc_top1 = 71.50910 | acc_top5 = 95.46084 | loss = 1.76749
+
+========================================
+
+Epoch [121/150] | Train iter [20/391] | acc_top1 = 70.31250 | acc_top5 = 92.96875 | loss = 1.72102
+Epoch [121/150] | Train iter [70/391] | acc_top1 = 67.18750 | acc_top5 = 96.09375 | loss = 1.72119
+Epoch [121/150] | Train iter [120/391] | acc_top1 = 76.56250 | acc_top5 = 95.31250 | loss = 1.72316
+Epoch [121/150] | Train iter [170/391] | acc_top1 = 82.03125 | acc_top5 = 96.87500 | loss = 1.72139
+Epoch [121/150] | Train iter [220/391] | acc_top1 = 67.96875 | acc_top5 = 93.75000 | loss = 1.72016
+Epoch [121/150] | Train iter [270/391] | acc_top1 = 74.21875 | acc_top5 = 94.53125 | loss = 1.71976
+Epoch [121/150] | Train iter [320/391] | acc_top1 = 72.65625 | acc_top5 = 95.31250 | loss = 1.72002
+Epoch [121/150] | Train iter [370/391] | acc_top1 = 79.68750 | acc_top5 = 96.09375 | loss = 1.72086
+Epoch [121/150] | Train iter [391/391] | acc_top1 = 76.25000 | acc_top5 = 96.25000 | loss = 1.72092
+
+Epoch [121/150] | Validation | acc_top1 = 71.51899 | acc_top5 = 95.53996 | loss = 1.76954
+
+========================================
+
+Epoch [122/150] | Train iter [20/391] | acc_top1 = 79.68750 | acc_top5 = 97.65625 | loss = 1.72456
+Epoch [122/150] | Train iter [70/391] | acc_top1 = 71.87500 | acc_top5 = 97.65625 | loss = 1.71590
+Epoch [122/150] | Train iter [120/391] | acc_top1 = 77.34375 | acc_top5 = 96.09375 | loss = 1.71791
+Epoch [122/150] | Train iter [170/391] | acc_top1 = 78.90625 | acc_top5 = 94.53125 | loss = 1.71619
+Epoch [122/150] | Train iter [220/391] | acc_top1 = 71.09375 | acc_top5 = 92.96875 | loss = 1.71749
+Epoch [122/150] | Train iter [270/391] | acc_top1 = 77.34375 | acc_top5 = 93.75000 | loss = 1.71714
+Epoch [122/150] | Train iter [320/391] | acc_top1 = 71.09375 | acc_top5 = 92.96875 | loss = 1.71779
+Epoch [122/150] | Train iter [370/391] | acc_top1 = 70.31250 | acc_top5 = 93.75000 | loss = 1.71866
+Epoch [122/150] | Train iter [391/391] | acc_top1 = 76.25000 | acc_top5 = 93.75000 | loss = 1.71882
+
+Epoch [122/150] | Validation | acc_top1 = 71.57832 | acc_top5 = 95.60918 | loss = 1.76930
+
+========================================
+
+Epoch [123/150] | Train iter [20/391] | acc_top1 = 80.46875 | acc_top5 = 92.96875 | loss = 1.72183
+Epoch [123/150] | Train iter [70/391] | acc_top1 = 76.56250 | acc_top5 = 91.40625 | loss = 1.72649
+Epoch [123/150] | Train iter [120/391] | acc_top1 = 75.00000 | acc_top5 = 95.31250 | loss = 1.71888
+Epoch [123/150] | Train iter [170/391] | acc_top1 = 78.12500 | acc_top5 = 93.75000 | loss = 1.71832
+Epoch [123/150] | Train iter [220/391] | acc_top1 = 75.00000 | acc_top5 = 93.75000 | loss = 1.71766
+Epoch [123/150] | Train iter [270/391] | acc_top1 = 71.09375 | acc_top5 = 91.40625 | loss = 1.71955
+Epoch [123/150] | Train iter [320/391] | acc_top1 = 76.56250 | acc_top5 = 95.31250 | loss = 1.71898
+Epoch [123/150] | Train iter [370/391] | acc_top1 = 70.31250 | acc_top5 = 91.40625 | loss = 1.71897
+Epoch [123/150] | Train iter [391/391] | acc_top1 = 75.00000 | acc_top5 = 95.00000 | loss = 1.71924
+
+Epoch [123/150] | Validation | acc_top1 = 71.71677 | acc_top5 = 96.10365 | loss = 1.76896
+
+========================================
+
+Epoch [124/150] | Train iter [20/391] | acc_top1 = 81.25000 | acc_top5 = 94.53125 | loss = 1.71479
+Epoch [124/150] | Train iter [70/391] | acc_top1 = 76.56250 | acc_top5 = 96.09375 | loss = 1.71551
+Epoch [124/150] | Train iter [120/391] | acc_top1 = 75.00000 | acc_top5 = 93.75000 | loss = 1.71555
+Epoch [124/150] | Train iter [170/391] | acc_top1 = 73.43750 | acc_top5 = 92.96875 | loss = 1.71836
+Epoch [124/150] | Train iter [220/391] | acc_top1 = 78.12500 | acc_top5 = 92.96875 | loss = 1.71732
+Epoch [124/150] | Train iter [270/391] | acc_top1 = 68.75000 | acc_top5 = 89.06250 | loss = 1.71818
+Epoch [124/150] | Train iter [320/391] | acc_top1 = 78.90625 | acc_top5 = 95.31250 | loss = 1.71762
+Epoch [124/150] | Train iter [370/391] | acc_top1 = 73.43750 | acc_top5 = 94.53125 | loss = 1.71681
+Epoch [124/150] | Train iter [391/391] | acc_top1 = 71.25000 | acc_top5 = 91.25000 | loss = 1.71758
+
+Epoch [124/150] | Validation | acc_top1 = 71.94423 | acc_top5 = 95.53007 | loss = 1.76475
+
+========================================
+
+Epoch [125/150] | Train iter [20/391] | acc_top1 = 63.28125 | acc_top5 = 92.18750 | loss = 1.72487
+Epoch [125/150] | Train iter [70/391] | acc_top1 = 74.21875 | acc_top5 = 95.31250 | loss = 1.71621
+Epoch [125/150] | Train iter [120/391] | acc_top1 = 69.53125 | acc_top5 = 92.18750 | loss = 1.71249
+Epoch [125/150] | Train iter [170/391] | acc_top1 = 78.12500 | acc_top5 = 92.18750 | loss = 1.71297
+Epoch [125/150] | Train iter [220/391] | acc_top1 = 75.00000 | acc_top5 = 96.87500 | loss = 1.71256
+Epoch [125/150] | Train iter [270/391] | acc_top1 = 78.12500 | acc_top5 = 96.09375 | loss = 1.71406
+Epoch [125/150] | Train iter [320/391] | acc_top1 = 72.65625 | acc_top5 = 96.09375 | loss = 1.71409
+Epoch [125/150] | Train iter [370/391] | acc_top1 = 78.90625 | acc_top5 = 96.87500 | loss = 1.71561
+Epoch [125/150] | Train iter [391/391] | acc_top1 = 71.25000 | acc_top5 = 96.25000 | loss = 1.71573
+
+Epoch [125/150] | Validation | acc_top1 = 71.90467 | acc_top5 = 96.14320 | loss = 1.76604
+
+========================================
+
+Epoch [126/150] | Train iter [20/391] | acc_top1 = 75.00000 | acc_top5 = 94.53125 | loss = 1.72206
+Epoch [126/150] | Train iter [70/391] | acc_top1 = 71.09375 | acc_top5 = 90.62500 | loss = 1.71525
+Epoch [126/150] | Train iter [120/391] | acc_top1 = 79.68750 | acc_top5 = 94.53125 | loss = 1.71428
+Epoch [126/150] | Train iter [170/391] | acc_top1 = 75.78125 | acc_top5 = 97.65625 | loss = 1.71290
+Epoch [126/150] | Train iter [220/391] | acc_top1 = 74.21875 | acc_top5 = 96.87500 | loss = 1.71290
+Epoch [126/150] | Train iter [270/391] | acc_top1 = 76.56250 | acc_top5 = 98.43750 | loss = 1.71417
+Epoch [126/150] | Train iter [320/391] | acc_top1 = 75.78125 | acc_top5 = 95.31250 | loss = 1.71403
+Epoch [126/150] | Train iter [370/391] | acc_top1 = 82.81250 | acc_top5 = 97.65625 | loss = 1.71443
+Epoch [126/150] | Train iter [391/391] | acc_top1 = 81.25000 | acc_top5 = 97.50000 | loss = 1.71492
+
+Epoch [126/150] | Validation | acc_top1 = 71.66733 | acc_top5 = 95.75751 | loss = 1.76731
+
+========================================
+
+Epoch [127/150] | Train iter [20/391] | acc_top1 = 64.06250 | acc_top5 = 96.87500 | loss = 1.71637
+Epoch [127/150] | Train iter [70/391] | acc_top1 = 75.78125 | acc_top5 = 94.53125 | loss = 1.71320
+Epoch [127/150] | Train iter [120/391] | acc_top1 = 75.00000 | acc_top5 = 92.18750 | loss = 1.71229
+Epoch [127/150] | Train iter [170/391] | acc_top1 = 71.09375 | acc_top5 = 93.75000 | loss = 1.71136
+Epoch [127/150] | Train iter [220/391] | acc_top1 = 80.46875 | acc_top5 = 95.31250 | loss = 1.71271
+Epoch [127/150] | Train iter [270/391] | acc_top1 = 72.65625 | acc_top5 = 94.53125 | loss = 1.71496
+Epoch [127/150] | Train iter [320/391] | acc_top1 = 82.03125 | acc_top5 = 96.87500 | loss = 1.71391
+Epoch [127/150] | Train iter [370/391] | acc_top1 = 82.81250 | acc_top5 = 99.21875 | loss = 1.71368
+Epoch [127/150] | Train iter [391/391] | acc_top1 = 77.50000 | acc_top5 = 93.75000 | loss = 1.71387
+
+Epoch [127/150] | Validation | acc_top1 = 72.15190 | acc_top5 = 95.70807 | loss = 1.76229
+
+========================================
+
+Epoch [128/150] | Train iter [20/391] | acc_top1 = 75.78125 | acc_top5 = 92.96875 | loss = 1.72705
+Epoch [128/150] | Train iter [70/391] | acc_top1 = 76.56250 | acc_top5 = 95.31250 | loss = 1.71883
+Epoch [128/150] | Train iter [120/391] | acc_top1 = 79.68750 | acc_top5 = 95.31250 | loss = 1.71521
+Epoch [128/150] | Train iter [170/391] | acc_top1 = 73.43750 | acc_top5 = 93.75000 | loss = 1.71482
+Epoch [128/150] | Train iter [220/391] | acc_top1 = 77.34375 | acc_top5 = 94.53125 | loss = 1.71413
+Epoch [128/150] | Train iter [270/391] | acc_top1 = 66.40625 | acc_top5 = 92.96875 | loss = 1.71336
+Epoch [128/150] | Train iter [320/391] | acc_top1 = 69.53125 | acc_top5 = 89.06250 | loss = 1.71288
+Epoch [128/150] | Train iter [370/391] | acc_top1 = 68.75000 | acc_top5 = 94.53125 | loss = 1.71221
+Epoch [128/150] | Train iter [391/391] | acc_top1 = 70.00000 | acc_top5 = 96.25000 | loss = 1.71252
+
+Epoch [128/150] | Validation | acc_top1 = 72.48814 | acc_top5 = 96.10365 | loss = 1.76066
+
+========================================
+
+Epoch [129/150] | Train iter [20/391] | acc_top1 = 73.43750 | acc_top5 = 97.65625 | loss = 1.70612
+Epoch [129/150] | Train iter [70/391] | acc_top1 = 74.21875 | acc_top5 = 92.96875 | loss = 1.70571
+Epoch [129/150] | Train iter [120/391] | acc_top1 = 71.87500 | acc_top5 = 95.31250 | loss = 1.71085
+Epoch [129/150] | Train iter [170/391] | acc_top1 = 77.34375 | acc_top5 = 94.53125 | loss = 1.71050
+Epoch [129/150] | Train iter [220/391] | acc_top1 = 84.37500 | acc_top5 = 97.65625 | loss = 1.70968
+Epoch [129/150] | Train iter [270/391] | acc_top1 = 71.09375 | acc_top5 = 92.96875 | loss = 1.70866
+Epoch [129/150] | Train iter [320/391] | acc_top1 = 69.53125 | acc_top5 = 92.18750 | loss = 1.71056
+Epoch [129/150] | Train iter [370/391] | acc_top1 = 74.21875 | acc_top5 = 94.53125 | loss = 1.71150
+Epoch [129/150] | Train iter [391/391] | acc_top1 = 71.25000 | acc_top5 = 96.25000 | loss = 1.71194
+
+Epoch [129/150] | Validation | acc_top1 = 72.31013 | acc_top5 = 96.32121 | loss = 1.76058
+
+========================================
+
+Epoch [130/150] | Train iter [20/391] | acc_top1 = 75.00000 | acc_top5 = 92.18750 | loss = 1.69862
+Epoch [130/150] | Train iter [70/391] | acc_top1 = 80.46875 | acc_top5 = 94.53125 | loss = 1.70629
+Epoch [130/150] | Train iter [120/391] | acc_top1 = 66.40625 | acc_top5 = 92.96875 | loss = 1.70760
+Epoch [130/150] | Train iter [170/391] | acc_top1 = 65.62500 | acc_top5 = 92.96875 | loss = 1.70959
+Epoch [130/150] | Train iter [220/391] | acc_top1 = 75.00000 | acc_top5 = 94.53125 | loss = 1.70962
+Epoch [130/150] | Train iter [270/391] | acc_top1 = 81.25000 | acc_top5 = 99.21875 | loss = 1.70948
+Epoch [130/150] | Train iter [320/391] | acc_top1 = 73.43750 | acc_top5 = 96.09375 | loss = 1.70963
+Epoch [130/150] | Train iter [370/391] | acc_top1 = 73.43750 | acc_top5 = 94.53125 | loss = 1.70976
+Epoch [130/150] | Train iter [391/391] | acc_top1 = 85.00000 | acc_top5 = 96.25000 | loss = 1.70976
+
+Epoch [130/150] | Validation | acc_top1 = 72.04312 | acc_top5 = 96.26187 | loss = 1.76267
+
+========================================
+
+Epoch [131/150] | Train iter [20/391] | acc_top1 = 78.90625 | acc_top5 = 96.87500 | loss = 1.71091
+Epoch [131/150] | Train iter [70/391] | acc_top1 = 79.68750 | acc_top5 = 96.87500 | loss = 1.71185
+Epoch [131/150] | Train iter [120/391] | acc_top1 = 69.53125 | acc_top5 = 92.18750 | loss = 1.70834
+Epoch [131/150] | Train iter [170/391] | acc_top1 = 79.68750 | acc_top5 = 93.75000 | loss = 1.71153
+Epoch [131/150] | Train iter [220/391] | acc_top1 = 81.25000 | acc_top5 = 96.87500 | loss = 1.70998
+Epoch [131/150] | Train iter [270/391] | acc_top1 = 74.21875 | acc_top5 = 96.87500 | loss = 1.70906
+Epoch [131/150] | Train iter [320/391] | acc_top1 = 70.31250 | acc_top5 = 95.31250 | loss = 1.70992
+Epoch [131/150] | Train iter [370/391] | acc_top1 = 78.12500 | acc_top5 = 94.53125 | loss = 1.70918
+Epoch [131/150] | Train iter [391/391] | acc_top1 = 76.25000 | acc_top5 = 92.50000 | loss = 1.70895
+
+Epoch [131/150] | Validation | acc_top1 = 72.40902 | acc_top5 = 96.26187 | loss = 1.76081
+
+========================================
+
+Epoch [132/150] | Train iter [20/391] | acc_top1 = 78.90625 | acc_top5 = 97.65625 | loss = 1.71883
+Epoch [132/150] | Train iter [70/391] | acc_top1 = 75.78125 | acc_top5 = 96.09375 | loss = 1.71091
+Epoch [132/150] | Train iter [120/391] | acc_top1 = 79.68750 | acc_top5 = 97.65625 | loss = 1.70941
+Epoch [132/150] | Train iter [170/391] | acc_top1 = 77.34375 | acc_top5 = 96.09375 | loss = 1.70921
+Epoch [132/150] | Train iter [220/391] | acc_top1 = 77.34375 | acc_top5 = 96.87500 | loss = 1.70881
+Epoch [132/150] | Train iter [270/391] | acc_top1 = 79.68750 | acc_top5 = 96.09375 | loss = 1.70875
+Epoch [132/150] | Train iter [320/391] | acc_top1 = 75.78125 | acc_top5 = 96.09375 | loss = 1.70928
+Epoch [132/150] | Train iter [370/391] | acc_top1 = 78.12500 | acc_top5 = 93.75000 | loss = 1.70871
+Epoch [132/150] | Train iter [391/391] | acc_top1 = 78.75000 | acc_top5 = 95.00000 | loss = 1.70857
+
+Epoch [132/150] | Validation | acc_top1 = 72.69581 | acc_top5 = 96.29153 | loss = 1.75724
+
+========================================
+
+Epoch [133/150] | Train iter [20/391] | acc_top1 = 75.00000 | acc_top5 = 94.53125 | loss = 1.71085
+Epoch [133/150] | Train iter [70/391] | acc_top1 = 76.56250 | acc_top5 = 96.87500 | loss = 1.70560
+Epoch [133/150] | Train iter [120/391] | acc_top1 = 79.68750 | acc_top5 = 95.31250 | loss = 1.70729
+Epoch [133/150] | Train iter [170/391] | acc_top1 = 80.46875 | acc_top5 = 95.31250 | loss = 1.70657
+Epoch [133/150] | Train iter [220/391] | acc_top1 = 79.68750 | acc_top5 = 95.31250 | loss = 1.70640
+Epoch [133/150] | Train iter [270/391] | acc_top1 = 71.09375 | acc_top5 = 93.75000 | loss = 1.70683
+Epoch [133/150] | Train iter [320/391] | acc_top1 = 75.78125 | acc_top5 = 93.75000 | loss = 1.70733
+Epoch [133/150] | Train iter [370/391] | acc_top1 = 75.78125 | acc_top5 = 97.65625 | loss = 1.70669
+Epoch [133/150] | Train iter [391/391] | acc_top1 = 75.00000 | acc_top5 = 98.75000 | loss = 1.70681
+
+Epoch [133/150] | Validation | acc_top1 = 72.32991 | acc_top5 = 96.25198 | loss = 1.76084
+
+========================================
+
+Epoch [134/150] | Train iter [20/391] | acc_top1 = 72.65625 | acc_top5 = 97.65625 | loss = 1.70013
+Epoch [134/150] | Train iter [70/391] | acc_top1 = 76.56250 | acc_top5 = 95.31250 | loss = 1.70576
+Epoch [134/150] | Train iter [120/391] | acc_top1 = 79.68750 | acc_top5 = 96.09375 | loss = 1.70772
+Epoch [134/150] | Train iter [170/391] | acc_top1 = 72.65625 | acc_top5 = 97.65625 | loss = 1.70791
+Epoch [134/150] | Train iter [220/391] | acc_top1 = 70.31250 | acc_top5 = 95.31250 | loss = 1.70705
+Epoch [134/150] | Train iter [270/391] | acc_top1 = 72.65625 | acc_top5 = 96.09375 | loss = 1.70760
+Epoch [134/150] | Train iter [320/391] | acc_top1 = 82.81250 | acc_top5 = 94.53125 | loss = 1.70777
+Epoch [134/150] | Train iter [370/391] | acc_top1 = 78.90625 | acc_top5 = 92.96875 | loss = 1.70742
+Epoch [134/150] | Train iter [391/391] | acc_top1 = 80.00000 | acc_top5 = 98.75000 | loss = 1.70708
+
+Epoch [134/150] | Validation | acc_top1 = 72.36946 | acc_top5 = 96.56844 | loss = 1.75889
+
+========================================
+
+Epoch [135/150] | Train iter [20/391] | acc_top1 = 80.46875 | acc_top5 = 97.65625 | loss = 1.70036
+Epoch [135/150] | Train iter [70/391] | acc_top1 = 78.90625 | acc_top5 = 98.43750 | loss = 1.70444
+Epoch [135/150] | Train iter [120/391] | acc_top1 = 79.68750 | acc_top5 = 97.65625 | loss = 1.70311
+Epoch [135/150] | Train iter [170/391] | acc_top1 = 82.81250 | acc_top5 = 96.09375 | loss = 1.70246
+Epoch [135/150] | Train iter [220/391] | acc_top1 = 76.56250 | acc_top5 = 96.87500 | loss = 1.70386
+Epoch [135/150] | Train iter [270/391] | acc_top1 = 72.65625 | acc_top5 = 92.96875 | loss = 1.70476
+Epoch [135/150] | Train iter [320/391] | acc_top1 = 73.43750 | acc_top5 = 91.40625 | loss = 1.70462
+Epoch [135/150] | Train iter [370/391] | acc_top1 = 73.43750 | acc_top5 = 92.18750 | loss = 1.70415
+Epoch [135/150] | Train iter [391/391] | acc_top1 = 80.00000 | acc_top5 = 95.00000 | loss = 1.70460
+
+Epoch [135/150] | Validation | acc_top1 = 72.64636 | acc_top5 = 96.60799 | loss = 1.75750
+
+========================================
+
+Epoch [136/150] | Train iter [20/391] | acc_top1 = 78.90625 | acc_top5 = 96.09375 | loss = 1.70178
+Epoch [136/150] | Train iter [70/391] | acc_top1 = 75.78125 | acc_top5 = 96.09375 | loss = 1.70252
+Epoch [136/150] | Train iter [120/391] | acc_top1 = 73.43750 | acc_top5 = 95.31250 | loss = 1.70274
+Epoch [136/150] | Train iter [170/391] | acc_top1 = 76.56250 | acc_top5 = 96.87500 | loss = 1.70328
+Epoch [136/150] | Train iter [220/391] | acc_top1 = 73.43750 | acc_top5 = 96.87500 | loss = 1.70396
+Epoch [136/150] | Train iter [270/391] | acc_top1 = 85.15625 | acc_top5 = 96.09375 | loss = 1.70448
+Epoch [136/150] | Train iter [320/391] | acc_top1 = 76.56250 | acc_top5 = 96.09375 | loss = 1.70398
+Epoch [136/150] | Train iter [370/391] | acc_top1 = 71.87500 | acc_top5 = 96.09375 | loss = 1.70440
+Epoch [136/150] | Train iter [391/391] | acc_top1 = 81.25000 | acc_top5 = 97.50000 | loss = 1.70391
+
+Epoch [136/150] | Validation | acc_top1 = 72.63647 | acc_top5 = 97.05301 | loss = 1.75770
+
+========================================
+
+Epoch [137/150] | Train iter [20/391] | acc_top1 = 80.46875 | acc_top5 = 96.09375 | loss = 1.71015
+Epoch [137/150] | Train iter [70/391] | acc_top1 = 71.09375 | acc_top5 = 96.09375 | loss = 1.70741
+Epoch [137/150] | Train iter [120/391] | acc_top1 = 77.34375 | acc_top5 = 95.31250 | loss = 1.70710
+Epoch [137/150] | Train iter [170/391] | acc_top1 = 81.25000 | acc_top5 = 97.65625 | loss = 1.70306
+Epoch [137/150] | Train iter [220/391] | acc_top1 = 82.03125 | acc_top5 = 98.43750 | loss = 1.70388
+Epoch [137/150] | Train iter [270/391] | acc_top1 = 81.25000 | acc_top5 = 95.31250 | loss = 1.70338
+Epoch [137/150] | Train iter [320/391] | acc_top1 = 82.03125 | acc_top5 = 96.87500 | loss = 1.70296
+Epoch [137/150] | Train iter [370/391] | acc_top1 = 74.21875 | acc_top5 = 95.31250 | loss = 1.70351
+Epoch [137/150] | Train iter [391/391] | acc_top1 = 73.75000 | acc_top5 = 96.25000 | loss = 1.70397
+
+Epoch [137/150] | Validation | acc_top1 = 72.72548 | acc_top5 = 96.68710 | loss = 1.75591
+
+========================================
+
+Epoch [138/150] | Train iter [20/391] | acc_top1 = 71.09375 | acc_top5 = 96.87500 | loss = 1.70030
+Epoch [138/150] | Train iter [70/391] | acc_top1 = 67.96875 | acc_top5 = 94.53125 | loss = 1.70725
+Epoch [138/150] | Train iter [120/391] | acc_top1 = 78.12500 | acc_top5 = 97.65625 | loss = 1.70180
+Epoch [138/150] | Train iter [170/391] | acc_top1 = 78.12500 | acc_top5 = 97.65625 | loss = 1.70190
+Epoch [138/150] | Train iter [220/391] | acc_top1 = 73.43750 | acc_top5 = 93.75000 | loss = 1.70109
+Epoch [138/150] | Train iter [270/391] | acc_top1 = 73.43750 | acc_top5 = 100.00000 | loss = 1.70191
+Epoch [138/150] | Train iter [320/391] | acc_top1 = 75.78125 | acc_top5 = 93.75000 | loss = 1.70159
+Epoch [138/150] | Train iter [370/391] | acc_top1 = 80.46875 | acc_top5 = 97.65625 | loss = 1.70155
+Epoch [138/150] | Train iter [391/391] | acc_top1 = 71.25000 | acc_top5 = 97.50000 | loss = 1.70237
+
+Epoch [138/150] | Validation | acc_top1 = 72.84415 | acc_top5 = 96.98379 | loss = 1.75525
+
+========================================
+
+Epoch [139/150] | Train iter [20/391] | acc_top1 = 78.90625 | acc_top5 = 95.31250 | loss = 1.70991
+Epoch [139/150] | Train iter [70/391] | acc_top1 = 68.75000 | acc_top5 = 97.65625 | loss = 1.70327
+Epoch [139/150] | Train iter [120/391] | acc_top1 = 75.00000 | acc_top5 = 94.53125 | loss = 1.70122
+Epoch [139/150] | Train iter [170/391] | acc_top1 = 76.56250 | acc_top5 = 99.21875 | loss = 1.70303
+Epoch [139/150] | Train iter [220/391] | acc_top1 = 81.25000 | acc_top5 = 96.87500 | loss = 1.70159
+Epoch [139/150] | Train iter [270/391] | acc_top1 = 77.34375 | acc_top5 = 98.43750 | loss = 1.70049
+Epoch [139/150] | Train iter [320/391] | acc_top1 = 75.00000 | acc_top5 = 94.53125 | loss = 1.70122
+Epoch [139/150] | Train iter [370/391] | acc_top1 = 67.18750 | acc_top5 = 94.53125 | loss = 1.70299
+Epoch [139/150] | Train iter [391/391] | acc_top1 = 73.75000 | acc_top5 = 92.50000 | loss = 1.70255
+
+Epoch [139/150] | Validation | acc_top1 = 73.15071 | acc_top5 = 96.99368 | loss = 1.75619
+
+========================================
+
+Epoch [140/150] | Train iter [20/391] | acc_top1 = 77.34375 | acc_top5 = 95.31250 | loss = 1.70094
+Epoch [140/150] | Train iter [70/391] | acc_top1 = 73.43750 | acc_top5 = 94.53125 | loss = 1.69777
+Epoch [140/150] | Train iter [120/391] | acc_top1 = 73.43750 | acc_top5 = 93.75000 | loss = 1.69872
+Epoch [140/150] | Train iter [170/391] | acc_top1 = 80.46875 | acc_top5 = 96.87500 | loss = 1.70057
+Epoch [140/150] | Train iter [220/391] | acc_top1 = 78.12500 | acc_top5 = 95.31250 | loss = 1.70142
+Epoch [140/150] | Train iter [270/391] | acc_top1 = 82.03125 | acc_top5 = 99.21875 | loss = 1.69992
+Epoch [140/150] | Train iter [320/391] | acc_top1 = 75.00000 | acc_top5 = 97.65625 | loss = 1.70107
+Epoch [140/150] | Train iter [370/391] | acc_top1 = 81.25000 | acc_top5 = 95.31250 | loss = 1.70121
+Epoch [140/150] | Train iter [391/391] | acc_top1 = 75.00000 | acc_top5 = 96.25000 | loss = 1.70188
+
+Epoch [140/150] | Validation | acc_top1 = 72.90348 | acc_top5 = 96.85522 | loss = 1.75456
+
+========================================
+
+Epoch [141/150] | Train iter [20/391] | acc_top1 = 75.00000 | acc_top5 = 95.31250 | loss = 1.68738
+Epoch [141/150] | Train iter [70/391] | acc_top1 = 78.12500 | acc_top5 = 95.31250 | loss = 1.69907
+Epoch [141/150] | Train iter [120/391] | acc_top1 = 82.03125 | acc_top5 = 96.87500 | loss = 1.69838
+Epoch [141/150] | Train iter [170/391] | acc_top1 = 75.78125 | acc_top5 = 94.53125 | loss = 1.69803
+Epoch [141/150] | Train iter [220/391] | acc_top1 = 84.37500 | acc_top5 = 95.31250 | loss = 1.69888
+Epoch [141/150] | Train iter [270/391] | acc_top1 = 75.00000 | acc_top5 = 95.31250 | loss = 1.70002
+Epoch [141/150] | Train iter [320/391] | acc_top1 = 76.56250 | acc_top5 = 95.31250 | loss = 1.69995
+Epoch [141/150] | Train iter [370/391] | acc_top1 = 72.65625 | acc_top5 = 94.53125 | loss = 1.69982
+Epoch [141/150] | Train iter [391/391] | acc_top1 = 87.50000 | acc_top5 = 93.75000 | loss = 1.69965
+
+Epoch [141/150] | Validation | acc_top1 = 72.62659 | acc_top5 = 96.85522 | loss = 1.75664
+
+========================================
+
+Epoch [142/150] | Train iter [20/391] | acc_top1 = 78.12500 | acc_top5 = 96.09375 | loss = 1.70445
+Epoch [142/150] | Train iter [70/391] | acc_top1 = 78.90625 | acc_top5 = 98.43750 | loss = 1.69366
+Epoch [142/150] | Train iter [120/391] | acc_top1 = 77.34375 | acc_top5 = 96.09375 | loss = 1.69457
+Epoch [142/150] | Train iter [170/391] | acc_top1 = 83.59375 | acc_top5 = 98.43750 | loss = 1.69548
+Epoch [142/150] | Train iter [220/391] | acc_top1 = 80.46875 | acc_top5 = 95.31250 | loss = 1.69679
+Epoch [142/150] | Train iter [270/391] | acc_top1 = 82.03125 | acc_top5 = 99.21875 | loss = 1.69739
+Epoch [142/150] | Train iter [320/391] | acc_top1 = 79.68750 | acc_top5 = 96.87500 | loss = 1.69737
+Epoch [142/150] | Train iter [370/391] | acc_top1 = 74.21875 | acc_top5 = 98.43750 | loss = 1.69808
+Epoch [142/150] | Train iter [391/391] | acc_top1 = 76.25000 | acc_top5 = 100.00000 | loss = 1.69854
+
+Epoch [142/150] | Validation | acc_top1 = 72.42880 | acc_top5 = 97.08268 | loss = 1.76039
+
+========================================
+
+Epoch [143/150] | Train iter [20/391] | acc_top1 = 85.15625 | acc_top5 = 97.65625 | loss = 1.70577
+Epoch [143/150] | Train iter [70/391] | acc_top1 = 74.21875 | acc_top5 = 96.87500 | loss = 1.69821
+Epoch [143/150] | Train iter [120/391] | acc_top1 = 80.46875 | acc_top5 = 97.65625 | loss = 1.69921
+Epoch [143/150] | Train iter [170/391] | acc_top1 = 74.21875 | acc_top5 = 95.31250 | loss = 1.69827
+Epoch [143/150] | Train iter [220/391] | acc_top1 = 76.56250 | acc_top5 = 96.09375 | loss = 1.69902
+Epoch [143/150] | Train iter [270/391] | acc_top1 = 82.03125 | acc_top5 = 98.43750 | loss = 1.69989
+Epoch [143/150] | Train iter [320/391] | acc_top1 = 78.12500 | acc_top5 = 98.43750 | loss = 1.69941
+Epoch [143/150] | Train iter [370/391] | acc_top1 = 78.12500 | acc_top5 = 99.21875 | loss = 1.69925
+Epoch [143/150] | Train iter [391/391] | acc_top1 = 75.00000 | acc_top5 = 96.25000 | loss = 1.69892
+
+Epoch [143/150] | Validation | acc_top1 = 73.08149 | acc_top5 = 97.13213 | loss = 1.75288
+
+========================================
+
+Epoch [144/150] | Train iter [20/391] | acc_top1 = 81.25000 | acc_top5 = 96.87500 | loss = 1.68223
+Epoch [144/150] | Train iter [70/391] | acc_top1 = 75.78125 | acc_top5 = 95.31250 | loss = 1.69230
+Epoch [144/150] | Train iter [120/391] | acc_top1 = 80.46875 | acc_top5 = 97.65625 | loss = 1.69385
+Epoch [144/150] | Train iter [170/391] | acc_top1 = 74.21875 | acc_top5 = 98.43750 | loss = 1.69362
+Epoch [144/150] | Train iter [220/391] | acc_top1 = 78.12500 | acc_top5 = 98.43750 | loss = 1.69402
+Epoch [144/150] | Train iter [270/391] | acc_top1 = 78.12500 | acc_top5 = 96.87500 | loss = 1.69483
+Epoch [144/150] | Train iter [320/391] | acc_top1 = 74.21875 | acc_top5 = 98.43750 | loss = 1.69558
+Epoch [144/150] | Train iter [370/391] | acc_top1 = 78.12500 | acc_top5 = 97.65625 | loss = 1.69528
+Epoch [144/150] | Train iter [391/391] | acc_top1 = 77.50000 | acc_top5 = 98.75000 | loss = 1.69592
+
+Epoch [144/150] | Validation | acc_top1 = 72.88371 | acc_top5 = 97.17168 | loss = 1.75356
+
+========================================
+
+Epoch [145/150] | Train iter [20/391] | acc_top1 = 74.21875 | acc_top5 = 96.87500 | loss = 1.69269
+Epoch [145/150] | Train iter [70/391] | acc_top1 = 78.90625 | acc_top5 = 96.87500 | loss = 1.69205
+Epoch [145/150] | Train iter [120/391] | acc_top1 = 77.34375 | acc_top5 = 94.53125 | loss = 1.69408
+Epoch [145/150] | Train iter [170/391] | acc_top1 = 76.56250 | acc_top5 = 96.09375 | loss = 1.69445
+Epoch [145/150] | Train iter [220/391] | acc_top1 = 74.21875 | acc_top5 = 95.31250 | loss = 1.69630
+Epoch [145/150] | Train iter [270/391] | acc_top1 = 77.34375 | acc_top5 = 98.43750 | loss = 1.69621
+Epoch [145/150] | Train iter [320/391] | acc_top1 = 80.46875 | acc_top5 = 95.31250 | loss = 1.69676
+Epoch [145/150] | Train iter [370/391] | acc_top1 = 80.46875 | acc_top5 = 97.65625 | loss = 1.69695
+Epoch [145/150] | Train iter [391/391] | acc_top1 = 73.75000 | acc_top5 = 95.00000 | loss = 1.69708
+
+Epoch [145/150] | Validation | acc_top1 = 73.14082 | acc_top5 = 97.27057 | loss = 1.75369
+
+========================================
+
+Epoch [146/150] | Train iter [20/391] | acc_top1 = 82.03125 | acc_top5 = 96.87500 | loss = 1.69215
+Epoch [146/150] | Train iter [70/391] | acc_top1 = 80.46875 | acc_top5 = 99.21875 | loss = 1.69313
+Epoch [146/150] | Train iter [120/391] | acc_top1 = 79.68750 | acc_top5 = 97.65625 | loss = 1.69601
+Epoch [146/150] | Train iter [170/391] | acc_top1 = 78.12500 | acc_top5 = 96.87500 | loss = 1.69755
+Epoch [146/150] | Train iter [220/391] | acc_top1 = 75.00000 | acc_top5 = 97.65625 | loss = 1.69692
+Epoch [146/150] | Train iter [270/391] | acc_top1 = 78.90625 | acc_top5 = 95.31250 | loss = 1.69654
+Epoch [146/150] | Train iter [320/391] | acc_top1 = 75.78125 | acc_top5 = 94.53125 | loss = 1.69570
+Epoch [146/150] | Train iter [370/391] | acc_top1 = 71.87500 | acc_top5 = 96.87500 | loss = 1.69585
+Epoch [146/150] | Train iter [391/391] | acc_top1 = 78.75000 | acc_top5 = 98.75000 | loss = 1.69516
+
+Epoch [146/150] | Validation | acc_top1 = 73.38805 | acc_top5 = 97.31013 | loss = 1.75023
+
+========================================
+
+Epoch [147/150] | Train iter [20/391] | acc_top1 = 82.81250 | acc_top5 = 96.09375 | loss = 1.69441
+Epoch [147/150] | Train iter [70/391] | acc_top1 = 74.21875 | acc_top5 = 97.65625 | loss = 1.69460
+Epoch [147/150] | Train iter [120/391] | acc_top1 = 71.87500 | acc_top5 = 96.87500 | loss = 1.69676
+Epoch [147/150] | Train iter [170/391] | acc_top1 = 78.12500 | acc_top5 = 98.43750 | loss = 1.69626
+Epoch [147/150] | Train iter [220/391] | acc_top1 = 72.65625 | acc_top5 = 96.87500 | loss = 1.69428
+Epoch [147/150] | Train iter [270/391] | acc_top1 = 69.53125 | acc_top5 = 94.53125 | loss = 1.69529
+Epoch [147/150] | Train iter [320/391] | acc_top1 = 73.43750 | acc_top5 = 97.65625 | loss = 1.69539
+Epoch [147/150] | Train iter [370/391] | acc_top1 = 81.25000 | acc_top5 = 96.87500 | loss = 1.69456
+Epoch [147/150] | Train iter [391/391] | acc_top1 = 73.75000 | acc_top5 = 98.75000 | loss = 1.69450
+
+Epoch [147/150] | Validation | acc_top1 = 73.04193 | acc_top5 = 97.33980 | loss = 1.75324
+
+========================================
+
+Epoch [148/150] | Train iter [20/391] | acc_top1 = 77.34375 | acc_top5 = 99.21875 | loss = 1.68506
+Epoch [148/150] | Train iter [70/391] | acc_top1 = 75.00000 | acc_top5 = 98.43750 | loss = 1.68412
+Epoch [148/150] | Train iter [120/391] | acc_top1 = 71.87500 | acc_top5 = 95.31250 | loss = 1.68509
+Epoch [148/150] | Train iter [170/391] | acc_top1 = 79.68750 | acc_top5 = 97.65625 | loss = 1.68833
+Epoch [148/150] | Train iter [220/391] | acc_top1 = 85.93750 | acc_top5 = 97.65625 | loss = 1.69070
+Epoch [148/150] | Train iter [270/391] | acc_top1 = 86.71875 | acc_top5 = 98.43750 | loss = 1.69275
+Epoch [148/150] | Train iter [320/391] | acc_top1 = 75.00000 | acc_top5 = 94.53125 | loss = 1.69353
+Epoch [148/150] | Train iter [370/391] | acc_top1 = 85.93750 | acc_top5 = 97.65625 | loss = 1.69263
+Epoch [148/150] | Train iter [391/391] | acc_top1 = 68.75000 | acc_top5 = 98.75000 | loss = 1.69338
+
+Epoch [148/150] | Validation | acc_top1 = 73.40784 | acc_top5 = 97.57714 | loss = 1.75120
+
+========================================
+
+Epoch [149/150] | Train iter [20/391] | acc_top1 = 79.68750 | acc_top5 = 95.31250 | loss = 1.69487
+Epoch [149/150] | Train iter [70/391] | acc_top1 = 78.90625 | acc_top5 = 98.43750 | loss = 1.69071
+Epoch [149/150] | Train iter [120/391] | acc_top1 = 74.21875 | acc_top5 = 96.87500 | loss = 1.68986
+Epoch [149/150] | Train iter [170/391] | acc_top1 = 80.46875 | acc_top5 = 96.09375 | loss = 1.69085
+Epoch [149/150] | Train iter [220/391] | acc_top1 = 78.12500 | acc_top5 = 96.87500 | loss = 1.69130
+Epoch [149/150] | Train iter [270/391] | acc_top1 = 82.81250 | acc_top5 = 97.65625 | loss = 1.69138
+Epoch [149/150] | Train iter [320/391] | acc_top1 = 80.46875 | acc_top5 = 96.87500 | loss = 1.69091
+Epoch [149/150] | Train iter [370/391] | acc_top1 = 81.25000 | acc_top5 = 98.43750 | loss = 1.69167
+Epoch [149/150] | Train iter [391/391] | acc_top1 = 71.25000 | acc_top5 = 93.75000 | loss = 1.69158
+
+Epoch [149/150] | Validation | acc_top1 = 72.88371 | acc_top5 = 97.53758 | loss = 1.75359
+
+========================================
+
+Epoch [150/150] | Train iter [20/391] | acc_top1 = 75.78125 | acc_top5 = 98.43750 | loss = 1.68857
+Epoch [150/150] | Train iter [70/391] | acc_top1 = 79.68750 | acc_top5 = 97.65625 | loss = 1.69638
+Epoch [150/150] | Train iter [120/391] | acc_top1 = 82.03125 | acc_top5 = 100.00000 | loss = 1.69255
+Epoch [150/150] | Train iter [170/391] | acc_top1 = 79.68750 | acc_top5 = 96.87500 | loss = 1.69137
+Epoch [150/150] | Train iter [220/391] | acc_top1 = 81.25000 | acc_top5 = 97.65625 | loss = 1.69106
+Epoch [150/150] | Train iter [270/391] | acc_top1 = 85.15625 | acc_top5 = 99.21875 | loss = 1.69201
+Epoch [150/150] | Train iter [320/391] | acc_top1 = 81.25000 | acc_top5 = 96.87500 | loss = 1.69186
+Epoch [150/150] | Train iter [370/391] | acc_top1 = 74.21875 | acc_top5 = 96.87500 | loss = 1.69219
+Epoch [150/150] | Train iter [391/391] | acc_top1 = 73.75000 | acc_top5 = 96.25000 | loss = 1.69143
+
+Epoch [150/150] | Validation | acc_top1 = 73.64517 | acc_top5 = 97.51780 | loss = 1.74906
+
+========================================
+
