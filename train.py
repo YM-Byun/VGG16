@@ -3,6 +3,7 @@ import torchvision.transforms as transforms
 import time
 import sys
 import torch.nn as nn
+import argparse
 
 from torchvision.datasets import CIFAR10
 from torch.utils.data import DataLoader
@@ -11,7 +12,7 @@ from model import VGG16
 batch_size=256
 momentum=0.9
 weight_decay = 0.005
-learning_rate = 0.01
+learning_rate = 0.1
 epochs = 150
 is_cuda = torch.cuda.is_available()
 device = torch.device('cuda' if is_cuda else 'cpu')
@@ -24,7 +25,7 @@ def get_mean_std(dataset):
 
 def get_parser():
     parser = argparse.ArgumentParser(description='VGG16')
-    parser.add_argument('--gpu', type=int, defulat=-1,
+    parser.add_argument('--gpu', type=int, default=-1,
             help='gpu number')
 
     args = parser.parse_args()
@@ -95,7 +96,7 @@ def main():
     optimizer = torch.optim.SGD(vgg16.parameters(), lr=learning_rate, momentum=momentum,
             weight_decay=weight_decay)
     criterion = nn.CrossEntropyLoss()
-    scheduler = torch.optim.lr_scheduler.MultiStepLR(optimizer, milestones=[75, 110, 130])
+    scheduler = torch.optim.lr_scheduler.MultiStepLR(optimizer, milestones=[65, 95, 110, 130])
 
     best_acc = 0.0
     best_loss = 9.0

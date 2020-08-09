@@ -1,5 +1,6 @@
 import torch
 import torch.nn as nn
+
 class VGG16(nn.Module):
     def __init__(self):
         super(VGG16, self).__init__()
@@ -40,21 +41,25 @@ class VGG16(nn.Module):
             self.layer5)
 
         self.fc = nn.Sequential(
-            nn.Linear(512, 1024),
             nn.Dropout(p=0.5),
-            nn.Linear(1024, 512),
+            nn.Linear(512, 512),
+            nn.LeakyReLU(inplace=True),
             nn.Dropout(p=0.5),
-            nn.Linear(512, 256),
-            nn.Dropout(),
-            nn.Linear(256, 10),
-            nn.Softmax(dim=1))
+            nn.Linear(512, 512),
+            nn.LeakyReLU(inplace=True),
+            nn.Dropout(p=0.5),
+            nn.Linear(512, 10))
 
         for m in self.modules():
             if isinstance(m, nn.Conv2d):
-                nn.init.kaiming_normal_(m.weight, mode='fan_out', nonlinearity='relu')
+                nn.init.kaiming_normal_(m.weight, mode='fan_out', nonlinearity='leaky_relu')
 
             elif isinstance(m, nn.BatchNorm2d):
                 nn.init.constant_(m.weight, 1)
+                nn.init.constant_(m.bias, 0)
+
+            elif isinstance(m, nn.Linear):
+                nn.init.normal_(m.weight, 0, 0.01)
                 nn.init.constant_(m.bias, 0)
 
     def make_conv_layer(self, in_channels, out_channels, kernel_size=3, stride=1, padding=1):
@@ -69,13 +74,13 @@ class VGG16(nn.Module):
 
         layer.append(nn.BatchNorm2d(out_channels))
 
-        layer.append(nn.ReLU(inplace=True))
+        layer.append(nn.LeakyReLU(inplace=True))
 
         return layer
 
     def forward(self, x):
         x = self.conv_layers(x)
-        x = x.view(-1, 512)
+        x = x.view(x.size(0), -1)
         x = self.fc(x)
 
         return x
@@ -84,10 +89,7 @@ class VGG16(nn.Module):
 if __name__ == '__main__':
     dummy_data = torch.rand(10, 3, 32, 32)
 
-    from pretrain.model import VGG11
-
-    pretrain = VGG11()
-    vgg16 = VGG16(pretrain.features)
+    vgg16 = VGG16()
 
     print ("VGG 16 network")
     print (vgg16)
