@@ -14,6 +14,7 @@ weight_decay = 0.005
 learning_rate = 0.01
 epochs = 150
 is_cuda = torch.cuda.is_available()
+device = torch.device('cuda' if is_cuda else 'cpu')
 
 def get_mean_std(dataset):
     mean = dataset.data.mean(axis=(0,1,2,)) / 255
@@ -21,7 +22,23 @@ def get_mean_std(dataset):
 
     return mean, std
 
+def get_parser():
+    parser = argparse.ArgumentParser(description='VGG16')
+    parser.add_argument('--gpu', type=int, defulat=-1,
+            help='gpu number')
+
+    args = parser.parse_args()
+
+    return args
+
 def main():
+    global device
+
+    parser = get_parser()
+
+    if (parser.gpu != -1):
+        device = torch.device('cuda:' + str(parser.gpu))
+
     cifar10_dataset = CIFAR10(root='./dataset', train=True,
             download=True)
 
@@ -84,8 +101,8 @@ def main():
     best_loss = 9.0
 
     if is_cuda:
-        vgg16.cuda()
-        criterion = criterion.cuda()
+        vgg16.to(device)
+        criterion = criterion.to(device)
 
     for epoch in range(epochs):
 
@@ -122,7 +139,7 @@ def train(train_loader, model, criterion, optimizer, scheduler, epoch):
         inputs, label = data
 
         if is_cuda:
-            inputs, label = inputs.cuda(), label.cuda()
+            inputs, label = inputs.to(device), label.to(device)
 
         optimizer.zero_grad()
 
@@ -151,7 +168,7 @@ def validate(val_loader, model, criterion, epoch):
             inputs, label = data
 
             if is_cuda:
-                inputs, label = inputs.cuda(), label.cuda()
+                inputs, label = inputs.to(device), label.to(device)
 
             outputs = model(inputs)
             loss = criterion(outputs, label)
