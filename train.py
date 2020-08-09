@@ -6,37 +6,60 @@ import torch.nn as nn
 
 from torchvision.datasets import CIFAR10
 from torch.utils.data import DataLoader
-from pretrain.model import VGG11
 from model import VGG16
 
 batch_size=256
 momentum=0.9
-weight_decay = 0.0005
-learning_rate = 0.001
+weight_decay = 0.005
+learning_rate = 0.01
 epochs = 150
 is_cuda = torch.cuda.is_available()
 
-def main():
-    train_transform = transforms.Compose(
-        [transforms.RandomCrop(32, padding=2),
-        transforms.RandomHorizontalFlip(),
-        transforms.ToTensor(),
-        transforms.Normalize((0.4914, 0.4822, 0.4465), (0.2470, 0.2435, 0.2616))])
+def get_mean_std(dataset):
+    mean = dataset.data.mean(axis=(0,1,2,)) / 255
+    std = dataset.data.std(axis=(0,1,2,)) / 255
 
-    test_transform = transforms.Compose(
-        [transforms.ToTensor(),
-        transforms.Normalize((0.4914, 0.4822, 0.4465), (0.2470, 0.2435, 0.2616))])
+    return mean, std
+
+def main():
+    cifar10_dataset = CIFAR10(root='./dataset', train=True,
+            download=True)
+
+    mean, std = get_mean_std(cifar10_dataset)
+
+    transform_v1 = transforms.Compose([
+        transforms.RandomCrop(32),
+        transforms.RandomHorizontalFlip(),
+        transforms.ColorJitter(brightness=0.2, contrast=0.2, saturation=0.2),
+        transforms.ToTensor(),
+        transforms.Normalize(mean=mean, std=std)])
+
+    transform_v2 = transforms.Compose([
+        transforms.Resize(64),
+        transforms.RandomCrop(32),
+        transforms.ToTensor(),
+        transforms.Normalize(mean=mean, std=std)])
+
+    transform = transforms.Compose([
+        transforms.ToTensor(),
+        transforms.Normalize(mean=mean, std=std)])
 
     print ("\nLoading Cifar 10 Dataset...")
 
-    train_dataset = CIFAR10(root='./dataset', train=True,
-            download=True, transform=train_transform)
+    train1 = CIFAR10(root='./dataset', train=True, download=True,
+        transform=transform)
 
-    train_loader = DataLoader(train_dataset, batch_size=batch_size,
+    train2 = CIFAR10(root='./dataset', train=True, download=False,
+        transform=transform_v1)
+
+    train3 = CIFAR10(root='./dataset', train=True, download=False,
+        transform=transform_v2)
+
+    train_loader = DataLoader(train1+train2+train3, batch_size=batch_size,
             shuffle=True, num_workers=4)
 
     val_dataset = CIFAR10(root='./dataset', train=False,
-            download = True, transform=test_transform)
+            download = True, transform=transform)
 
     val_loader = DataLoader(val_dataset, batch_size=batch_size,
             shuffle=False, num_workers=4)
@@ -46,24 +69,16 @@ def main():
 
     print ("Loaded Cifar 10!\n")
 
-    print ("========================================\n")
-
-    pretrained_model = VGG11()
-    pretrained_weight = torch.load('./pretrain/weight/best_weight.pth')
-    pretrained_model.load_state_dict(pretrained_weight)
-    
-    print ("Loaded pretrained weight!")
-    
     print ("\n========================================\n")
 
-    vgg16 = VGG16(pretrained_model.features)
+    vgg16 = VGG16()
 
     global learning_rate
 
     optimizer = torch.optim.SGD(vgg16.parameters(), lr=learning_rate, momentum=momentum,
             weight_decay=weight_decay)
     criterion = nn.CrossEntropyLoss()
-    scheduler = torch.optim.lr_scheduler.MultiStepLR(optimizer, milestones=[80, 115])
+    scheduler = torch.optim.lr_scheduler.MultiStepLR(optimizer, milestones=[75, 110, 130])
 
     best_acc = 0.0
     best_loss = 9.0
@@ -74,13 +89,11 @@ def main():
 
     for epoch in range(epochs):
 
-        train(train_loader, vgg16, criterion, optimizer, epoch)
+        train(train_loader, vgg16, criterion, optimizer, scheduler, epoch)
 
         print ("")
 
         acc, loss = validate(val_loader, vgg16, criterion, epoch)
-
-        scheduler.step()
 
         is_best = False
 
@@ -101,7 +114,7 @@ def main():
 
         torch.save(vgg16.state_dict(), "./weight/lastest_weight.pth")
 
-def train(train_loader, model, criterion, optimizer, epoch):
+def train(train_loader, model, criterion, optimizer, scheduler, epoch):
     model.train()
     running_loss = 0.0
 
@@ -122,7 +135,9 @@ def train(train_loader, model, criterion, optimizer, epoch):
         acc1, acc5 = accuracy(outputs, label, topk=(1,5))
 
         if (i % 50 == 49) or (i == len(train_loader) - 1):
-            print (f"Epoch [{epoch+1}/{epochs}] | Train iter [{i+1}/{len(train_loader)}] | acc1 = {acc1[0]:.3f} | acc5 = {acc5[0]:.3f} | loss = {(running_loss / float(i+1)):.5f} | lr = {get_lr(optimizer)}")
+            print (f"Epoch [{epoch+1}/{epochs}] | Train iter [{i+1}/{len(train_loader)}] | acc1 = {acc1[0]:.3f} | acc5 = {acc5[0]:.3f} | loss = {(running_loss / float(i+1)):.5f} | lr = {get_lr(optimizer):.5f}")
+
+    scheduler.step()
 
 def validate(val_loader, model, criterion, epoch):
     model.eval()
