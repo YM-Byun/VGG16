@@ -6,3 +6,5 @@ pretrain/__pycache__/
 */*.swp
 weight/
 pretrain/weight/
+
+!weight/93_05.pth
