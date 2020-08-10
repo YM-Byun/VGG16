@@ -1,10 +1,6 @@
-pretrain/dataset/
 dataset/
 __pycache__/*
-pretrain/__pycache__/
 *.swp
 */*.swp
-weight/
-pretrain/weight/
 
-!weight/93_05.pth
+!weight/best_93_05.pth
