@@ -13,7 +13,7 @@ batch_size=256
 momentum=0.9
 weight_decay = 0.005
 learning_rate = 0.01
-epochs = 155
+epochs = 200
 is_cuda = torch.cuda.is_available()
 device = torch.device('cuda' if is_cuda else 'cpu')
 
@@ -96,7 +96,7 @@ def main():
     optimizer = torch.optim.SGD(vgg16.parameters(), lr=learning_rate, momentum=momentum,
             weight_decay=weight_decay)
     criterion = nn.CrossEntropyLoss()
-    scheduler = torch.optim.lr_scheduler.MultiStepLR(optimizer, milestones=[75, 110, 130, 145])
+    scheduler = torch.optim.lr_scheduler.MultiStepLR(optimizer, milestones=[80, 125, 155, 180])
 
     best_acc = 0.0
     best_loss = 9.0
