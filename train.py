@@ -45,16 +45,8 @@ def main():
 
     mean, std = get_mean_std(cifar10_dataset)
 
-    transform_v1 = transforms.Compose([
-        transforms.RandomCrop(32),
-        transforms.RandomHorizontalFlip(),
-        transforms.ColorJitter(brightness=0.2, contrast=0.2, saturation=0.2),
-        transforms.ToTensor(),
-        transforms.Normalize(mean=mean, std=std)])
-
     transform_v2 = transforms.Compose([
-        transforms.Resize(64),
-        transforms.RandomCrop(32),
+        transforms.RandomCrop(32, padding=2),
         transforms.ToTensor(),
         transforms.Normalize(mean=mean, std=std)])
 
@@ -64,16 +56,10 @@ def main():
 
     print ("\nLoading Cifar 10 Dataset...")
 
-    train1 = CIFAR10(root='./dataset', train=True, download=True,
-        transform=transform)
-
-    train2 = CIFAR10(root='./dataset', train=True, download=False,
-        transform=transform_v1)
-
-    train3 = CIFAR10(root='./dataset', train=True, download=False,
+    train_dataset = CIFAR10(root='./dataset', train=True, download=True,
         transform=transform_v2)
 
-    train_loader = DataLoader(train1+train2+train3, batch_size=batch_size,
+    train_loader = DataLoader(train_dataset, batch_size=batch_size,
             shuffle=True, num_workers=4)
 
     val_dataset = CIFAR10(root='./dataset', train=False,
