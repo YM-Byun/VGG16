@@ -12,8 +12,8 @@ from model import VGG16
 batch_size=256
 momentum=0.9
 weight_decay = 0.005
-learning_rate = 0.01
-epochs = 200
+learning_rate = 0.1
+epochs = 130
 is_cuda = torch.cuda.is_available()
 device = torch.device('cuda' if is_cuda else 'cpu')
 
@@ -53,8 +53,8 @@ def main():
         transforms.Normalize(mean=mean, std=std)])
 
     transform_v2 = transforms.Compose([
-        transforms.Resize(64),
-        transforms.RandomCrop(32),
+        transforms.RandomCrop(32, padding=2),
+        transforms.RandomHorizontalFlip(),
         transforms.ToTensor(),
         transforms.Normalize(mean=mean, std=std)])
 
@@ -73,7 +73,10 @@ def main():
     train3 = CIFAR10(root='./dataset', train=True, download=False,
         transform=transform_v2)
 
-    train_loader = DataLoader(train1+train2+train3, batch_size=batch_size,
+#    train_loader = DataLoader(train1+train2+train3, batch_size=batch_size,
+#            shuffle=True, num_workers=4)
+
+    train_loader = DataLoader(train2, batch_size=batch_size,
             shuffle=True, num_workers=4)
 
     val_dataset = CIFAR10(root='./dataset', train=False,
@@ -96,7 +99,7 @@ def main():
     optimizer = torch.optim.SGD(vgg16.parameters(), lr=learning_rate, momentum=momentum,
             weight_decay=weight_decay)
     criterion = nn.CrossEntropyLoss()
-    scheduler = torch.optim.lr_scheduler.MultiStepLR(optimizer, milestones=[80, 125, 155, 180])
+    scheduler = torch.optim.lr_scheduler.MultiStepLR(optimizer, milestones=[55, 95, 115])
 
     best_acc = 0.0
     best_loss = 9.0
